@@ -13,6 +13,11 @@ height: 5px;
 background: url(img/colorhead.jpg);
 }
 
+.navbar-default .navbar-nav > .active > a {
+background: rgba(255,255,255,.4) !important;
+box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1),0 0 2px rgba(0, 0, 0, 0.2) inset !important;
+}
+
 .navbar.navbar-default {
     margin-top: 60px;
     background: rgba(245,245,245,.7);
