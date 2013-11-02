@@ -12,7 +12,8 @@
         box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2),0 0 2px rgba(0, 0, 0, 0.2) inset;
         }
   </style>
-
+  
+<?php include '../_includes/google-analytics.php'; ?>
   </head>
 <body>
 <div class="container">
@@ -32,9 +33,9 @@
     <a class="btn btn-danger button" href="http://freetemplatesdownload.info/download/yourflatportfolio.zip">Download</a>
     <a class="btn btn-success button" href="http://freetemplatesdownload.info/livepreview/yourflatportfolio/">Live preview</a>
 </div>
-
 </div>
 
+<?php include '../_includes/footer.php'; ?>
 </div><!-- /.container -->
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>

@@ -13,8 +13,10 @@
         }
   </style>
 
+<?php include '../_includes/google-analytics.php'; ?>
   </head>
 <body>
+
 <div class="container">
 <!-- NAV BAR -->
 <?php include '../_includes/main-nav.php'; ?>
@@ -32,9 +34,9 @@
     <a class="btn btn-danger button" href="http://freetemplatesdownload.info/download/yourcoolportfolio.zip">Download</a>
     <a class="btn btn-success button" href="http://freetemplatesdownload.info/livepreview/yourcoolportfolio/">Live preview</a>
 </div>
-
 </div>
 
+<?php include '../_includes/footer.php'; ?>
 </div><!-- /.container -->
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>

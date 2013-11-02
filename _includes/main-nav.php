@@ -21,6 +21,7 @@
                 <li class="link4"><a href="http://freetemplatesdownload.info/template/yourflatportfolio.html">Your Flat Portfolio</a></li>
               </ul>
             </li>
+            <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info" target="_blank">GitHub Project</a></li>
           </ul>
         </div>
    </nav>
