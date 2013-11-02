@@ -3,9 +3,10 @@
   <head>
     <title>Online store for free web templates | FreeTemplatesDownload.info</title>
     <?php include '_includes/meta.php'; ?>
-<link href="css/master.css" rel="stylesheet" media="screen">
-<link href="css/homepage.css" rel="stylesheet" media="screen">
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <link href="css/master.css" rel="stylesheet" media="screen">
+    <link href="css/homepage.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
 <?php include '_includes/google-analytics.php'; ?>
   </head>
@@ -15,8 +16,29 @@
 <?php include '_includes/main-nav.php'; ?>
 <!-- NAV BAR -->
   </div>
-<div class="billboard-heros clearfix">
 
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3">
+      <div class="welcoming-message">
+        <img src="http://freetemplatesdownload.info/livepreview/yourcoolportfolio/img/paperclip.png">
+        <h1>What's it all about?</h1>
+        <p>
+          <span>FreeTemplatesDownload.info</span> is a website where you can find beautiful <span>free</span> web templates and themes.
+          You can <span>'Live Preview'</span> them, and if you like what you see you can just download a <span>free</span> copy of them.
+        </p>
+        <h2>Philosophy and core values...</h2>
+        <p>
+          We admire <span>simplicity</span> and <span>minimalism</span> and we love <span>open source</span> software. So with that being said
+          our goal is to offer beautiful, amazing, simple and minimalistic web templates <span>just for free</span>. That's what it's all about.
+        </p>
+        <div class="text-center"><span class="glyphicon glyphicon-heart"></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="billboard-heros clearfix">
 <div class="businessbox-featured">
   <div class="container">
   <div class="row">
@@ -79,11 +101,11 @@
           </div>
         </div>
       </div>
-
-
-
-<?php include '_includes/footer.php'; ?>
 </div><!-- /.container -->
+<div class="container">
+<?php include '_includes/footer.php'; ?>
+</div>
+</div>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
