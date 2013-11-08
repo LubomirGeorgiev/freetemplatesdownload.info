@@ -17,11 +17,13 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Templates <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="link2"><a href="http://freetemplatesdownload.info/template/businessbox.html">BusinessBox</a></li>
-                <li class="link3"><a href="http://freetemplatesdownload.info/template/yourcoolportfolio.html">Your Cool Portfolio</a></li>
-                <li class="link4"><a href="http://freetemplatesdownload.info/template/yourflatportfolio.html">Your Flat Portfolio</a></li>
+                <li class="link3"><a href="http://freetemplatesdownload.info/template/freshco.html">FreshCO</a></li>
+                <li class="link4"><a href="http://freetemplatesdownload.info/template/yourcoolportfolio.html">Your Cool Portfolio</a></li>
+                <li class="link5"><a href="http://freetemplatesdownload.info/template/yourflatportfolio.html">Your Flat Portfolio</a></li>
               </ul>
             </li>
             <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info" target="_blank">GitHub Project</a></li>
+            <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info/issues/new" target="_blank">Report a bug</a></li>
           </ul>
         </div>
    </nav>

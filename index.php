@@ -4,7 +4,7 @@
     <title>Online store for free web templates | FreeTemplatesDownload.info</title>
     <?php include '_includes/meta.php'; ?>
 
-    <link href="css/master.css" rel="stylesheet" media="screen">
+    <link href="css/global.css" rel="stylesheet" media="screen">
     <link href="css/homepage.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
@@ -21,7 +21,7 @@
   <div class="row">
     <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3">
       <div class="welcoming-message">
-        <img src="http://freetemplatesdownload.info/livepreview/yourcoolportfolio/img/paperclip.png">
+        <img alt="paperclip" src="http://freetemplatesdownload.info/livepreview/yourcoolportfolio/img/paperclip.png">
         <h1>What's it all about?</h1>
         <p>
           <span>FreeTemplatesDownload.info</span> is a website where you can find beautiful <span>free</span> web templates and themes.
@@ -32,14 +32,15 @@
           We admire <span>simplicity</span> and <span>minimalism</span> and we love <span>open source</span> software. So with that being said
           our goal is to offer beautiful, amazing, simple and minimalistic web templates <span>just for free</span>. That's what it's all about.
         </p>
+        <blockquote><p>Simplicity is the ultimate sophistication.</p> <span>- Leonardo da Vinci</span></blockquote>
         <div class="text-center"><span class="glyphicon glyphicon-heart"></span></div>
+
       </div>
     </div>
   </div>
 </div>
-
 <div class="billboard-heros clearfix">
-<div class="businessbox-featured">
+<div class="businessbox featured">
   <div class="container">
   <div class="row">
       <div class="col-lg-12">
@@ -56,6 +57,32 @@
                 <li><span class="glyphicon glyphicon-ok"></span> Mobile friendly</li>
                 <li><span class="glyphicon glyphicon-ok"></span> Multipurpose use</li>
                 <li><span class="glyphicon glyphicon-ok"></span> Beautiful design</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="freshco featured">
+  <div class="container">
+  <div class="row">
+      <div class="col-lg-12">
+        <div class="row">
+          <div class="col-lg-5 col-md-5">
+            <a href="http://freetemplatesdownload.info/template/freshco.html"><img class="img-responsive" alt="FreshCo is a free web template. - Fresh looking, Fully responsible, Beautiful, Full Screen Slider, Multipurpose use, Mobile friendly, Beautiful design" src="http://freetemplatesdownload.info/images/homepage/freshco.jpg"></a>
+          </div>
+          <div class="col-lg-7 col-md-7 text-center">
+              <a href="http://freetemplatesdownload.info/template/freshco.html"><h2>FreshCO</h2>
+              <h3>A free, fresh looking web template</h3></a>
+              <ul class="list-unstyled">
+                <li><span class="glyphicon glyphicon-ok"></span> Fresh looking</li>
+                <li><span class="glyphicon glyphicon-ok"></span> Fully responsible</li>
+                <li><span class="glyphicon glyphicon-ok"></span> Beautiful Full Screen Slider</li>
+                <li><span class="glyphicon glyphicon-ok"></span> Multipurpose use</li>
+                <li><span class="glyphicon glyphicon-ok"></span> Mobile friendly</li>
+                <li><span class="glyphicon glyphicon-ok"></span> Uses {less} css</li>
               </ul>
           </div>
         </div>
@@ -102,10 +129,9 @@
         </div>
       </div>
 </div><!-- /.container -->
-<div class="container">
-<?php include '_includes/footer.php'; ?>
 </div>
-</div>
+
+<?php /* INCLUDE FOOTER */ include '_includes/footer.php'; ?>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -236,6 +236,7 @@ text-align: justify;
 
 .container {
     max-width: 85% !important;
+    width: 85% !important;
 }
 
 }

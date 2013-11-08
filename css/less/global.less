@@ -1,9 +1,14 @@
 @import "_elements.less";
 @import "_variables.less";
 
-
 body {
 	background: @pagebg !important;
+}
+
+.content {
+	background: #fff;
+	padding: 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1), 0 0 3px rgba(0,0,0,0.15);
 }
 
 .img-responsive {
@@ -83,7 +88,50 @@ box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1), inset 0 3px 10px rgba(0, 0, 0, 0.
   background-repeat: repeat-x;
   border-color: #c12e2a;
 }
+/* Sitemap */
+.sitemap {
+	.row {
+		.col-lg-12 {
+			h1 {
+			    font-size: 70px;
+			    margin-bottom: 130px;
+			    text-shadow: 3px 2px 0 rgba(0, 0, 0, 0.4);
+			    font-weight: bold;
+			    color: #61597B !important;
+			    text-align: center;
+			}
+		}
+	}
+}
 
+// FOOTER
+.footer {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-top: 50px;
+	background: url(http://freetemplatesdownload.info/images/texture.jpg);
+	color: #5e5e5e;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.13) inset;
+}
+
+.footlinks {
+
+
+	li:before {
+			content: "/ ";
+			font-weight: bold;
+			margin-right: 12px;
+
+	}
+// THIS REMOVES THE "/" BEFORE THE
+// FIRS LIST ELEMENT
+	li:first-child:before {
+		content: none;
+	}
+
+}
+
+/* Media Queries  and Responsiveness */
 @media (max-width: 768px) {
 
 .template-details > a > h1 {

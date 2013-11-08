@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BusinessBox - Free Web Template | FreeTemplatesDownload.info</title>
+    <title>BusinessBox - A Free Web Template | FreeTemplatesDownload.info</title>
     <?php include '../_includes/meta.php'; ?>
-	<link href="../css/master.css" rel="stylesheet" media="screen">
+	<link href="../css/global.css" rel="stylesheet" media="screen">
   <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
     <style type="text/css">
@@ -44,9 +44,10 @@
     <a class="btn btn-success button" href="http://freetemplatesdownload.info/livepreview/businessbox/">Live preview</a>
 </div>
 </div>
+</div><!-- /.container -->
 
 <?php include '../_includes/footer.php'; ?>
-</div><!-- /.container -->
+
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
