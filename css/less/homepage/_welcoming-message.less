@@ -1,0 +1,74 @@
+.welcoming-message {
+	padding: 30px 50px;
+	background: darken(fade(@pagebg, 40%), 6%);
+	border: 1px dashed darken(@pagebg, 15%);
+	line-height: 200%;
+	.drop-shadow(0, 0, 5px, 0.15); 
+	
+	img {
+		//Тhat's the paperclip
+		position: absolute;
+		top: 10px;
+		left: -19px;
+		z-index: 999;
+	}
+
+	h1, h2 {
+		margin-top: 10px;
+		margin-left: 15px;
+	}
+
+	h2 {
+		margin-top: 40px !important;
+	}
+
+	p {
+		text-align: justify;
+		span {
+			font-weight: bold;		}
+	}
+
+	.glyphicon-heart {
+		font-size: 50px;
+		color: fade(#fff, 80%);
+		text-shadow: 0 1px 4px darken(fade(@pagebg, 30%), 40%);
+	}
+	
+// Blockquotes Styles
+	blockquote {
+		margin: 60px -45px;
+		padding: 0.5em 10px;	
+	p {
+		margin: 0;
+		font-size: 21px;
+		text-align: center;
+		font-family:georgia, serif;
+
+		&:before {
+		color: #ccc;
+		content: open-quote;
+		font-size: 5em;
+		line-height: 0.1em;
+		margin-right: 5px;
+		vertical-align: -0.33em;
+		}
+
+		&:after {
+		color: #ccc;
+		content: close-quote;
+		font-size: 5em;
+		line-height: 0.1em;
+		margin-left: 5px;
+		vertical-align: -0.67em;
+		}
+	}
+
+
+		span {
+			display:block;
+			float: right;
+			font-style:italic;
+		}
+	} // closes blockquote
+
+} // closes welcoming-message

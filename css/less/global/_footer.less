@@ -1,0 +1,67 @@
+// FOOTER
+.footer {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-top: 50px;
+	background: url(http://freetemplatesdownload.info/images/texture.jpg);
+	color: #5e5e5e;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.13) inset;
+
+.container {
+		// Blockquotes Styles
+	blockquote {
+		margin: 40px 0 0 0;
+		width: 520px;
+		float: right;
+		border: 0 !important;
+
+	p {
+		margin: 0;
+		font-size: 21px;
+		text-align: center;
+		font-family:georgia, serif;
+
+		&:before {
+		color: #ccc;
+		content: open-quote;
+		font-size: 5em;
+		line-height: 0.1em;
+		margin-right: 5px;
+		vertical-align: -0.38em;
+		}
+
+		&:after {
+		color: #ccc;
+		content: close-quote;
+		font-size: 5em;
+		line-height: 0.1em;
+		margin-left: 5px;
+		vertical-align: -0.70em;
+		}
+	}
+
+
+		span {
+			display:block;
+			float: right;
+			font-style:italic;
+		}
+	} // closes blockquote
+	} // closes .container
+}
+
+.footlinks {
+
+	li:before {
+			content: "/ ";
+			font-weight: bold;
+			margin-right: 12px;
+
+	}
+// THIS REMOVES THE "/" BEFORE THE
+// FIRS LIST ELEMENT
+	li:first-child:before {
+		content: none;
+	}
+
+}
