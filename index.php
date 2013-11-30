@@ -65,6 +65,26 @@
   </div>
 </div>
 
+<div class="container" style="margin-bottom: 100px;">
+ <div class="col-lg-12 margintop">
+        <div class="row">
+          <div class="col-lg-5 col-md-5">
+            <a href="http://freetemplatesdownload.info/template/urbanprism.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><img class="img-responsive" alt="Urban Prism template" src="http://freetemplatesdownload.info/images/homepage/urbanprism.jpg"></a>
+          </div>
+          <div class="col-lg-7 col-md-7 text-center">
+              <a href="http://freetemplatesdownload.info/template/urbanprism.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><h2 style="font-size: 60px;">Urban Prism</h2>
+              <h3 style="font-size: 20px;">A beautiful, full width template for multipurpose use.</h3></a>
+              <ul class="list-unstyled">
+                  <li><span class="glyphicon glyphicon-ok"></span> Full Width</li>
+                  <li><span class="glyphicon glyphicon-ok"></span> 100% Retina enhanced</li>
+                  <li><span class="glyphicon glyphicon-ok"></span> Multipurpose use</li>
+                  <li><span class="glyphicon glyphicon-ok"></span> Comes with 4 pages</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+</div><!-- /.container -->
+
 <div class="freshco featured">
   <div class="container">
   <div class="row">
@@ -129,6 +149,7 @@
         </div>
       </div>
 </div><!-- /.container -->
+
 </div>
 
 <?php /* INCLUDE FOOTER */ include '_includes/footer.php'; ?>

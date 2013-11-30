@@ -12,3 +12,4 @@
 		<blockquote><p>Simplicity is the ultimate sophistication.</p> <span>- Leonardo da Vinci</span></blockquote>
 		<p>Made with <span class="glyphicon glyphicon-heart"></span> in City of Sofia, Bulgaria.</p>
 	</div>
+</div>
