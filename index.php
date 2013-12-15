@@ -110,48 +110,9 @@
     </div>
   </div>
 </div>
-
-<div class="container">
-      <div class="col-lg-12 margintop">
-        <div class="row">
-          <div class="col-lg-7 col-md-7 text-center">
-                <a href="http://freetemplatesdownload.info/template/yourcoolportfolio.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><h2 style="font-size: 60px;">Your Cool Portfolio</h2>
-                <h3 style="font-size: 20px;">A single page web template. It can be used by freelancers and artists as a portfolio page.</h3></a>
-                <ul class="list-unstyled">
-                  <li><span class="glyphicon glyphicon-ok"></span> Mobile friendly</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> Fully responsible</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> 100% Retina enhanced</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> Beautiful image captions<small> (with amazing animations)</small></li>
-                </ul>
-          </div>
-          <div class="col-lg-5 col-md-5">
-              <a href="http://freetemplatesdownload.info/template/yourcoolportfolio.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><img class="img-responsive" alt="A single page web template. It can be used by freelancers and artists as a portfolio page." src="http://freetemplatesdownload.info/images/homepage/NEWyourcoolportfolio.jpg"></a>
-          </div>
-        </div>
-      </div>
-
- <div class="col-lg-12 margintop">
-        <div class="row">
-          <div class="col-lg-5 col-md-5">
-            <a href="http://freetemplatesdownload.info/template/yourflatportfolio.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><img class="img-responsive" alt="BusinessBox is a free web template. - fully responsible, retina compatible, mobile friendly, multipurpose use, beautiful design" src="http://freetemplatesdownload.info/images/homepage/NEWyourflatportfolio.jpg"></a>
-          </div>
-          <div class="col-lg-7 col-md-7 text-center">
-              <a href="http://freetemplatesdownload.info/template/yourflatportfolio.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><h2 style="font-size: 60px;">Your Flat Portfolio</h2>
-              <h3 style="font-size: 20px;">A single page web template. It can be used by freelancers and artists as a portfolio page.</h3></a>
-              <ul class="list-unstyled">
-                  <li><span class="glyphicon glyphicon-ok"></span> Fully responsible</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> Mobile friendly</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> 100% Retina enhanced</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> Beautiful image captions<small> (with amazing animations)</small></li>
-                  <li><span class="glyphicon glyphicon-ok"></span> Flat design</li>
-              </ul>
-          </div>
-        </div>
-      </div>
-</div><!-- /.container -->
-
 </div>
 
+    <a class="alltemplates-home-button" href="http://freetemplatesdownload.info/all-templates.html">Click here to see all available templates</a>
 <?php /* INCLUDE FOOTER */ include '_includes/footer.php'; ?>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>

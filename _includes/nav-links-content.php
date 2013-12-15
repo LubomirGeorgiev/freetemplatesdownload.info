@@ -10,5 +10,6 @@
     <li class="link5"><a href="http://freetemplatesdownload.info/template/yourflatportfolio.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Your Flat Portfolio</a></li>
   </ul>
 </li>
+<li class="all-templateslink"><a href="http://freetemplatesdownload.info/all-templates.html">All templates</a></li>
 <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info" target="_blank">GitHub Project</a></li>
 <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info/issues/new" target="_blank">Report a bug</a></li>
