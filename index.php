@@ -112,7 +112,9 @@
 </div>
 </div>
 
-    <a class="alltemplates-home-button" href="http://freetemplatesdownload.info/all-templates.html">Click here to see all available templates</a>
+    <a class="alltemplates-home-button" href="http://freetemplatesdownload.info/all-templates.html">Click here to see all available templates <span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+
 <?php /* INCLUDE FOOTER */ include '_includes/footer.php'; ?>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
