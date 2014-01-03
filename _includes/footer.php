@@ -10,6 +10,7 @@
 			<li><a href="http://freetemplatesdownload.info/template/freshco.html?utm_source=Footer&utm_medium=referral&utm_campaign=Footer+to+Template">FreshCo</a></li>
 			<li><a href="http://freetemplatesdownload.info/template/yourcoolportfolio.html?utm_source=Footer&utm_medium=referral&utm_campaign=Footer+to+Template">Your Cool Portfolio</a></li>
 			<li><a href="http://freetemplatesdownload.info/template/yourflatportfolio.html?utm_source=Footer&utm_medium=referral&utm_campaign=Footer+to+Template">Your Flat Portfolio</a></li>
+			<li><a href="http://freetemplatesdownload.info/template/purity.html?utm_source=Footer&utm_medium=referral&utm_campaign=Footer+to+Template">Purity</a></li>
 			<li><a href="http://getbootstrap.com/">Built with Bootstrap</a></li>
 		</ul>
 		<blockquote><p>Simplicity is the ultimate sophistication.</p> <span>- Leonardo da Vinci</span></blockquote>

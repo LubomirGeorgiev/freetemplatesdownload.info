@@ -8,6 +8,7 @@
     <li class="link3"><a href="http://freetemplatesdownload.info/template/freshco.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">FreshCO</a></li>
     <li class="link4"><a href="http://freetemplatesdownload.info/template/yourcoolportfolio.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Your Cool Portfolio</a></li>
     <li class="link5"><a href="http://freetemplatesdownload.info/template/yourflatportfolio.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Your Flat Portfolio</a></li>
+	<li class="puritylink"><a href="http://freetemplatesdownload.info/template/purity.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Purity</a></li>
   </ul>
 </li>
 <li class="all-templateslink"><a href="http://freetemplatesdownload.info/all-templates.html">All templates</a></li>

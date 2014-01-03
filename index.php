@@ -53,6 +53,7 @@
               <h3>A free multipurpose web template</h3></a>
               <ul class="list-unstyled">
                 <li><span class="glyphicon glyphicon-ok"></span> Fully responsible</li>
+                <li><span class="glyphicon glyphicon-ok"></span> Multi page</li>
                 <li><span class="glyphicon glyphicon-ok"></span> 100% Retina enhanced</li>
                 <li><span class="glyphicon glyphicon-ok"></span> Mobile friendly</li>
                 <li><span class="glyphicon glyphicon-ok"></span> Multipurpose use</li>
@@ -76,6 +77,7 @@
               <h3 style="font-size: 20px;">A beautiful, full width template for multipurpose use.</h3></a>
               <ul class="list-unstyled">
                   <li><span class="glyphicon glyphicon-ok"></span> Full Width</li>
+                  <li><span class="glyphicon glyphicon-ok"></span> Multi page</li>
                   <li><span class="glyphicon glyphicon-ok"></span> 100% Retina enhanced</li>
                   <li><span class="glyphicon glyphicon-ok"></span> Multipurpose use</li>
                   <li><span class="glyphicon glyphicon-ok"></span> Comes with 4 pages</li>

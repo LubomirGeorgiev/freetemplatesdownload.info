@@ -1,0 +1,160 @@
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  background: url(http://freetemplatesdownload.info/images/texture.jpg);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+.leftnav {
+  padding-right: 0;
+}
+.leftnav ul.list-unstyled {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: inset -2px 1px 3px rgba(0, 0, 0, 0.12);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.leftnav ul.list-unstyled li.category {
+  text-align: center;
+  box-shadow: 0;
+  padding: 15px 0;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.15);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: default;
+}
+.leftnav ul.list-unstyled li.active a {
+  position: relative;
+  background: url(http://freetemplatesdownload.info/serviceimgs/active-triangle.png) no-repeat right center;
+  z-index: 999;
+  left: 1px;
+}
+.leftnav ul.list-unstyled li {
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 9px -4px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+}
+.leftnav ul.list-unstyled li a {
+  display: block;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: #2a6496;
+}
+.leftnav ul.list-unstyled li a:hover,
+.leftnav ul.list-unstyled li a:focus {
+  text-decoration: none;
+  color: #428bca;
+}
+.rightcontent {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.rightcontent .content {
+  background: #fff;
+  padding: 10px 70px 40px 70px;
+}
+.rightcontent .content .hero-billboard {
+  margin-left: -70px;
+  margin-right: -70px;
+  margin-top: 70px;
+}
+.rightcontent .content .heading {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+.rightcontent .content .heading h1 {
+  font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.rightcontent .content .heading small {
+  display: block;
+  font-size: 25px;
+  vertical-align: 11px;
+  text-align: center;
+  margin-bottom: 80px;
+  color: #b2b2b2;
+}
+.rightcontent .content .row.section {
+  margin-top: 70px;
+}
+.rightcontent .content .row.section .col-lg-3 span {
+  font-size: 150px;
+  color: #428bca;
+  text-shadow: 3px -1px 5px rgba(0, 0, 0, 0.2);
+}
+.rightcontent .content .testimonials {
+  margin-left: -70px;
+  margin-right: -70px;
+}
+.rightcontent .content .testimonials h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+.rightcontent .content .testimonials .col-lg-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.rightcontent .content .testimonials .col-lg-4 .face {
+  position: relative;
+}
+.rightcontent .content .testimonials .col-lg-4 .face .caption {
+  background-color: #000000;
+  bottom: 0;
+  color: #ababab;
+  font-family: 'tahoma';
+  font-size: 20px;
+  left: 0;
+  opacity: 0.65;
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 8px 0 15px rgba(255, 255, 255, 0.6);
+}
+.rightcontent .content .testimonials .col-lg-4 .face .caption span {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000000;
+  display: block;
+}
+.rightcontent .content .testimonials .col-lg-4 .face .caption span small {
+  float: right;
+  color: #fff;
+}
+.rightcontent .section.contacts .col-lg-6 .address {
+  margin-left: 40px;
+}
+@media (max-width: 767px) {
+  .rightcontent .content .testimonials .col-lg-4 .face .caption {
+    width: 45%;
+  }
+  .leftnav {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .leftnav ul.list-unstyled {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 989px) {
+  .rightcontent .content .testimonials .col-lg-4 .face .caption {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .rightcontent .content .row.section .col-lg-3 span {
+    font-size: 120px;
+    margin-top: 40px;
+  }
+}

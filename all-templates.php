@@ -29,6 +29,7 @@
               <p>A free multipurpose web template.</p>
               <ul>
                 <li>Fully responsible</li>
+                <li>Multi page</li>
                 <li>100% Retina enhanced</li>
                 <li>Mobile friendly</li>
                 <li>Multipurpose use</li>
@@ -49,6 +50,7 @@
               <p>A beautiful, full width template for multipurpose use.</p>
               <ul>
                   <li>Full Width</li>
+                  <li>Multi page</li>
                   <li>100% Retina enhanced</li>
                   <li>Multipurpose use</li>
                   <li>Comes with 4 pages</li>
@@ -118,11 +120,20 @@
           </div>
         </div>
 
-          <div class="col-lg-4 col-md-4">
+      <div class="col-lg-4 col-md-4">
           <div class="thumbnail">
+            <a href="http://freetemplatesdownload.info/template/purity.html">
+            <img alt="Your Flat Portfolio" class="img-responsive" src="http://freetemplatesdownload.info/images/homepage/purity.jpg">
+            </a>
             <div class="caption">
-              <p>More templates will be added soon.
-              </p>
+              <h3>Purity</h3>
+              <p>A single page web template which can be used for documentation purposes.</p>
+               <ul>
+                  <li>Mobile friendly</li>
+                  <li>Fully responsible</li>
+                  <li>100% Retina enhanced</li>
+                </ul>
+              <p class="buttons"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/purity.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/purity.html">Live Preview</a></p>
             </div>
           </div>
         </div>
