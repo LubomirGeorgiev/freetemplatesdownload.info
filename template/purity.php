@@ -16,11 +16,11 @@
 <?php include '../_includes/google-analytics.php'; ?>
   </head>
 <body>
-<div class="container">
 <!-- NAV BAR -->
 <?php include '../_includes/main-nav.php'; ?>
 <!-- NAV BAR -->
 
+<div class="container">
 <div class="template-details clearfix">
     <a href="http://freetemplatesdownload.info/livepreview/purity/">
     <h1>Purity</h1>

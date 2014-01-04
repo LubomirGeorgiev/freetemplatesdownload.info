@@ -21,19 +21,17 @@
         .template-details {
         box-shadow: 0 0 10px rgba(0,0,0,0.5), 0 0 3px rgba(0,0,0,0.3) !important;
         }
-        .navbar.navbar-default {
-        box-shadow:  0 0 10px rgba(0,0,0,0.3),  0 0 4px rgba(0,0,0,0.2);
-        }
   </style>
   
 <?php include '../_includes/google-analytics.php'; ?>
   </head>
 <body>
-<div class="container">
+
 <!-- NAV BAR -->
 <?php include '../_includes/main-nav.php'; ?>
 <!-- NAV BAR -->
 
+<div class="container">
 <div class="template-details clearfix">
     <a href="http://freetemplatesdownload.info/livepreview/freshco/">
     <h1>FreshCO</h1>

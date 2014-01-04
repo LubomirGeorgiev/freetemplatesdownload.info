@@ -13,9 +13,6 @@
     .template-details {
       box-shadow: 0 0 10px rgba(0,0,0,0.5), 0 0 3px rgba(0,0,0,0.3) !important;
     }
-    .navbar.navbar-default {
-    box-shadow:  0 0 10px rgba(0,0,0,0.3),  0 0 4px rgba(0,0,0,0.2);
-    }
     .link2 {
     background: #fff !important;
     box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2),0 0 2px rgba(0, 0, 0, 0.2) inset;
@@ -26,11 +23,12 @@
   </head>
 <body>
 
-<div class="container">
+
 <!-- NAV BAR -->
 <?php include '../_includes/main-nav.php'; ?>
 <!-- NAV BAR -->
 
+<div class="container">
 <div class="template-details clearfix">
     <a href="http://freetemplatesdownload.info/livepreview/businessbox/">
     <h1>BusinessBox</h1>

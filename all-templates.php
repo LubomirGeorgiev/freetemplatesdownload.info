@@ -11,11 +11,9 @@
 <?php include '_includes/google-analytics.php'; ?>
   </head>
 <body>
-<div class="container">
   <!-- NAV BAR -->
   <?php include '_includes/main-nav.php'; ?>
   <!-- NAV BAR -->
-</div>
 
 <div class="container">
 <div class="row">

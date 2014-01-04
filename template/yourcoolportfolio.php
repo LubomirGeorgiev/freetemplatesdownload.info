@@ -17,11 +17,11 @@
   </head>
 <body>
 
-<div class="container">
 <!-- NAV BAR -->
 <?php include '../_includes/main-nav.php'; ?>
 <!-- NAV BAR -->
 
+<div class="container">
 <div class="template-details clearfix">
     <a href="http://freetemplatesdownload.info/livepreview/yourcoolportfolio/">
     <h1>Your Cool Portfolio</h1>
