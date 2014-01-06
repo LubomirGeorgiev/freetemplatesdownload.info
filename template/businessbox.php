@@ -14,8 +14,7 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.5), 0 0 3px rgba(0,0,0,0.3) !important;
     }
     .link2 {
-    background: #fff !important;
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2),0 0 2px rgba(0, 0, 0, 0.2) inset;
+    background: #f3f3f3 !important;
     }
     </style>
 

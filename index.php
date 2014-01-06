@@ -17,7 +17,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3">
+    <div class="col-lg-6 col-md-6">
       <div class="welcoming-message">
         <img alt="paperclip" src="http://freetemplatesdownload.info/livepreview/yourcoolportfolio/img/paperclip.png">
         <h1>What's it all about?</h1>
@@ -32,10 +32,16 @@
         </p>
         <blockquote><p>Simplicity is the ultimate sophistication.</p> <span>- Leonardo da Vinci</span></blockquote>
         <div class="text-center"><span class="glyphicon glyphicon-heart"></span></div>
-
       </div>
     </div>
-  </div>
+    <div class="col-lg-6 col-md-6 github">
+      <a target="_blank" href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info"><img src="http://freetemplatesdownload.info/images/homepage/github.png" alt="GitHub Logo"></a>
+      <p class="lead">The website and all of the templates are available as a open-source project on GitHub.</p>
+      <p class="lead-two">From the link below you can download the latest and greatest copy of the entire source code and enjoy it. <span class="glyphicon glyphicon-thumbs-up"></span></p>
+      <img src="http://freetemplatesdownload.info/images/rounded-shadow.png" alt="shadow" class="rounded-shadow img-responsive">
+      <p><a class="btn btn-default btn-lg" href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip">Download Source</a></p>
+    </div>
+  </div><!-- //.row -->
 </div>
 <div class="billboard-heros clearfix">
 <div class="businessbox featured">

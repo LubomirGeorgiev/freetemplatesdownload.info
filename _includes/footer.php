@@ -1,7 +1,7 @@
 <div class="footer">
 	<div class="container">
 		<div class="row">
-		<p>© 2013 Lubomir Georgiev (Любомир Георгиев), © 2013 freetemplatesdownload.info, All rights reserved.</p>
+		<p>© 2014 Lubomir Georgiev (Любомир Георгиев), © 2013 freetemplatesdownload.info, All rights reserved.</p>
 		<p>If you have any questions, please do not hesitate to contact me: <b>lubomirgeorgievgeorgiev [at] gmail.com</b></p>
 		<br /><br />
 		<ul class="list-inline footlinks">

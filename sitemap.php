@@ -13,7 +13,7 @@
 
 <?php include '_includes/google-analytics.php'; ?>
   </head>
-<body style="background: #f5f5f5 !important;">
+<body>
 
 <!-- NAV BAR -->
 <?php include '_includes/main-nav.php'; ?>

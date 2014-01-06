@@ -8,8 +8,7 @@
 
     <style type="text/css">
     .link6 {
-    background: #fff !important;
-    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.2),0 0 2px rgba(0, 0, 0, 0.2) inset;
+    background: #f3f3f3 !important;
     }
     </style>
 

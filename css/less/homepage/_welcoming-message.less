@@ -1,9 +1,9 @@
 .welcoming-message {
 	padding: 30px 50px;
-	background: darken(fade(@pagebg, 40%), 6%);
-	border: 1px dashed darken(@pagebg, 15%);
+	background: rgba(255, 255, 255, 0.8);;
+	border: 4px double #ddd;
 	line-height: 200%;
-	.drop-shadow(0, 0, 5px, 0.15); 
+	.drop-shadow(0, 0, 4px, 0.1); 
 	
 	img {
 		//Тhat's the paperclip
@@ -25,13 +25,14 @@
 	p {
 		text-align: justify;
 		span {
-			font-weight: bold;		}
+			font-weight: bold;		
+		}
 	}
 
 	.glyphicon-heart {
 		font-size: 50px;
 		color: fade(#fff, 80%);
-		text-shadow: 0 1px 4px darken(fade(@pagebg, 30%), 40%);
+		text-shadow: 0 1px 8px rgba(143, 143, 143, 0.2);
 	}
 	
 // Blockquotes Styles
@@ -74,3 +75,40 @@
 	} // closes blockquote
 
 } // closes welcoming-message
+
+.github {
+margin-top: 80px;
+
+	a {
+		img {
+			display: block;
+			margin: auto;
+			box-shadow: none !important;
+			width: 500px;
+			height: 95px;
+		}
+	}
+
+	p {
+		text-align: center;
+
+		span {
+		font-size: 20px;
+		vertical-align: -3px;
+		margin-left: 5px; 
+		}
+	}
+
+	p.lead {
+		margin-top: 60px;
+	}
+
+	p.lead-two {
+		font-size: 12px;
+	}
+
+	.rounded-shadow {
+		margin-top: 60px;
+		margin-bottom: 15px;
+	}
+}
