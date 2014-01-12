@@ -39,7 +39,10 @@
       <p class="lead">The website and all of the templates are available as a open-source project on GitHub.</p>
       <p class="lead-two">From the link below you can download the latest and greatest copy of the entire source code and enjoy it. <span class="glyphicon glyphicon-thumbs-up"></span></p>
       <img src="http://freetemplatesdownload.info/images/rounded-shadow.png" alt="shadow" class="rounded-shadow img-responsive">
-      <p><a class="btn btn-default btn-lg" href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip">Download Source</a></p>
+      <p>
+        <a class="btn btn-default btn-lg" href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip">Download Source</a>
+        <a class=" btn btn-link" href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info#readme">Or learn more about the project</a>
+      </p>
     </div>
   </div><!-- //.row -->
 </div>
