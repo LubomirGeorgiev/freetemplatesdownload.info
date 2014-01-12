@@ -6,17 +6,20 @@ ___
 1. Apache
 2. PHP
 3. {less} css
+4. Grunt.js (www.gruntjs.com) - grunt 0.4.2, grunt-contrib-less 0.9.0, grunt-contrib-watch 0.5.3, grunt-banner 0.2.0
+5. Node.js (www.nodejs.org)
+6. Node Packaged Modules (www.npmjs.org)
 
 
-If you want to run it locally you can just download the whole repository from [here](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip) and copy it on a server with `APACHE` and `PHP` support and it's just going to run work smoothly. It's that simple :) 
+If you want to run it locally you can just download the whole repository from [here](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip) and copy it on a server with an `APACHE` and `PHP` support and it's just going to run work smoothly. It's that simple :) 
 
 
-_The links are hard coded so you will have to write the address of the page you want to go to in the address bar of your browser. (I hope this makes sense)_
 ___
 **The `.css`files are compiled from the `'less'` files located in the `/less` folder.**
 
-I am running on windows so I use [WinLess](http://winless.org/) to compile the less files into 'browser-friendly' css. There are loads of tools that you can use to do that and I'm pretty sure that if you search a bit you will find something that fits your needs.
+**If you want to manipulate the `css stylesheets` you should install `Grunt.js` and use it to compile the .less files into browser-friendly css. All of the dependencies are listed in the `/package.json` file.**
 
-**`Really soon I consider to start using GruntJS.`**
+**Instructions: [Working with an existing Grunt project](http://gruntjs.com/getting-started#working-with-an-existing-grunt-project)**
+
 ___
 For more information go to www.freetemplatesdownload.info
