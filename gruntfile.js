@@ -2,6 +2,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg:grunt.file.readJSON('package.json'),
 
+// LESS
 		less: {
 			compile: {
 				options: {
@@ -16,6 +17,7 @@ module.exports = function(grunt) {
 			}
 		},
 
+// BANNER
 
 		banner: '/*\n' +
 		              ' *  freetemplatesdownload.info v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
@@ -36,6 +38,35 @@ module.exports = function(grunt) {
 			}
 		},
 
+//HTML MINIFY
+		htmlmin: {
+			htmluglyfy: {
+				options: {
+		        removeComments: true,
+		        collapseWhitespace: true
+				},
+				files: { // ***IMPORTANT*** 
+						//'destination' : 'source'
+		        'minified/index.php': 'index.php',
+		        'minified/all-templates.php': 'all-templates.php',
+		        'minified/sitemap.php': 'sitemap.php',
+		        // _includes
+		        'minified/_includes/footer.php': '_includes/footer.php',
+		        'minified/_includes/google-analytics.php': '_includes/google-analytics.php',
+		        'minified/_includes/main-nav.php': '_includes/main-nav.php',
+		        'minified/_includes/meta.php': '_includes/meta.php',
+		        'minified/_includes/nav-links-content.php': '_includes/nav-links-content.php',
+		        //templates
+		        'minified/template/businessbox.php': 'template/businessbox.php',
+		        'minified/template/freshco.php': 'template/freshco.php',
+		        'minified/template/purity.php': 'template/purity.php',
+		        'minified/template/urbanprism.php': 'template/urbanprism.php',
+		        'minified/template/yourcoolportfolio.php': 'template/yourcoolportfolio.php',
+		        'minified/template/yourflatportfolio.php': 'template/yourflatportfolio.php',
+				}
+			}
+		},
+
 		watch: {
 		  scripts: {
 		    files: ['css/less/**/*.less'],
@@ -47,6 +78,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-banner');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
 	grunt.registerTask('default', ['watch']);
 }
