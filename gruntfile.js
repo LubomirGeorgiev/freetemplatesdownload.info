@@ -18,10 +18,11 @@ module.exports = function(grunt) {
 
 
 		banner: '/*\n' +
-		              ' * freetemplatesdownload.info v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
-		              ' * Copyright <%= grunt.template.today("yyyy") %> Lubomir Georgiev email: lubomirgeorgievgeorgiev@gmail.com\n' +
-					  ' * Build with all the love in the world!\n' +
-		              ' * Licensed under - Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/)\n' +
+		              ' *  freetemplatesdownload.info v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
+		              ' *  Copyright <%= grunt.template.today("yyyy") %> Lubomir Georgiev email: lubomirgeorgievgeorgiev@gmail.com\n' +
+					  ' *  Build with all the love in the world!\n' +
+		              ' *  Licensed under - Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/)\n' +
+		              ' *  GitHub Repository: https://github.com/LubomirGeorgiev/freetemplatesdownload.info\n' +
 		              ' */\n',
 		usebanner: {
 			banner: {

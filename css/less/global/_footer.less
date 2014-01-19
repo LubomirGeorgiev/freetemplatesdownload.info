@@ -1,11 +1,23 @@
 // FOOTER
 .footer {
-	padding-top: 20px;
-	padding-bottom: 40px;
 	margin-top: @footer-margin-top;
-	background: url(http://freetemplatesdownload.info/images/texture.jpg);
+	background: #fff;
+	box-shadow: 0 0 100px rgba(0, 0, 0, 0.3) inset;
 	color: #5e5e5e;
-	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.13) inset;
+	padding-bottom: 5px;
+
+.copyright {
+text-align: center;
+
+	p {
+		display: inline-block;
+		text-align: center;
+		background: #fff;
+		padding: 10px 30px;
+		border-radius: 0 0 10px 10px;
+		box-shadow: 0 0 2px 1px rgba(0,0,0,0.1);
+	}
+}
 
 .container {
 
@@ -19,8 +31,6 @@
 	}
 		// Blockquotes Styles
 	blockquote {
-		margin: 40px 0 0 0;
-		width: 520px;
 		float: right;
 		border: 0 !important;
 
@@ -60,17 +70,15 @@
 }
 
 .footlinks {
+margin-top: 30px;
 
-	li:before {
-			content: "/ ";
-			font-weight: bold;
-			margin-right: 12px;
-
-	}
-// THIS REMOVES THE "/" BEFORE THE
-// FIRS LIST ELEMENT
-	li:first-child:before {
-		content: none;
+	li {
+		display: block;
+	    float: left;
+	    margin: 8px 0;
+	    padding-right: 10px;
+	    width: 33.3%;
+	    text-align: center;
 	}
 
 }
