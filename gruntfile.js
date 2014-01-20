@@ -6,7 +6,7 @@ module.exports = function(grunt) {
 		less: {
 			compile: {
 				options: {
-					compress: true,
+					compress: true
 				},
 				files: {
 					'css/homepage.css' : 'css/less/homepage.less',
@@ -18,27 +18,43 @@ module.exports = function(grunt) {
 		},
 
 // BANNER
-
-		banner: '/*\n' +
+		cssbanner: '/*\n' +
 		              ' *  freetemplatesdownload.info v<%= pkg.version %> (<%= pkg.homepage %>)\n' +
 		              ' *  Copyright <%= grunt.template.today("yyyy") %> Lubomir Georgiev email: lubomirgeorgievgeorgiev@gmail.com\n' +
 					  ' *  Build with all the love in the world!\n' +
 		              ' *  Licensed under - Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/)\n' +
 		              ' *  GitHub Repository: https://github.com/LubomirGeorgiev/freetemplatesdownload.info\n' +
 		              ' */\n',
+		htmlbanner: '<!--\n' +
+		              'The original source code of this file is available at\n' +
+		              'https://github.com/LubomirGeorgiev/freetemplatesdownload.info\n' +
+		              '\n' +
+		              'Copyright <%= grunt.template.today("yyyy") %> Lubomir Georgiev email: lubomirgeorgievgeorgiev@gmail.com\n' +
+		              'Licensed under - Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/)\n' +
+		              ' -->\n',
 		usebanner: {
-			banner: {
+			cssbanner: {
 				options: {
 				position: 'top',
-				banner: '<%= banner %>'
+				banner: '<%= cssbanner %>'
 			},
 			files: {
 				src: [ 'css/*.css' ]
 			}
+			},
+
+			htmlbanner: {
+				options: {
+				position: 'top',
+				banner: '<%= htmlbanner %>'
+			},
+			files: {
+				src: [ 'minified/**/*.php', '!minified/_includes/*.php' ] // "!" exclude all files in /_includes
+			}
 			}
 		},
 
-//HTML MINIFY
+// HTML MINIFY
 		htmlmin: {
 			htmluglyfy: {
 				options: {
@@ -68,9 +84,9 @@ module.exports = function(grunt) {
 		},
 
 		watch: {
-		  scripts: {
+		  cssmin: {
 		    files: ['css/less/**/*.less'],
-		    tasks: ['less', 'usebanner']
+		    tasks: ['less', 'usebanner:cssbanner']
 		  }
 		}
 	});

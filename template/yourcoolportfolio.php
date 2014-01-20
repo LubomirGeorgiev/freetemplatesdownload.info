@@ -6,11 +6,7 @@
 	<link href="../css/global.css" rel="stylesheet" media="screen">
   <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-  <style type="text/css">
-        .link4 {
-        background: #f3f3f3 !important;
-        }
-  </style>
+  <style type="text/css">.link4{background: #f3f3f3 !important;}</style>
 
 <?php include '../_includes/google-analytics.php'; ?>
   </head>

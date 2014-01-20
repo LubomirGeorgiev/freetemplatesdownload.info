@@ -6,17 +6,7 @@
 	<link href="../css/global.css" rel="stylesheet" media="screen">
   <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-    <style type="text/css">
-    body {
-      background: url(http://freetemplatesdownload.info/livepreview/businessbox/img/bg.jpg) !important;
-    }
-    .template-details {
-      box-shadow: 0 0 10px rgba(0,0,0,0.5), 0 0 3px rgba(0,0,0,0.3) !important;
-    }
-    .link2 {
-    background: #f3f3f3 !important;
-    }
-    </style>
+    <style type="text/css">body{background:url(http://freetemplatesdownload.info/livepreview/businessbox/img/bg.jpg) !important}.template-details{box-shadow:0 0 10px rgba(0,0,0,0.5),0 0 3px rgba(0,0,0,0.3) !important}.link2{background:#f3f3f3 !important}</style>
 
 <?php include '../_includes/google-analytics.php'; ?>
   </head>
