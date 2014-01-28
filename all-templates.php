@@ -121,7 +121,7 @@
       <div class="col-lg-4 col-md-4">
           <div class="thumbnail">
             <a href="http://freetemplatesdownload.info/template/purity.html">
-            <img alt="Your Flat Portfolio" class="img-responsive" src="http://freetemplatesdownload.info/images/homepage/purity.jpg">
+            <img alt="Purity web template" class="img-responsive" src="http://freetemplatesdownload.info/images/homepage/purity.jpg">
             </a>
             <div class="caption">
               <h3>Purity</h3>

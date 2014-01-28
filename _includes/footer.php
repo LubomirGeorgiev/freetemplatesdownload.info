@@ -21,7 +21,9 @@
 			</div>
 		</div>
 		<div class="row" style="margin-top: 40px;">
-			<div class="col-md-6 col-sm-6 made-in-bulgaria"><p>Made with <span class="glyphicon glyphicon-heart"></span> in City of Sofia, Bulgaria. <a href="http://en.wikipedia.org/wiki/Bulgaria"><img src="http://freetemplatesdownload.info/images/bulgaria-footer-stamp.png" alt="Bulgaria, България"></a></p></div>
+			<div class="col-md-6 col-sm-6 made-in-bulgaria">
+				<p>Made with <span class="glyphicon glyphicon-heart"></span> in City of Sofia, Bulgaria. <a href="http://en.wikipedia.org/wiki/Bulgaria"><span class="bulgaria" alt="Bulgaria, България"></span></a></p>
+			</div>
 			<div class="col-md-6 col-sm-6"><blockquote><p>Simplicity is the ultimate sophistication.</p> <span>- Leonardo da Vinci</span></blockquote></div>
 		</div>
 	</div>

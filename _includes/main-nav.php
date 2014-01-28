@@ -1,7 +1,6 @@
 <div class="menu-wrap">
-    <div class="container">
       <nav role="navigation" class="navbar navbar-default">
-            <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
             <div class="navbar-header">
               <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
                 <span class="sr-only">Toggle navigation</span>
@@ -17,6 +16,6 @@
                 <?php include 'nav-links-content.php'; ?>
               </ul>
             </div>
+          </div>
       </nav>
-</div>
 </div>

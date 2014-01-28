@@ -1,3 +1,6 @@
+//=========VARS============
+@border-radius: 10px;
+//=========================
 .sitemap {
 	.row {
 		.col-lg-12 {
@@ -15,9 +18,13 @@
 
 .panel {
 box-shadow: 0 0 3px rgba(0, 0, 0, 0.05) !important;
+border-radius: @border-radius !important;
+margin-bottom: 30px !important;
 
 	.panel-heading {
 		font-weight: bold;
+		border-top-left-radius: @border-radius;
+		border-top-right-radius: @border-radius;
 	}
 }
 
@@ -43,7 +50,8 @@ box-shadow: 0 0 3px rgba(0, 0, 0, 0.05) !important;
 			}
 			&:last-child {
 			border-bottom: 0 !important;
-			border-radius: 0 !important;
+			border-bottom-left-radius: @border-radius !important;
+			border-bottom-right-radius: @border-radius !important;
 			}
 		}
 	}

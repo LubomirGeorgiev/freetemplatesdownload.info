@@ -44,20 +44,35 @@
 
 }
 
-//ULTRA SMALL
-@media(max-width:600px) {
-
-		.welcoming-message blockquote p {
-		font-size: 15px !important;
-		}
-
-}
-
 // To target 1024
-@media(min-width:601px) and (max-width: 1050px) {
+@media(min-width:601px) and (max-width: 1070px) {
 
 .github a img {
 	width: 450px !important;
 }
 
+}
+
+// TARGET width 480px
+@media(max-width:500px) {
+	
+	.github a img {
+		width: 250px;
+		height: auto;
+	}
+
+	.welcoming-message blockquote p {
+		font-size: 14px !important;
+
+		&:before {
+			content: none;
+		}
+		&:after {
+			content: none;
+		}
+	}
+
+	.alltemplates-home-button {
+		font-size: 20px !important;
+	}
 }

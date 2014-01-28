@@ -37,25 +37,7 @@
               </div>
           </div>
           </div>
-      </div>
-      <div class="col-md-6">
-          <div class="panel panel-default">
-          <div class="panel-heading">Templates</div>
-          <div class="panel-body">
-              <div class="list-group">
-              <a href="http://freetemplatesdownload.info/template/businessbox.html<?php echo $analytics_ref_link; ?>" class="list-group-item">BusinessBox <small>/template/businessbox.html</small></a>
-              <a href="http://freetemplatesdownload.info/template/urbanprism.html<?php echo $analytics_ref_link; ?>" class="list-group-item">UrbanPrism <small>/template/urbanprism.html</small></a>
-              <a href="http://freetemplatesdownload.info/template/freshco.html<?php echo $analytics_ref_link; ?>" class="list-group-item">FreshCO <small>/template/freshco.html</small></a>
-              <a href="http://freetemplatesdownload.info/template/yourcoolportfolio.html<?php echo $analytics_ref_link; ?>" class="list-group-item">YourCoolPortfolio <small>/template/yourcoolportfolio.html</small></a>
-              <a href="http://freetemplatesdownload.info/template/yourflatportfolio.html<?php echo $analytics_ref_link; ?>" class="list-group-item">YourFlatPortfolio <small>/template/yourflatportfolio.html</small></a>
-              <a href="http://freetemplatesdownload.info/template/purity.html<?php echo $analytics_ref_link; ?>" class="list-group-item">Purity <small>/template/purity.html</small></a>
-              </div>
-          </div>
-          </div>
-      </div>
-    </div><!-- //.row -->
-    <div class="row" style="margin-top: 40px;">
-      <div class="col-md-6">
+
           <div class="panel panel-default">
           <div class="panel-heading">Live Previews</div>
           <div class="panel-body">
@@ -72,11 +54,26 @@
       </div>
       <div class="col-md-6">
           <div class="panel panel-default">
+          <div class="panel-heading">Templates</div>
+          <div class="panel-body">
+              <div class="list-group">
+              <a href="http://freetemplatesdownload.info/template/businessbox.html<?php echo $analytics_ref_link; ?>" class="list-group-item">BusinessBox <small>/template/businessbox.html</small></a>
+              <a href="http://freetemplatesdownload.info/template/urbanprism.html<?php echo $analytics_ref_link; ?>" class="list-group-item">UrbanPrism <small>/template/urbanprism.html</small></a>
+              <a href="http://freetemplatesdownload.info/template/freshco.html<?php echo $analytics_ref_link; ?>" class="list-group-item">FreshCO <small>/template/freshco.html</small></a>
+              <a href="http://freetemplatesdownload.info/template/yourcoolportfolio.html<?php echo $analytics_ref_link; ?>" class="list-group-item">YourCoolPortfolio <small>/template/yourcoolportfolio.html</small></a>
+              <a href="http://freetemplatesdownload.info/template/yourflatportfolio.html<?php echo $analytics_ref_link; ?>" class="list-group-item">YourFlatPortfolio <small>/template/yourflatportfolio.html</small></a>
+              <a href="http://freetemplatesdownload.info/template/purity.html<?php echo $analytics_ref_link; ?>" class="list-group-item">Purity <small>/template/purity.html</small></a>
+              </div>
+          </div>
+          </div>
+
+          <div class="panel panel-default">
           <div class="panel-heading">Blog</div>
           <div class="panel-body">
               <div class="list-group">
               <a href="http://freetemplatesdownload.info/blog/<?php echo $analytics_ref_link; ?>" class="list-group-item">Blog home <small>/blog/</small></a>
               <a href="http://freetemplatesdownload.info/blog/less-css/5-reasons-why-you-should-be-using-less-css/author-lubomir-georgiev<?php echo $analytics_ref_link; ?>" class="list-group-item">5 Reasons why you should be using {LESS} CSS <small>/blog/less-css/5-reasons-why-you-should...</small></a>
+              <a href="http://freetemplatesdownload.info/blog/web-fonts/list-of-web-safe-fonts/author-lubomir-georgiev<?php echo $analytics_ref_link; ?>" class="list-group-item">List of web safe fonts that you can use freely <small>/blog/web-fonts/list-of-web-safe-fonts...</small></a>
               <a href="http://freetemplatesdownload.info/blog/category/less-css<?php echo $analytics_ref_link; ?>" class="list-group-item">LESS CSS - category <small>/blog/category/less-css</small></a>
               <a href="http://freetemplatesdownload.info/blog/author/Lubomir-Georgiev<?php echo $analytics_ref_link; ?>" class="list-group-item">Lubomir Georgiev - Author <small>/blog/author/Lubomir-Georgiev</small></a>
               </div>
