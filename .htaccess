@@ -1,7 +1,29 @@
+###############################
+##  .PHP extension as .HTML  ##
+###############################
+
 RewriteEngine on
 RewriteRule ^(.*)\.html$ $1.php
 
 
+
+
+#############################
+## Redirect the icon fonts ##
+#############################
+
+rewriterule ^fonts/glyphicons-halflings-regular.woff(.*)$ http://freetemplatesdownload.info/bootstrap/fonts/glyphicons-halflings-regular.woff$1 [r=301,nc]
+
+rewriterule ^fonts/glyphicons-halflings-regular.eot(.*)$ http://freetemplatesdownload.info/bootstrap/fonts/glyphicons-halflings-regular.eot$1 [r=301,nc]
+
+rewriterule ^fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdownload.info/bootstrap/fonts/glyphicons-halflings-regular.svg$1 [r=301,nc]
+
+
+
+
+#####################################
+## Enable gzip Server Compression  ##
+#####################################
 <IfModule mod_deflate.c>
     #The following line is enough for .js and .css
     AddOutputFilter DEFLATE js css

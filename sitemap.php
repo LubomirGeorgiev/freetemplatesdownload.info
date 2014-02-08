@@ -7,9 +7,7 @@
     <title>Sitemap | FreeTemplatesDownload.info</title>
     <?php include '_includes/meta.php'; ?>
 
-    <link href="css/global.css" rel="stylesheet" media="screen">
     <link href="css/sitemap.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
 <?php include '_includes/google-analytics.php'; ?>
   </head>

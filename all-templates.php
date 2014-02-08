@@ -4,9 +4,7 @@
     <title>Online store for free web templates | FreeTemplatesDownload.info</title>
     <?php include '_includes/meta.php'; ?>
 
-    <link href="css/global.css" rel="stylesheet" media="screen">
     <link href="css/all-templates.css" rel="stylesheet" media="screen">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
 <?php include '_includes/google-analytics.php'; ?>
   </head>

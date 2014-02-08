@@ -4,7 +4,6 @@
     <title>Purity - A Free Web Template | FreeTemplatesDownload.info</title>
     <?php include '../_includes/meta.php'; ?>
 	<link href="../css/global.css" rel="stylesheet" media="screen">
-  <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 
   <style type="text/css">.puritylink {background: #f3f3f3 !important;}</style>
   
