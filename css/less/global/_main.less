@@ -1,6 +1,6 @@
 body {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
-	background:  darken(@pagebg, 5%) !important;
+	background:  @pagebg !important;
 }
 
 a:hover {
@@ -17,10 +17,16 @@ a:hover {
 	width: 100% !important;
 }
 
+/* Main Navigation */
 .menu-wrap {
 	background: #fff;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.twitter-share-button {
+	position: relative;
+	top: 7px;
 }
 
 .navbar.navbar-default {

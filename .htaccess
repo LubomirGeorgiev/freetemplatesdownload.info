@@ -8,6 +8,19 @@ RewriteRule ^(.*)\.html$ $1.php
 
 
 
+
+###########################################
+##  Set Expiration Date and Cache Headers##
+###########################################
+# https://developers.google.com/speed/docs/best-practices/caching#LeverageBrowserCaching
+
+ExpiresActive On
+ExpiresDefault "access plus 1 days"
+
+
+
+
+
 #############################
 ## Redirect the icon fonts ##
 #############################
@@ -17,6 +30,7 @@ rewriterule ^fonts/glyphicons-halflings-regular.woff(.*)$ http://freetemplatesdo
 rewriterule ^fonts/glyphicons-halflings-regular.eot(.*)$ http://freetemplatesdownload.info/bootstrap/fonts/glyphicons-halflings-regular.eot$1 [r=301,nc]
 
 rewriterule ^fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdownload.info/bootstrap/fonts/glyphicons-halflings-regular.svg$1 [r=301,nc]
+
 
 
 

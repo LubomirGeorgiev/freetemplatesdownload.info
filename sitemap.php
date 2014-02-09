@@ -7,11 +7,11 @@
     <title>Sitemap | FreeTemplatesDownload.info</title>
     <?php include '_includes/meta.php'; ?>
 
-    <link href="css/sitemap.css" rel="stylesheet" media="screen">
+    <link href="css/global.css" rel="stylesheet" media="screen">
 
 <?php include '_includes/google-analytics.php'; ?>
   </head>
-<body>
+<body class="page sitemap">
 
 <!-- NAV BAR -->
 <?php include '_includes/main-nav.php'; ?>

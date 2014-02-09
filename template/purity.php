@@ -9,7 +9,7 @@
   
 <?php include '../_includes/google-analytics.php'; ?>
   </head>
-<body>
+<body class="page template-review">
 <!-- NAV BAR -->
 <?php include '../_includes/main-nav.php'; ?>
 <!-- NAV BAR -->

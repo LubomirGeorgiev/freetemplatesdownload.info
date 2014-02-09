@@ -14,6 +14,8 @@
 <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info" target="_blank">GitHub Project</a></li>
 <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info/issues/new" target="_blank">Report a bug</a></li>
 <div class="navbar-form navbar-right buttons">
+  <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://freetemplatesdownload.info" data-text="Free website templates, tutorials and more at" data-hashtags="freetemplatesdownload">Tweet</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 	<a class="btn btn-success blog-button" href="http://freetemplatesdownload.info/blog/?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNavGreenButton+to+Blog">BLOG</a>
 	<a class="btn btn-default" href="http://freetemplatesdownload.info/sitemap.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNavButton+to+sitemap">Sitemap</a>
 </div>
