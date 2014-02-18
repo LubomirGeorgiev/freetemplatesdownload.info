@@ -25,6 +25,9 @@
 		},
 		{
 			"path": "/C/xampp/htdocs/test"
+		},
+		{
+			"path": "/C/xampp/htdocs/wordpress/blog/wp-content/themes/freetemplatesdownload"
 		}
 	]
 }
