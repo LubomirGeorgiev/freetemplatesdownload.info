@@ -69,18 +69,75 @@ text-align: center;
 	} // closes .container
 }
 
-.footlinks {
-margin-top: 30px;
+.footerpanel {
+margin: 30px 0;
+border: 1px solid #d9d9d9;
 
-	li {
-		display: block;
-	    float: left;
-	    margin: 8px 0;
-	    padding-right: 10px;
-	    width: 33.3%;
-	    text-align: center;
+	ul.breadcrumbs {
+		background: rgba(200, 200, 200, 0.15);
+		border-bottom: 1px solid #d9d9d9;
+		box-shadow: 0 3px 3px -1px rgba(0,0,0,0.06);
+		overflow: hidden;
+		width: 100%;
+		padding: 0;
+
+		li {
+			float: left;
+
+			&:first-child a {
+				padding-left: 1em;
+			}
+
+			&:hover {
+				background: #fff;
+			}
+
+			a {
+				padding: .7em 1em .7em 2em;
+				float: left;
+				text-decoration: none;
+				color: #444;
+				position: relative;
+				text-shadow: 0 1px 0 rgba(255,255,255,.5);
+				background-color: #ddd;
+				background-image: linear-gradient(to right, #fafafa, #e6e6e6); 
+
+				&:after, &:before {
+					content: "";
+					position: absolute;
+					top: 50%;
+					margin-top: -1.5em;   
+					border-top: 1.5em solid transparent;
+					border-bottom: 1.5em solid transparent;
+					border-left: 1em solid;
+					right: -1em;
+				}
+
+				&:after {
+					z-index: 2;
+					border-left-color: #e6e6e6;
+				}
+
+				&:before {
+					border-left-color: #c8c8c8;  
+					right: -1.1em;
+					z-index: 1; 
+				}
+			}
+		}
 	}
 
+	ul.footlinks {
+
+		li {
+			display: block;
+		    float: left;
+		    margin: 8px 0;
+		    padding-right: 10px;
+		    width: 33.3%;
+		    text-align: center;
+		}
+	}
 }
 
 .bulgaria {

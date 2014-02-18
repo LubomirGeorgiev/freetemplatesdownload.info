@@ -10,8 +10,8 @@
   </head>
 <body class="page homepage">
 <!-- FACEBOOK STUFF -->
-    <div id="fb-root"></div>
-    <script>(function(e,t,n){var r,i=e.getElementsByTagName(t)[0];if(e.getElementById(n))return;r=e.createElement(t);r.id=n;r.src="//connect.facebook.net/en_GB/all.js#xfbml=1";i.parentNode.insertBefore(r,i)})(document,"script","facebook-jssdk")</script>
+  <div id="fb-root"></div>
+  <script>(function(e,t,n){var r,i=e.getElementsByTagName(t)[0];if(e.getElementById(n))return;r=e.createElement(t);r.id=n;r.src="//connect.facebook.net/en_GB/all.js#xfbml=1";i.parentNode.insertBefore(r,i)})(document,"script","facebook-jssdk")</script>
 <!-- FACEBOOK STUFF -->
 <!-- GOOGLE PLUS STUFF -->
 <script type="text/javascript">(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='https://apis.google.com/js/platform.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s)})();</script>
@@ -59,7 +59,7 @@
     <span>Spread the word </span>
     <span class="share-button-wrapper"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://freetemplatesdownload.info" data-text="Free website templates, tutorials and more at" data-size="large" data-hashtags="freetemplatesdownload">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span>
     <span style="margin-left:-40px;">,</span>
-    <span class="share-button-wrapper"><div class="fb-share-button" data-href="http://freetemplatesdownload.info" data-type="button_count"></div></span>
+    <span class="share-button-wrapper"><div class="fb-like" data-href="http://freetemplatesdownload.info/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div></span>
     <span>and if you really like us</span>
     <span class="share-button-wrapper"><div class="g-plusone" data-annotation="inline" data-width="220" data-href="http://freetemplatesdownload.info"></div></span>
   </div>
