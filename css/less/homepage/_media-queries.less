@@ -1,3 +1,19 @@
+@media(max-width:995px){
+	.welcoming-message {
+		display: block !important;
+
+		.welcome-hero {
+			border-right: 0;
+			border-bottom: 1px solid #E0E0E0;
+		}
+
+		.github {
+			margin: 0;
+		}
+	}
+}
+
+/* HomePage Media Queries */
 @media (max-width:767px){
 		ul.list-unstyled {
 			text-align: left;
@@ -19,7 +35,6 @@
 		}
 
 		.github {
-		margin-top: 50px;
 
 			a {
 				img {
@@ -30,36 +45,17 @@
 		}
 
 }
-@media(min-width:768px) and (max-width: 989px){
 
-}
-
-@media(min-width:992px){
-
-}
-@media(min-width:1200px){
-
-}
-
-// To target 1024
-@media(min-width:601px) and (max-width: 1070px) {
-
-.github a img {
-	width: 450px !important;
-}
-
-}
-
-// TARGET width 480px
+// To target low resolution devices
 @media(max-width:500px) {
 	
 	.github a img {
-		width: 250px;
-		height: auto;
+		width: 200px;
 	}
 
-	.welcoming-message blockquote p {
+	.welcome-hero blockquote p {
 		font-size: 14px !important;
+		text-align: center;
 
 		&:before {
 			content: none;
@@ -70,6 +66,39 @@
 	}
 
 	.alltemplates-home-button {
-		font-size: 20px !important;
+		font-size: 17px !important;
+		padding: 15px 0 !important;
+		
+		span {
+			display: none !important;
+		}
 	}
+	
+	footer {
+		
+		.footlinks {
+			li {
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+}
+
+// To target the snap between "md" and "sm"
+@media(min-width:601px) and (max-width: 1205px) {
+
+.github a img {
+	width: 420px !important;
+}
+
+}
+
+@media(min-width:768px) and (max-width: 989px){
+}
+
+@media(max-width:992px){
+
+}
+@media(min-width:1200px){
 }

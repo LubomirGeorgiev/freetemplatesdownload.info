@@ -24,8 +24,7 @@ module.exports = function(grunt) {
 		              ' */\n',
 		htmlbanner: '<!--\n' +
 					  '*** This file has been minified, compressed, shortened and reduced :) in order to improve the efficiency and reduce the traffic.\n' +
-		              '*** The original source code of the file is available at\n' +
-		              '*** https://github.com/LubomirGeorgiev/freetemplatesdownload.info\n' +
+		              '*** The original source code of the file is available at https://github.com/LubomirGeorgiev/freetemplatesdownload.info\n' +
 		              '\n' +
 		              '*** Copyright <%= grunt.template.today("yyyy") %> Lubomir Georgiev email: lubomirgeorgievgeorgiev@gmail.com\n' +
 		              '*** Licensed under - Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/)\n' +
@@ -70,6 +69,7 @@ module.exports = function(grunt) {
 		        'minified/_includes/main-nav.php': '_includes/main-nav.php',
 		        'minified/_includes/meta.php': '_includes/meta.php',
 		        'minified/_includes/nav-links-content.php': '_includes/nav-links-content.php',
+				'minified/_includes/breadcrumbs.php': '_includes/breadcrumbs.php',
 		        //templates
 		        'minified/template/businessbox.php': 'template/businessbox.php',
 		        'minified/template/freshco.php': 'template/freshco.php',

@@ -2,7 +2,6 @@
 # Folders and files to ignore #
 ###############################
 node_modules
-freetemplatesdownload.sublime-workspace
 
 ###################
 # Compiled source #

@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="footerpanel clearfix">
 				<?php echo breadcrumbs(); ?>
-					<ul class="footlinks">
+					<ul class="footlinks clearfix">
 						<li><a href="http://freetemplatesdownload.info/template/businessbox.html?utm_source=Footer&utm_medium=referral&utm_campaign=Footer+to+Template">BusinessBox</a></li>
 						<li><a href="http://freetemplatesdownload.info/template/urbanprism.html?utm_source=Footer&utm_medium=referral&utm_campaign=Footer+to+Template">Urban Prism</a></li>
 						<li><a href="http://freetemplatesdownload.info/template/freshco.html?utm_source=Footer&utm_medium=referral&utm_campaign=Footer+to+Template">FreshCo</a></li>
@@ -26,7 +26,7 @@
 		</div>
 		<div class="row" style="margin-top: 40px;">
 			<div class="col-md-6 col-sm-6 made-in-bulgaria">
-				<p>Made with <span class="glyphicon glyphicon-heart"></span> in City of Sofia, Bulgaria. <a href="http://en.wikipedia.org/wiki/Bulgaria"><span class="bulgaria" alt="Bulgaria, България"></span></a></p>
+				<p>Made with <span class="glyphicon glyphicon-heart"></span> in City of Sofia, Bulgaria. <a rel="nofollow" href="http://en.wikipedia.org/wiki/Bulgaria"><span class="bulgaria" alt="Bulgaria, България"></span></a></p>
 			</div>
 			<div class="col-md-6 col-sm-6"><blockquote><p>Simplicity is the ultimate sophistication.</p> <span>- Leonardo da Vinci</span></blockquote></div>
 		</div>
