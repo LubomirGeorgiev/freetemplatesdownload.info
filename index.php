@@ -9,13 +9,14 @@
 <?php include '_includes/google-analytics.php'; ?>
   </head>
 <body class="page homepage">
-<!-- FACEBOOK STUFF -->
+<!--
   <div id="fb-root"></div>
   <script>(function(e,t,n){var r,i=e.getElementsByTagName(t)[0];if(e.getElementById(n))return;r=e.createElement(t);r.id=n;r.src="//connect.facebook.net/en_GB/all.js#xfbml=1";i.parentNode.insertBefore(r,i)})(document,"script","facebook-jssdk")</script>
-<!-- FACEBOOK STUFF -->
-<!-- GOOGLE PLUS STUFF -->
+
 <script type="text/javascript">(function(){var po=document.createElement('script');po.type='text/javascript';po.async=true;po.src='https://apis.google.com/js/platform.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(po,s)})();</script>
-<!-- GOOGLE PLUS STUFF -->
+-->
+
+
 
     <!-- NAV BAR -->
     <?php include '_includes/main-nav.php'; ?>
@@ -51,7 +52,7 @@
   </div><!-- //.row -->
 </div>
 
-<div class="social-sharing-banner">
+<!--<div class="social-sharing-banner">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -68,9 +69,9 @@
     <div class="col-md-12 thank-you">Thanks for your support! We appreciate it. <span class="glyphicon glyphicon-heart"></span></div>
   </div>
 </div>
-</div>
+</div>-->
 
-<div class="billboard-heros clearfix">
+<div class="billboard-heros clearfix" style="margin-top: 80px;">
 <div class="businessbox featured">
   <div class="container">
   <div class="row">

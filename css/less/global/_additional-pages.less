@@ -1,19 +1,32 @@
 /* HomePage */
 body.page.homepage {
-@import "../homepage.less";
+	@import "../homepage.less";
 }
 
 /* Sitemap */
 body.page.sitemap {
-@import "../sitemap.less";
+	@import "../sitemap.less";
 }
 
 /* All Templates */
 body.page.all-templates {
-@import "../all-templates.less";
+	@import "../all-templates.less";
 }
 
 /* Template (single) review page /template/ */
-body.page.template-review {
-@import "../single.less";
+body.page.template-review-single {
+	@import "../template-review-single.less";
+}
+
+/* 404 Not Found Error Page (http://freetemplatesdownload.info/404.html) */
+body.page.notfound404 {
+	.background-image(radial-gradient(to bottom, #fff 0%,#c8c8c8 100%));
+	
+	// FORCE THE GRADIENT TO STRECH
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	
+	@import "../404.less";
 }

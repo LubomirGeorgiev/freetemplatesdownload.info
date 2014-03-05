@@ -38,6 +38,7 @@ rewriterule ^fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdow
 #####################################
 ## Enable gzip Server Compression  ##
 #####################################
+
 <IfModule mod_deflate.c>
     #The following line is enough for .js and .css
     AddOutputFilter DEFLATE js css
@@ -56,3 +57,13 @@ rewriterule ^fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdow
     Header append Vary: Accept-Encoding
   </FilesMatch>
 </IfModule>
+
+
+
+
+
+#################################
+##  Custom 404 Not Found Page  ##
+#################################
+
+ErrorDocument 404 'Redirecting...<meta http-equiv="refresh" content="1;url=http://freetemplatesdownload.info/404.html" />'

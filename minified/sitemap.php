@@ -1,9 +1,9 @@
 <!--
-*** This file has been minified, compressed, shortened and reduced :) in order to improve the efficiency and reduce the traffic.
-*** The original source code of the file is available at https://github.com/LubomirGeorgiev/freetemplatesdownload.info
+**** This file has been minified, compressed, shortened and squeezed :) in order to improve the efficiency and reduce the traffic.
+**** The original source code of the file is available at https://github.com/LubomirGeorgiev/freetemplatesdownload.info
 
-*** Copyright 2014 Lubomir Georgiev email: lubomirgeorgievgeorgiev@gmail.com
-*** Licensed under - Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/)
+**** Copyright 2014 Lubomir Georgiev email: lubomirgeorgievgeorgiev@gmail.com
+**** Licensed under - Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/)
 -->
 
 <?php
