@@ -8,7 +8,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href="http://freetemplatesdownload.info/" class="navbar-brand">freetemplatesdownload.info</a>
+              <a href="http://freetemplatesdownload.info/">
+              	<div class="logo-holder">
+              		<img class="img-responsive" src="http://freetemplatesdownload.info/images/logo.min.svg">
+              	</div>
+              </a>
             </div>
 
             <div class="collapse navbar-collapse navbar-collapse">

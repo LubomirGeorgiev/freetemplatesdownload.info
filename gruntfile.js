@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 				banner: '<%= htmlbanner %>'
 			},
 			files: {
-				src: [ 'minified/**/*.php', '!minified/_includes/*.php' ] // "!" exclude all files in /_includes
+				src: [ 'minified/**/*.php', '!minified/_includes/*.php', '!minified/404.php' ] // "!" exclude all files in /_includes
 			}
 			}
 		},
@@ -77,6 +77,8 @@ module.exports = function(grunt) {
 		        'minified/template/urbanprism.php': 'template/urbanprism.php',
 		        'minified/template/yourcoolportfolio.php': 'template/yourcoolportfolio.php',
 		        'minified/template/yourflatportfolio.php': 'template/yourflatportfolio.php',
+				//404 Not Found Page
+				'minified/404.php': '404.php'
 				}
 			}
 		},

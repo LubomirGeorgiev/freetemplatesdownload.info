@@ -1,6 +1,56 @@
 body {
 	font-family: 'Open Sans', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
-	background:  @pagebg;
+	background:  url(http://freetemplatesdownload.info/images/dark-pixels-texture.jpg);
+	color: #000;
+}
+
+/******************** TRANSPARENT BUTTONS ********************/
+// USAGE <a class="btn btn-(default, primary, success, info, warning, danger, link) transparent" href="#">Something</a>
+a.btn.transparent {
+	background: transparent !important;
+	color: #fff !important;
+	text-shadow: 2px 2px 0px rgba(0,0,0,0.4);
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	transition: all 0.5s ease-out;
+	
+	&:hover {
+		background-color: rgba(255,255,255,.2) !important;
+		box-shadow: 0 0 20px rgba(0,0,0,0.3), inset 0 0 20px rgba(0,0,0,.3);
+	}
+}
+
+a.btn.no-border-radius {
+	border-radius: 0 !important;
+}
+
+//btn-default
+a.btn.btn-default.transparent {
+	border: 3px solid #fff;
+}
+//btn-primary
+a.btn.btn-primary.transparent {
+	border: 3px solid #318ee0;
+}
+//btn-success
+a.btn.btn-success.transparent {
+	border: 3px solid #00c400;
+}
+//btn-info
+a.btn.btn-info.transparent {
+	border: 3px solid #45c3e9;
+}
+//btn-warning
+a.btn.btn-warning.transparent {
+	border: 3px solid #ffa82b;
+}
+//btn-danger
+a.btn.btn-danger.transparent {
+	border: 3px solid #f52620;
+}
+
+/** White Fonts if needed **/
+.white {
+	color: #fff !important;	
 }
 
 a:hover {
@@ -35,6 +85,13 @@ background: #fff;
 border: 0;
 margin: 0;
 
+	.logo-holder {
+		position: relative;
+		top: 2px;
+		width: 50px;
+		margin-right: 10px;
+	}
+	
 	.collapse {
 		ul.nav {
 			float: none !important;

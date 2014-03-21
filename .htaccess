@@ -44,7 +44,7 @@ rewriterule ^fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdow
     AddOutputFilter DEFLATE js css
 
     #The following line also enables compression by file content type, for the following list of Content-Type:s
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml image/svg+xml image/svg image/xml
 
     #The following lines are to avoid bugs with some browsers
     BrowserMatch ^Mozilla/4 gzip-only-text/html
@@ -53,7 +53,7 @@ rewriterule ^fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdow
 </IfModule>
 
 <IfModule mod_headers.c>
-  <FilesMatch ".(js|css|xml|gz|html)$">
+  <FilesMatch ".(js|css|xml|gz|html|svg)$">
     Header append Vary: Accept-Encoding
   </FilesMatch>
 </IfModule>
@@ -66,4 +66,4 @@ rewriterule ^fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdow
 ##  Custom 404 Not Found Page  ##
 #################################
 
-ErrorDocument 404 'Redirecting...<meta http-equiv="refresh" content="1;url=http://freetemplatesdownload.info/404.html" />'
+ErrorDocument 404 'Redirecting...<meta http-equiv="refresh" content="0;url=http://freetemplatesdownload.info/404.html" />'
