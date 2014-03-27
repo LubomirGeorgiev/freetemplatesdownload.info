@@ -1,11 +1,16 @@
 body {
 	font-family: 'Open Sans', Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
-	background:  url(http://freetemplatesdownload.info/images/dark-pixels-texture.jpg);
+	background:  @background;
 	color: #000;
 }
 
 /******************** TRANSPARENT BUTTONS ********************/
 // USAGE <a class="btn btn-(default, primary, success, info, warning, danger, link) transparent" href="#">Something</a>
+
+
+/* The border/outline of the transparent buttons */
+	@border-thickness: 3px;
+
 a.btn.transparent {
 	background: transparent !important;
 	color: #fff !important;
@@ -25,27 +30,27 @@ a.btn.no-border-radius {
 
 //btn-default
 a.btn.btn-default.transparent {
-	border: 3px solid #fff;
+	border: @border-thickness solid #fff;
 }
 //btn-primary
 a.btn.btn-primary.transparent {
-	border: 3px solid #318ee0;
+	border: @border-thickness solid #318ee0;
 }
 //btn-success
 a.btn.btn-success.transparent {
-	border: 3px solid #00c400;
+	border: @border-thickness solid #00c400;
 }
 //btn-info
 a.btn.btn-info.transparent {
-	border: 3px solid #45c3e9;
+	border: @border-thickness solid #45c3e9;
 }
 //btn-warning
 a.btn.btn-warning.transparent {
-	border: 3px solid #ffa82b;
+	border: @border-thickness solid #ffa82b;
 }
 //btn-danger
 a.btn.btn-danger.transparent {
-	border: 3px solid #f52620;
+	border: @border-thickness solid #f52620;
 }
 
 /** White Fonts if needed **/
