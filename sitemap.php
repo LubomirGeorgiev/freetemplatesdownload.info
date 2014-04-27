@@ -6,8 +6,8 @@
   <head>
     <title>Sitemap | FreeTemplatesDownload.info</title>
     <?php include '_includes/meta.php'; ?>
-
-    <link href="css/global.css" rel="stylesheet" media="screen">
+    
+    <link href="css/global.css<?php include '_includes/stylesheet_version.php'; ?>" rel="stylesheet" media="screen">
 
 <?php include '_includes/google-analytics.php'; ?>
   </head>

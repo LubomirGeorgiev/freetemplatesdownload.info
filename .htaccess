@@ -9,13 +9,35 @@ RewriteRule ^(.*)\.html$ $1.php
 
 
 
+#####################
+##  Disable ETags  ##
+#####################
+
+Header unset ETag
+FileETag None
+
+
+
+
 ###########################################
 ##  Set Expiration Date and Cache Headers##
 ###########################################
 # https://developers.google.com/speed/docs/best-practices/caching#LeverageBrowserCaching
 
 ExpiresActive On
-ExpiresDefault "access plus 1 days"
+ExpiresDefault "access plus 1 week"
+
+ExpiresByType text/html "access plus 2 day"
+
+ExpiresByType image/gif "access plus 365 days"
+ExpiresByType image/jpeg "access plus 365 days"
+ExpiresByType image/png "access plus 365 days"
+ExpiresByType image/svg "access plus 365 days"
+ExpiresByType xml/svg "access plus 365 days"
+
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType text/javascript "access plus 1 week"
+ExpiresByType application/x-javascript "access plus 1 week"
 
 
 

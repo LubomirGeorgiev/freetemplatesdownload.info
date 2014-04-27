@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Online store for free web templates | FreeTemplatesDownload.info</title>
+    <title>All Templates | FreeTemplatesDownload.info</title>
     <?php include '_includes/meta.php'; ?>
 
-    <link href="css/global.css" rel="stylesheet" media="screen">
+    <link href="css/global.css<?php include '_includes/stylesheet_version.php'; ?>" rel="stylesheet" media="screen">
 
 <?php include '_includes/google-analytics.php'; ?>
   </head>
@@ -32,7 +32,7 @@
                 <li>Multipurpose use</li>
                 <li>Beautiful design</li>
               </ul>
-              <p class="buttons"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/businessbox.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/businessbox.html">Live Preview</a></p>
+              <p class="btn-group btn-group-justified"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/businessbox.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/businessbox.html">Live Preview</a></p>
             </div>
           </div>
 
@@ -49,7 +49,7 @@
                   <li>100% Retina enhanced</li>
                   <li>Beautiful image captions</li>
               </ul>
-              <p class="buttons"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/yourcoolportfolio.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/yourcoolportfolio.html">Live Preview</a></p>
+              <p class="btn-group btn-group-justified"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/yourcoolportfolio.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/yourcoolportfolio.html">Live Preview</a></p>
             </div>
           </div>
 </div>
@@ -69,7 +69,7 @@
                   <li>Multipurpose use</li>
                   <li>Comes with 4 pages</li>
               </ul>
-              <p class="buttons"><a class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/urbanprism.zip">Download</a> <a class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/urbanprism.html">Live Preview</a></p>
+              <p class="btn-group btn-group-justified"><a class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/urbanprism.zip">Download</a> <a class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/urbanprism.html">Live Preview</a></p>
             </div>
           </div>
 
@@ -86,7 +86,7 @@
                   <li>100% Retina enhanced</li>
                   <li>Beautiful image captions</li>
                 </ul>
-              <p class="buttons"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/yourflatportfolio.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/yourflatportfolio.html">Live Preview</a></p>
+              <p class="btn-group btn-group-justified"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/yourflatportfolio.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/yourflatportfolio.html">Live Preview</a></p>
             </div>
           </div>
 </div>
@@ -107,7 +107,7 @@
                 <li>Mobile friendly</li>
                 <li>Uses {less} css</li>
               </ul>
-              <p class="buttons"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/freshco.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/freshco.html">Live Preview</a></p>
+              <p class="btn-group btn-group-justified"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/freshco.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/freshco.html">Live Preview</a></p>
             </div>
           </div>
 
@@ -123,7 +123,7 @@
                   <li>Fully responsible</li>
                   <li>100% Retina enhanced</li>
                 </ul>
-              <p class="buttons"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/purity.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/purity.html">Live Preview</a></p>
+              <p class="btn-group btn-group-justified"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/purity.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/purity.html">Live Preview</a></p>
             </div>
           </div>
 </div>
