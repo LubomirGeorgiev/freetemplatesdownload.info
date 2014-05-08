@@ -93,6 +93,25 @@
 <div class="col-md-4">
 
           <div class="thumbnail">
+            <a href="http://freetemplatesdownload.info/template/pager.html">
+            <img alt="Pager is a free web template. - Fresh looking, Fully responsible, Beautiful, Full Screen Slider, Multipurpose use, Mobile friendly, Beautiful design" class="img-responsive" src="http://freetemplatesdownload.info/images/homepage/pager.jpg">
+            </a>
+            <div class="caption">
+              <h3>Pager</h3>
+              <p>A free, fresh looking web template.</p>
+              <ul>
+                <li>Fresh looking</li>
+                <li>Fully responsible</li>
+                <li>Beautiful Full Screen Slider</li>
+                <li>Multipurpose use</li>
+                <li>Mobile friendly</li>
+                <li>Uses {less} css</li>
+              </ul>
+              <p class="btn-group btn-group-justified"><a role="button" class="btn btn-primary btn-lg" href="http://freetemplatesdownload.info/download/pager.zip">Download</a> <a role="button" class="btn btn-default btn-lg" href="http://freetemplatesdownload.info/template/pager.html">Live Preview</a></p>
+            </div>
+          </div>
+
+          <div class="thumbnail">
             <a href="http://freetemplatesdownload.info/template/freshco.html">
             <img alt="FreshCo is a free web template. - Fresh looking, Fully responsible, Beautiful, Full Screen Slider, Multipurpose use, Mobile friendly, Beautiful design" class="img-responsive" src="http://freetemplatesdownload.info/images/homepage/freshco.jpg">
             </a>

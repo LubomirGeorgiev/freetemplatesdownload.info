@@ -77,6 +77,7 @@ module.exports = function(grunt) {
 		        'minified/template/urbanprism.php': 'template/urbanprism.php',
 		        'minified/template/yourcoolportfolio.php': 'template/yourcoolportfolio.php',
 		        'minified/template/yourflatportfolio.php': 'template/yourflatportfolio.php',
+				'minified/template/pager.php': 'template/pager.php',
 				//404 Not Found Page
 				'minified/404.php': '404.php'
 				}

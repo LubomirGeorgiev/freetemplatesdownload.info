@@ -1,0 +1,549 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"footer",
+				"footerpannel-border-color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"ex",
+				"extentions"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fo",
+				"for	for …"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/xampp/htdocs/experiments/admin/index.php",
+			"settings":
+			{
+				"buffer_size": 11947,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/experiments/admin/themes/modern.php",
+			"settings":
+			{
+				"buffer_size": 34749,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/experiments/includes/load-yourls.php",
+		"/D/projects/experiments/bootstrap-docs/components.html",
+		"/D/projects/experiments/I-cannot-think-of-a-name-for-this-thing/css/style.css",
+		"/D/projects/experiments/I-cannot-think-of-a-name-for-this-thing/css/style.less",
+		"/D/projects/experiments/I-cannot-think-of-a-name-for-this-thing/index.html",
+		"/C/xampp/htdocs/wordpress/blog/wp-content/themes/freetemplatesdownload/header.php",
+		"/C/xampp/htdocs/experiments/classes/classes.php",
+		"/C/xampp/htdocs/experiments/index.php",
+		"/C/xampp/htdocs/experiments/upload.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/homepage/_other.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/sitemap.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/homepage/_billboard-heros.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/global/_main.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/global/_typography.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/includes/_variables.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/.htaccess",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/all-templates.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/all-templates.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/includes/lesshat.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/global/_media-queries.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/404.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/sitemap.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/index.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/template/yourflatportfolio.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/template/yourcoolportfolio.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/template/urbanprism.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/template/purity.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/template/freshco.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/template/businessbox.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/_includes/stylesheet_version.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/404.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/_includes/meta.php",
+		"/C/xampp/htdocs/url-shortener/shorten.php",
+		"/C/xampp/htdocs/url-shortener/index.php",
+		"/C/xampp/htdocs/url-shortener/classes/shortener.php",
+		"/C/xampp/htdocs/url-shortener/redirect.php",
+		"/C/xampp/htdocs/wordpress/blog/wp-content/themes/freetemplatesdownload/css/_variables.less",
+		"/C/xampp/htdocs/wordpress/blog/wp-content/themes/freetemplatesdownload/css/media_queries.less",
+		"/C/xampp/htdocs/wordpress/blog/wp-content/themes/freetemplatesdownload/css/style.less",
+		"/C/Users/boris/Desktop/bootstrap/less/bootstrap.less",
+		"/C/Users/boris/Desktop/bootstrap/bootstrap.css",
+		"/C/xampp/htdocs/experiments/_includes/footer.php",
+		"/C/xampp/htdocs/experiments/images/signature.svg",
+		"/C/xampp/htdocs/experiments/images/combined.svg",
+		"/C/Users/boris/Desktop/Abban-Responsable-Framework-0fad8a6/assets/less/baseline.less",
+		"/C/Users/boris/Desktop/Abban-Responsable-Framework-0fad8a6/assets/less/style.less",
+		"/C/Users/boris/Desktop/Abban-Responsable-Framework-0fad8a6/assets/less/grid.less",
+		"/C/Users/boris/Desktop/junk/css/less/global/_footer.less",
+		"/C/Users/boris/Desktop/junk/css/global.css",
+		"/C/Users/boris/Desktop/junk/css/less/global.less",
+		"/C/Users/boris/Desktop/junk/css/less/homepage/_other.less",
+		"/C/Users/boris/Desktop/junk/css/less/homepage.less",
+		"/C/Users/boris/Desktop/junk/css/less/global/_additional-pages.less",
+		"/C/Users/boris/Desktop/junk/css/less/template-review-single.less",
+		"/C/Users/boris/Desktop/junk/css/less/homepage/_billboard-heros.less",
+		"/C/Users/boris/Desktop/junk/css/less/homepage/_media-queries.less",
+		"/C/Users/boris/Desktop/junk/css/less/homepage/_welcoming-message.less",
+		"/C/Users/boris/Desktop/junk/css/less/global/_main.less",
+		"/C/Users/boris/Desktop/junk/css/less/global/_media-queries.less",
+		"/C/Users/boris/Desktop/junk/css/less/homepage/_featured.less",
+		"/C/xampp/htdocs/experiments/css/style.less",
+		"/C/xampp/htdocs/experiments/counter.txt",
+		"/C/xampp/htdocs/experiments/counter.php",
+		"/D/projects/experiments/modern/css/style.css",
+		"/D/projects/experiments/modern/css/style.less",
+		"/D/projects/experiments/modern/index.html",
+		"/C/Users/boris/Desktop/detectmobilebrowser.php.txt",
+		"/C/Users/boris/Desktop/detectmobilebrowser.js.txt",
+		"/C/Users/boris/Desktop/detectmobilebrowser.js (1).txt",
+		"/C/Users/boris/Desktop/New Text Document (2).txt",
+		"/C/xampp/htdocs/test/css/less/includes/_variables.less",
+		"/C/xampp/htdocs/test/css/less/global.less",
+		"/C/xampp/htdocs/test/css/less/homepage/_welcoming-message.less",
+		"/C/xampp/htdocs/test/index.php",
+		"/C/xampp/htdocs/test/css/less/global/_footer.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/_includes/breadcrumbs.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/_includes/footer.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/global/_footer.less",
+		"/C/xampp/htdocs/wordpress/blog/wp-content/themes/freetemplatesdownload/css/bootstrap.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/gruntfile.js",
+		"/C/xampp/htdocs/test/_includes/footer.php",
+		"/C/xampp/htdocs/test/_includes/breadcrumbs.php",
+		"/C/xampp/htdocs/phptest/index.php",
+		"/C/xampp/htdocs/gallery/css/global.css",
+		"/C/xampp/htdocs/gallery/Gallery.php",
+		"/C/xampp/htdocs/gallery/index.php",
+		"/C/xampp/htdocs/gallery/css/bootstrap.min.css",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/global.less",
+		"/C/xampp/htdocs/test/gruntfile.js",
+		"/C/xampp/htdocs/test/css/less/homepage/_media-queries.less",
+		"/C/xampp/htdocs/test/test.sublime-project",
+		"/C/xampp/htdocs/test/freetemplatesdownload.sublime-project",
+		"/C/xampp/htdocs/freetemplatesdownload.info/minified/index.php",
+		"/C/Users/boris/Desktop/New Text Document.txt",
+		"/C/xampp/htdocs/freetemplatesdownload.info/freetemplatesdownload.sublime-project",
+		"/C/xampp/htdocs/404/index.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/_includes/nav-links-content.php",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/homepage.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/homepage/_featured.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/global.css",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/global/_additional-pages.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/homepage/_welcoming-message.less",
+		"/C/Users/boris/Desktop/httpd.conf",
+		"/C/xampp/htdocs/freetemplatesdownload.info/httpd.conf",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/single.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/css/less/global/_single.less",
+		"/C/xampp/htdocs/test/sitemap.php",
+		"/C/xampp/htdocs/test/css/less/all-templates.less",
+		"/C/xampp/htdocs/test/all-templates.php",
+		"/C/xampp/htdocs/test/.htaccess",
+		"/C/xampp/htdocs/test/css/less/sitemap.less",
+		"/C/xampp/htdocs/test/template/yourflatportfolio.php",
+		"/C/xampp/htdocs/test/template/yourcoolportfolio.php",
+		"/C/xampp/htdocs/test/template/urbanprism.php",
+		"/C/xampp/htdocs/test/template/purity.php",
+		"/C/xampp/htdocs/test/template/index.php",
+		"/C/xampp/htdocs/test/template/freshco.php",
+		"/C/xampp/htdocs/test/template/businessbox.php",
+		"/C/xampp/htdocs/test/css/sitemap.css",
+		"/C/xampp/htdocs/test/css/all-templates.css",
+		"/C/xampp/htdocs/test/css/less/homepage.less",
+		"/C/xampp/htdocs/test/css/homepage.css",
+		"/C/xampp/htdocs/test/bootstrap/css/bootstrap.min.css",
+		"/C/xampp/htdocs/test/bootstrap/css/bootstrap.min.less",
+		"/C/xampp/htdocs/test/css/less/global/_typography.less",
+		"/C/xampp/htdocs/freetemplatesdownload.info/livepreview/businessbox/index.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"html",
+			"yourls_esc_html",
+			"html",
+			"<script",
+			"twitter",
+			"pager",
+			"all-te",
+			"green",
+			"data:",
+			"home",
+			"ios",
+			"andro",
+			"blockquote",
+			"border-rad",
+			"echo",
+			"print",
+			"echo",
+			"gallery",
+			"margin",
+			"data",
+			"share",
+			"drop",
+			"back",
+			"media",
+			"data:image",
+			"boot",
+			"bootst",
+			"fonts"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/xampp/htdocs/experiments/admin/index.php",
+					"settings":
+					{
+						"buffer_size": 11947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								38
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/xampp/htdocs/experiments/admin/themes/modern.php",
+					"settings":
+					{
+						"buffer_size": 34749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								50
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"less",
+				"freetemplatesdownload.info/css/less/includes/lesshat.less"
+			],
+			[
+				"site",
+				"freetemplatesdownload.info/sitemap.php"
+			],
+			[
+				"allte",
+				"freetemplatesdownload.info/all-templates.php"
+			],
+			[
+				"in",
+				"index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true
+}

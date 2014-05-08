@@ -119,17 +119,17 @@
       </div>
 </div><!-- /.container -->
 
-<div class="freshco featured margintop">
+<div class="pager-template featured margintop">
   <div class="container">
   <div class="row">
       <div class="col-lg-12">
         <div class="row">
           <div class="col-lg-5 col-md-5">
-            <a href="http://freetemplatesdownload.info/template/freshco.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><img class="img-responsive" alt="FreshCo is a free web template. - Fresh looking, Fully responsible, Beautiful, Full Screen Slider, Multipurpose use, Mobile friendly, Beautiful design" src="http://freetemplatesdownload.info/images/homepage/freshco.jpg"></a>
+            <a href="http://freetemplatesdownload.info/template/pager.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><img class="img-responsive" alt="pager is a free web template. - Fresh looking, Fully responsible, Beautiful, Full Screen Slider, Multipurpose use, Mobile friendly, Beautiful design" src="http://freetemplatesdownload.info/images/homepage/pager.jpg"></a>
           </div>
           <div class="col-lg-7 col-md-7 text-center">
-              <a href="http://freetemplatesdownload.info/template/freshco.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><h2>FreshCO</h2>
-              <h3>A free, fresh looking web template</h3></a>
+              <a href="http://freetemplatesdownload.info/template/pager.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><h2>Pager</h2>
+              <h3>A single page web template.</h3></a>
               <ul class="list-unstyled">
                 <li><span class="glyphicon glyphicon-ok"></span> Fresh looking</li>
                 <li><span class="glyphicon glyphicon-ok"></span> Fully responsible</li>
