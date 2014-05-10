@@ -84,8 +84,9 @@ rewriterule ^fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdow
 
 
 
-#################################
-##  Custom 404 Not Found Page  ##
-#################################
+##############################
+##  Custom Error Documents  ##
+##############################
 
-ErrorDocument 404 'Redirecting...<meta http-equiv="refresh" content="0;url=http://freetemplatesdownload.info/404.html" />'
+ErrorDocument 404 /ErrorDocuments/404.php
+ErrorDocument 403 /ErrorDocuments/403.php

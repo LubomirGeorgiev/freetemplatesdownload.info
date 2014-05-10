@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 				banner: '<%= htmlbanner %>'
 			},
 			files: {
-				src: [ 'minified/**/*.php', '!minified/_includes/*.php', '!minified/404.php' ] // "!" exclude all files in /_includes
+				src: [ 'minified/**/*.php', '!minified/_includes/*.php'] // "!" exclude all files in /_includes
 			}
 			}
 		},
@@ -78,8 +78,9 @@ module.exports = function(grunt) {
 		        'minified/template/yourcoolportfolio.php': 'template/yourcoolportfolio.php',
 		        'minified/template/yourflatportfolio.php': 'template/yourflatportfolio.php',
 				'minified/template/pager.php': 'template/pager.php',
-				//404 Not Found Page
-				'minified/404.php': '404.php'
+				//Error Pages
+				'minified/ErrorDocuments/404.php': 'ErrorDocuments/404.php',
+				'minified/ErrorDocuments/403.php': 'ErrorDocuments/403.php'
 				}
 			}
 		},

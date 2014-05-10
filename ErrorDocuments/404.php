@@ -1,15 +1,11 @@
-<?php
-
-	header('HTTP/1.0 404 Not Found');
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/global.css" rel="stylesheet" media="screen">
+    <!--<link href="http://127.0.0.1/freetemplatesdownload.info/css/global.css" rel="stylesheet" media="screen">-->
+	<link href="http://freetemplatesdownload.info/css/global.css" rel="stylesheet" media="screen">
 </head>
 <body class="page notfound404">
 	<div class="splash">
@@ -20,7 +16,7 @@
 						<span>Oops. That's embarrassing!</span>
 						<p>Apparently, something went wrong! We apologize! <span>404 Not Found</span></p>
 					</div>
-					<a class="btn btn-default btn-lg transparent" href="http://freetemplatesdownload.info/">Home Page</a></div>
+					<a class="btn btn-default btn-lg transparent" href="http://freetemplatesdownload.info/"><span class="glyphicon glyphicon-home"></span> Home Page</a></div>
 				</div>
 			</div>
 		</div>
