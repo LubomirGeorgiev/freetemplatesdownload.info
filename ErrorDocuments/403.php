@@ -5,7 +5,7 @@
     <title>Access Denied</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<link href="http://127.0.0.1/freetemplatesdownload.info/css/global.css" rel="stylesheet" media="screen">-->
-	<link href="http://freetemplatesdownload.info/css/global.css" rel="stylesheet" media="screen">
+	<link href="http://freetemplatesdownload.info/css/global.css<?php include '../_includes/stylesheet_version.php'; ?>" rel="stylesheet" media="screen">
 </head>
 <body class="page forbidden403">
 	<div class="splash">

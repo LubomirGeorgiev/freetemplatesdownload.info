@@ -5,7 +5,7 @@
     <title>Page Not Found</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--<link href="http://127.0.0.1/freetemplatesdownload.info/css/global.css" rel="stylesheet" media="screen">-->
-	<link href="http://freetemplatesdownload.info/css/global.css" rel="stylesheet" media="screen">
+	<link href="http://freetemplatesdownload.info/css/global.css<?php include '../_includes/stylesheet_version.php'; ?>" rel="stylesheet" media="screen">
 </head>
 <body class="page notfound404">
 	<div class="splash">
@@ -25,7 +25,7 @@
 <div class="container" style="margin-top: 50px;">
 	<div class="row">
 		<div class="col-md-6">
-			<div class="panel panel-default">
+			<div class="panel panel-default special">
 				<div class="panel-heading">Main pages</div>
 				<div class="panel-body">
 					<div class="list-group">
@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		<div class="col-md-6">
-			<div class="panel panel-default">
+			<div class="panel panel-default special">
 				<div class="panel-heading">Templates</div>
 				<div class="panel-body">
 					<div class="list-group">

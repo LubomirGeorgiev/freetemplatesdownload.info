@@ -112,3 +112,46 @@ margin: 0;
 		}
 	}
 }
+
+//********** PANELS **********
+@border-radius: 10px;
+.special.panel {
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.05) !important;
+border-radius: @border-radius !important;
+margin-bottom: 30px !important;
+
+	.panel-heading {
+		font-weight: bold;
+		border-top-left-radius: @border-radius;
+		border-top-right-radius: @border-radius;
+	}
+
+	.panel-body {
+		padding: 0 !important;
+
+		.list-group {
+			margin: 0 !important;
+
+			.list-group-item {
+				border-left: 0 !important;
+				border-right: 0 !important;
+
+				small {
+					display: block;
+					float: right;
+					color: rgba(0,0,0,.25);
+				}
+
+				&:first-child {
+				border-top: 0 !important;
+				border-radius: 0 !important;
+				}
+				&:last-child {
+				border-bottom: 0 !important;
+				border-bottom-left-radius: @border-radius !important;
+				border-bottom-right-radius: @border-radius !important;
+				}
+			}
+		}
+	}
+}

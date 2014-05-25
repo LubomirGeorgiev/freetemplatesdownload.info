@@ -25,7 +25,7 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-          <div class="panel panel-default">
+          <div class="panel panel-default special">
           <div class="panel-heading">Main pages</div>
           <div class="panel-body">
               <div class="list-group">
@@ -36,7 +36,7 @@
           </div>
           </div>
 
-          <div class="panel panel-default">
+          <div class="panel panel-default special">
           <div class="panel-heading">Live Previews</div>
           <div class="panel-body">
               <div class="list-group">
@@ -51,7 +51,7 @@
           </div>
       </div>
       <div class="col-md-6">
-          <div class="panel panel-default">
+          <div class="panel panel-default special">
           <div class="panel-heading">Templates</div>
           <div class="panel-body">
               <div class="list-group">
@@ -65,12 +65,13 @@
           </div>
           </div>
 
-          <div class="panel panel-default">
+          <div class="panel panel-default special">
           <div class="panel-heading">Blog</div>
           <div class="panel-body">
               <div class="list-group">
               <a href="http://freetemplatesdownload.info/blog/<?php echo $analytics_ref_link; ?>" class="list-group-item">Blog home <small>/blog/</small></a>
               <a href="http://freetemplatesdownload.info/blog/less-css/5-reasons-why-you-should-be-using-less-css/author-lubomir-georgiev<?php echo $analytics_ref_link; ?>" class="list-group-item">5 Reasons why you should be using {LESS} CSS <small>/blog/less-css/5-reasons-why-you-should...</small></a>
+              <a href="http://freetemplatesdownload.info/blog/bootstrap/getting-started-with-bootstrap/author-lubomir-georgiev<?php echo $analytics_ref_link; ?>" class="list-group-item">Getting Started with Bootstrap <small>/blog/bootstrap/getting-started-with-bootstrap/author-lubomir-georgiev</small></a>
               <a href="http://freetemplatesdownload.info/blog/web-fonts/list-of-web-safe-fonts/author-lubomir-georgiev<?php echo $analytics_ref_link; ?>" class="list-group-item">List of web safe fonts that you can use freely <small>/blog/web-fonts/list-of-web-safe-fonts...</small></a>
               <a href="http://freetemplatesdownload.info/blog/category/less-css<?php echo $analytics_ref_link; ?>" class="list-group-item">LESS CSS - category <small>/blog/category/less-css</small></a>
               <a href="http://freetemplatesdownload.info/blog/author/Lubomir-Georgiev<?php echo $analytics_ref_link; ?>" class="list-group-item">Lubomir Georgiev - Author <small>/blog/author/Lubomir-Georgiev</small></a>
