@@ -70,6 +70,7 @@ module.exports = function(grunt) {
 		        'minified/_includes/meta.php': '_includes/meta.php',
 		        'minified/_includes/nav-links-content.php': '_includes/nav-links-content.php',
 				'minified/_includes/breadcrumbs.php': '_includes/breadcrumbs.php',
+				'minified/_includes/stylesheet_version.php': '_includes/stylesheet_version.php',
 		        //templates
 		        'minified/template/businessbox.php': 'template/businessbox.php',
 		        'minified/template/freshco.php': 'template/freshco.php',

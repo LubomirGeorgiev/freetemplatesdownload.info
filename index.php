@@ -23,7 +23,6 @@
     <!-- NAV BAR -->
 
 <div class="container">
-  <div class="row">
   <div class="welcoming-message clearfix">
     <div class="col-lg-6 col-md-6 welcome-hero">
         <h1>What's it all about?</h1>
@@ -49,7 +48,6 @@
       </p>
     </div>
   </div><!-- //.welcome-hero -->
-  </div><!-- //.row -->
 </div>
 
 <!--<div class="social-sharing-banner">
@@ -146,8 +144,39 @@
 </div>
 </div>
 
-    <a class="alltemplates-home-button" href="http://freetemplatesdownload.info/all-templates.html">Click here to see all available templates <span class="glyphicon glyphicon-chevron-right"></span>
+    <a class="alltemplates-home-button" href="http://freetemplatesdownload.info/all-templates.html">Click here to see all available templates <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+<div class="container blog-billboard">
+    <div class="col-md-12">
+      <h3>Latest from the <a href="http://freetemplatesdownload.info/blog/">blog</a></h3>
+    </div>
+
+<a class="col-md-4" href="http://freetemplatesdownload.info/blog/bootstrap/getting-started-with-bootstrap/author-lubomir-georgiev">
+  <div class="post">
+    <div class="title">Getting Started with Bootstrap</div>
+    <div class="post-thumbnail">
+      <img src="http://freetemplatesdownload.info/blog/wp-content/uploads/2014/05/getting-started-with-bootstrap.jpg" class="img-responsive" alt="Getting Started with Bootstrap">
+    </div>
+  </div>
 </a>
+
+<a class="col-md-4" href="http://freetemplatesdownload.info/blog/web-fonts/list-of-web-safe-fonts/author-lubomir-georgiev">
+  <div class="post">
+    <div class="title">List of web safe fonts that you can use freely</div>
+    <p>In HTML and XHTML, a font face or font family is the typeface that will be applied by a web browser to some text. The font is relevant for the display of text on the screen, on a printer or another device.</p>
+  </div>
+</a>
+
+<a class="col-md-4" href="http://freetemplatesdownload.info/blog/less-css/5-reasons-why-you-should-be-using-less-css/author-lubomir-georgiev">
+  <div class="post">
+    <div class="title">5 Reasons why you should be using {LESS} CSS</div>
+    <div class="post-thumbnail">
+      <img src="http://freetemplatesdownload.info/blog/wp-content/uploads/2013/11/less-css-5-reasons.jpg" class="img-responsive" alt="5 Reasons why you should be using Less CSS">
+    </div>
+  </div>
+</a>
+
+</div><!-- blog-billboard -->
 
 <?php /* INCLUDE FOOTER */ include '_includes/footer.php'; ?>
 <script src="bootstrap/js/bootstrap.min.js"></script>
