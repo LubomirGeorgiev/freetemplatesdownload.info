@@ -1,0 +1,16 @@
+# Site settings
+title: Your awesome title
+email: "lubomirgeorgievgeorgiev[at]gmail.com"
+description: "Your description here."
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+paginate: 5
+
+# Files to be ignored by Jekyll when compiling
+exclude:
+  - "*.less"
