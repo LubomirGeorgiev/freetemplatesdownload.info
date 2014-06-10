@@ -2,8 +2,10 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-06-08 18:21:05
-categories: jekyll update
+categories: Jekyll Update
 body-classes: "welcometojekyll"
+author: Lubomir Georgiev
+permalink: /UpdateToJekyll/
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

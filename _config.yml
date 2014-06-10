@@ -9,8 +9,10 @@ url: ""
 markdown: kramdown
 permalink: /:categories/:title/
 
-paginate: 5
+paginate: 7
 
 # Files to be ignored by Jekyll when compiling
 exclude:
   - "*.less"
+  - "*.xml"
+  - "node_modules"

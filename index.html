@@ -15,11 +15,10 @@ title: Home
         {{ post.excerpt | remove: "<code>" | remove: "</code>" }}
       </li>
     {% endfor %}
-    <span class="glyphicon glyphicon-search"></span>
   </ul>
 
 {% include pagitation.html %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  {% comment %}<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>{% endcomment %}
 
 </div>
