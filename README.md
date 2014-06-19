@@ -11,7 +11,7 @@ ___
 6. Node Packaged Modules (www.npmjs.org)
 
 
-If you want to run it locally you can just download the whole repository from [here](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip) and copy it on a server with an `APACHE` and `PHP` support and it's just going to run work smoothly. It's that simple :) 
+If you want to run it locally you can just download the whole repository from [here](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip) and copy it on a server with an `APACHE` and `PHP` support and it's just going to run smoothly. It's that simple :) 
 
 
 ___
