@@ -1,0 +1,27 @@
+---
+layout: page
+title: "All Templates | FreeTemplatesDownload.info"
+body-classes: "page all-templates"
+permalink: /all-templates.html
+---
+
+<div class="container">
+	<div class="row">
+		{% for post in site.categories.template %}
+		<div class="col-md-4">
+			<div class="thumbnail">
+				<a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html">
+					<img class="img-responsive" src="{{ post.template-small-img }}" alt="{{ post.title }}" title="{{ post.title }}">
+				</a>
+				<div class="caption">
+					<a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html"><h3>{{ post.template-name }}</h3></a>
+					<p class="btn-group btn-group-justified">
+						<a role="button" class="btn btn-primary btn-lg" href="{{ site.url }}/download/{{ post.template-name-lowercase-no-spaces }}.zip">Download</a>
+						<a role="button" class="btn btn-default btn-lg" href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html">View</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>

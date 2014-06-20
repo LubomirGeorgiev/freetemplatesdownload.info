@@ -1,0 +1,26 @@
+## Site settings ##
+title: Your awesome title
+email: "lubomirgeorgievgeorgiev[at]gmail.com"
+author: "Lubomir Georgiev - Любомир Георгиев"
+description: "Free HTML Web Templates. The place where you can download web templates just for free."
+baseurl: ""
+url: "http://freetemplatesdownload.info"
+encoding:         UTF-8
+
+destination:      ./_SITE_COMPILED
+
+
+## Build settings ##
+markdown: kramdown
+permalink: /:categories/:title/
+
+# paginate: 7
+
+# Files to be ignored by Jekyll when compiling
+exclude:
+  - "*.less"
+  - "*.xml"
+  - "node_modules"
+  - "README.md"
+  - "package.json"
+  - "gruntfile.js"

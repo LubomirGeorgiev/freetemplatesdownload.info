@@ -4,6 +4,8 @@
 node_modules
 freetemplatesdownload.sublime-project
 freetemplatesdownload.sublime-workspace
+_site
+_SITE_COMPILED
 
 ###################
 # Compiled source #

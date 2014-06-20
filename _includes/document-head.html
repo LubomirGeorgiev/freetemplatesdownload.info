@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+{% include meta.html %}
+
+	<link href="/css/global.css{% include stylesheet-version.html %}" rel="stylesheet" media="screen">
+
+{% include google_analytics.html %}
+  </head>
