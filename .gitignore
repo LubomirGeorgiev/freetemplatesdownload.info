@@ -29,7 +29,6 @@ _SITE_COMPILED
 *.jar
 *.rar
 *.tar
-*.zip
 
 ######################
 # Logs and databases #
