@@ -1,0 +1,147 @@
+/*
+Template name: BusinessBox
+File: services.css
+*/
+
+.plansection {
+    background: url("http://freetemplatesdownload.info/serviceimgs/thumbs/blurred-yellow.jpg") repeat scroll center center / cover  rgba(0, 0, 0, 0);
+    border-top: 1px solid #FFFFFF;
+}
+
+.plansection > .col-lg-12 > h1 {
+    font-size: 70px;
+    color: #a55d0f;
+    text-shadow: 3px 2px 0 #75430c;
+}
+
+.plan {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3), 0 0 10px rgba(0,0,0,0.15);
+}
+
+.plan-grid {
+padding: 200px 30px 100px 30px;
+}
+
+.plan-name {
+    position: absolute;
+    background: rgba(150,105,55,0.95);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3) inset, 0 0 10px rgba(255,255,255,0.3);
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    margin-top: -70px;
+    margin-left: 95px;
+}
+
+.plan-name > div {
+    position: absolute;
+    top: 21px;
+    left: 22px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.plan-price {
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.plan-price > span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul.list-unstyled.plan-body {
+    margin-top: 90px;
+}
+
+ul.list-unstyled.plan-body > li {
+    padding: 15px 0;
+    box-shadow: 0 14px 13px -17px rgba(0, 0, 0, 0.05);
+}
+
+ul.list-unstyled.plan-body > li > .glyphicon {
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.ordernow {
+width: 100% !important;
+background-color: #5CB85C !important;
+border-color: #4CAE4C !important;
+color: #fff !important;
+font-weight: bold !important;
+font-size: 22px !important;
+border-radius: 0 0 10px 10px !important;
+letter-spacing: 1px;
+word-spacing: 3px;
+box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+
+.ordernow:hover {
+box-shadow: 0 5px 16px -4px rgba(0, 0, 0, 0.3) inset, 0 5px 5px rgba(0,0,0,0.3) !important;
+}
+
+
+.services > .glyphicon {
+font-size: 70px;
+color: #fff;
+text-shadow: 3px 0 0 #969696, 5px 0 0 #000000,-3px 0 0 #969696, -5px 0 0 #000000;
+}
+
+.lead.services {
+    padding-left: 30px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: 30px;
+}
+
+.services > .col-lg-12 > h2 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.services-outer {
+    margin-bottom: 70px;
+}
+
+
+/* 4. Media Queries  and Responsiveness */
+
+@media (min-width: 1600px) {
+
+}
+
+@media (max-width: 768px) {
+.plan-name {
+margin-left: 33% !important;
+}
+
+.col-lg-4.col-md-4 {
+margin-bottom: 150px;
+}
+
+}
+
+@media (max-width: 992px) {
+.plan-name {
+margin-left: 38% !important;
+}
+
+.col-lg-4.col-md-4 {
+margin-bottom: 150px;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+}

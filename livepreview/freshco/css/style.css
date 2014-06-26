@@ -1,0 +1,166 @@
+body {
+  background: url(http://freetemplatesdownload.info/serviceimgs/blurred-green.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  line-height: 2.1em !important;
+}
+.navbar-wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 20;
+}
+.navbar-default {
+  background: #fff !important;
+  border: 0 !important;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+.navbar-brand {
+  padding: 20px !important;
+  font-weight: bold;
+}
+ul.nav.navbar-nav li a {
+  padding: 20px 20px !important;
+}
+ul.nav.navbar-nav .active a {
+  background: #f5f5f5 !important;
+}
+.carousel {
+  box-shadow: 0 0 5px, 0 0 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #fff;
+}
+.carousel .carousel-inner .item img {
+  width: 100% !important;
+}
+.login {
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+.login .login-body {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px 15px 30px 15px;
+}
+.login .login-body form {
+  margin-top: 10px;
+}
+.login .login-body .btn-success {
+  box-shadow: 0px 4px 0px #229e22;
+  width: 100% !important;
+  margin-top: 20px;
+}
+.login h4 {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  margin: 0;
+  background: #93d55c;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #81e181), color-stop(1, #9ee09e));
+  background: -ms-linear-gradient(bottom, #81e181, #9ee09e);
+  background: -moz-linear-gradient(center bottom, #81e181 0%, #9ee09e 100%);
+  background: -o-linear-gradient(#9ee09e, #81e181);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ee09e', endColorstr='#81e181', GradientType=0);
+  padding: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5px 5px 0 0;
+  font-weight: bold;
+}
+.welcoming-message {
+  padding: 30px 50px;
+  background: rgba(230, 230, 230, 0.5);
+  border: 1px dashed #cfcfcf;
+  line-height: 200%;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+.welcoming-message img {
+  position: absolute;
+  top: 10px;
+  left: -19px;
+  z-index: 999;
+}
+.welcoming-message h1,
+.welcoming-message h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.welcoming-message h2 {
+  margin-top: 40px !important;
+}
+.welcoming-message p {
+  text-align: justify;
+}
+.welcoming-message p span {
+  font-weight: bold;
+}
+.welcoming-message .glyphicon-heart {
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(41, 41, 41, 0.4);
+}
+.welcoming-message blockquote {
+  margin: 60px -45px;
+  padding: 0.5em 10px;
+  border: 0 !important;
+}
+.welcoming-message blockquote p {
+  margin: 0;
+  font-size: 22px;
+  text-align: left;
+  font-family: georgia, serif;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.welcoming-message blockquote p:before {
+  color: #fff;
+  content: open-quote;
+  font-size: 5em;
+  line-height: 0.1em;
+  margin-right: 5px;
+  vertical-align: -0.33em;
+}
+.welcoming-message blockquote p:after {
+  color: #fff;
+  content: close-quote;
+  font-size: 5em;
+  line-height: 0.1em;
+  margin-left: 5px;
+  vertical-align: -0.67em;
+}
+.welcoming-message blockquote span {
+  display: block;
+  float: right;
+  font-style: italic;
+}
+.content {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  margin: 40px 0 30px 0;
+}
+/* Tabs */
+.tab-pane p {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+.nav-tabs li a {
+  background: rgba(255, 255, 255, 0.3);
+  color: #000;
+}
+/* 4. Media Queries  and Responsiveness */
+@media (min-width: 1600px) {
+  
+}
+@media (max-width: 768px) {
+  .nav.navbar-nav {
+    float: none !important;
+  }
+}
+@media (max-width: 992px) {
+  
+}
+@media (max-width: 1200px) {
+  
+}
