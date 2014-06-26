@@ -1,20 +1,21 @@
-<li class="link1"><a href="{{ site.url }}/">Home</a></li>
+<li class="link1"><a href="/">Home</a></li>
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Templates <b class="caret"></b></a>
-  <ul class="dropdown-menu">
-    <li class="link2"><a href="{{ site.url }}/template/businessbox.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">BusinessBox</a></li>
-    <li class="link6"><a href="{{ site.url }}/template/urbanprism.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Urban Prism</a></li>
-    <li class="link3"><a href="{{ site.url }}/template/freshco.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">FreshCO</a></li>
-    <li class="link4"><a href="{{ site.url }}/template/yourcoolportfolio.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Your Cool Portfolio</a></li>
-    <li class="link5"><a href="{{ site.url }}/template/yourflatportfolio.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Your Flat Portfolio</a></li>
-	<li class="puritylink"><a href="{{ site.url }}/template/purity.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Purity</a></li>
-	<li class="pagerlink"><a href="{{ site.url }}/template/pager.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Pager</a></li>
-  </ul>
+    <ul class="dropdown-menu">
+        {% comment %} <!--
+        This is what the following loop spits our: <li class="pager-link"><a href="/template/pager.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Pager</a></li>
+        {% endcomment %}
+
+        {% for post in site.categories.template %}
+            <li class="{{ post.template-name-lowercase-no-spaces }}-link"><a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.navlinks-analytics-code }}">{{ post.template-name }}</a></li>
+        {% endfor %}
+    </ul>
 </li>
-<li class="all-templateslink"><a href="{{ site.url }}/all-templates.html">All templates</a></li>
+<li class="all-templateslink"><a href="/all-templates.html">All templates</a></li>
 <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info" target="_blank">GitHub Project</a></li>
 <li><a href="https://github.com/LubomirGeorgiev/freetemplatesdownload.info/issues/new" target="_blank">Report a bug</a></li>
+
 <div class="navbar-form navbar-right buttons">
-	<a class="btn btn-success blog-button" href="{{ site.url }}/blog/?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNavGreenButton+to+Blog">BLOG</a>
-	<a class="btn btn-default" href="{{ site.url }}/sitemap.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNavButton+to+sitemap">Sitemap</a>
+    <a class="btn btn-success blog-button" href="{{ site.url }}/blog/?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNavGreenButton+to+Blog">BLOG</a>
+	 <a class="btn btn-default" href="/sitemap.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNavButton+to+sitemap">Sitemap</a>
 </div>
