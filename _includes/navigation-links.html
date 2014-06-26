@@ -2,8 +2,13 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Templates <b class="caret"></b></a>
     <ul class="dropdown-menu">
-        {% comment %} <!--
-        This is what the following loop spits our: <li class="pager-link"><a href="/template/pager.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">Pager</a></li>
+        {% comment %} <!-- COMMENT -->
+        This is an example of what the following loop spits out:
+        <li class="pager-link">
+          <a href="/template/pager.html?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template">
+            Pager
+          </a>
+        </li>
         {% endcomment %}
 
         {% for post in site.categories.template %}
