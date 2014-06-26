@@ -1,4 +1,4 @@
-#freetemplatesdownload.info
+#[freetemplatesdownload.info](http://freetemplatesdownload.info/)
 Free HTML Web Templates. The place where you can download web templates just for free.
 ___
 
@@ -23,6 +23,95 @@ The `.css`files are compiled from the `'less'` files located in the `/less` fold
 If you want to manipulate the `css stylesheets` you should install `Grunt.js` and use it to compile the .less files into browser-friendly css. All of the dependencies are listed in the `/package.json` file.
 
 Instructions: [Working with an existing Grunt project](http://gruntjs.com/getting-started#working-with-an-existing-grunt-project)
+___
+When you BUILD the website with Jekyll this is what you should get.
 
+
+`````
+_SITE_COMPILED/
+    |   .htaccess
+    |   all-templates.html
+    |   index.html
+    |   sitemap.html
+    |
+    +---bootstrap
+    |   +---css
+    |   |       bootstrap.min.css
+    |   |
+    |   +---fonts
+    |   |       glyphicons-halflings-regular.eot
+    |   |       glyphicons-halflings-regular.svg
+    |   |       glyphicons-halflings-regular.ttf
+    |   |       glyphicons-halflings-regular.woff
+    |   |
+    |   \---js
+    |           bootstrap.min.js
+    |
+    +---css
+    |       global.css
+    |
+    +---ErrorDocuments
+    |       403.html
+    |       404.html
+    |
+    +---livepreview
+    |   +---businessbox
+    |   |   |   about.html
+    |   |   |   contact.html
+    |   |   |   features.html
+    |   |   |   index.html
+    |   |   |   services.html
+    |   |   |
+    |   |   \---css
+    |   |           about.css
+    |   |           contact.css
+    |   |           services.css
+    |   |           style.css
+    |   |
+    |   +---freshco
+    |   |   |   index.html
+    |   |   |
+    |   |   \---css
+    |   |           style.css
+    |   |
+    |   +---pager
+    |   |   |   index.html
+    |   |   |
+    |   |   \---css
+    |   |           style.css
+    |   |
+    |   +---purity
+    |   |   |   index.html
+    |   |   |
+    |   |   \---css
+    |   |           style.css
+    |   |
+    |   +---urbanprism
+    |   |   |   aboutus.html
+    |   |   |   contacts.html
+    |   |   |   index.html
+    |   |   |   index2.html
+    |   |   |
+    |   |   \---css
+    |   |           aboutus.css
+    |   |           style.css
+    |   |
+    |   +---yourcoolportfolio
+    |   |       index.html
+    |   |       style.css
+    |   |
+    |   \---yourflatportfolio
+    |           index.html
+    |           style.css
+    |
+    \---template
+            businessbox.html
+            freshco.html
+            pager.html
+            purity.html
+            urbanprism.html
+            yourcoolportfolio.html
+            yourflatportfolio.html
+`````
 ___
 For more information go to www.freetemplatesdownload.info
