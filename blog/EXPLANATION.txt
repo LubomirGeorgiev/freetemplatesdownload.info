@@ -1,0 +1,5 @@
+The blog directory here represents http://freetemplatesdownload.info/blog/.
+But don't get confused the actual blog of the website is powered by WordPress.
+Now I probably made things seem even more complicated than they seemed before.
+
+So you are wondering why is that /wp-content/themes/ inside of this folder. Well it's because I use Jekyll to generate the menu because Jekyll knows all the templates and all of their names and data. So Jekyll generates an HTML file which contains links to all the templates then this file is stored in the WordPress theme. Then I use `PHP include` to insert those links in to the dropdown menu in the main nav of the blog and it all happens automatically. Hmm, cool stuff, ahh :)

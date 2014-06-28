@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 // PRETTIFY
 		 prettify: {
 		    options: {
-		      indent: 2,
+		      indent: 4,
 		      preserve_newlines: true
 		    },
 		  all: {

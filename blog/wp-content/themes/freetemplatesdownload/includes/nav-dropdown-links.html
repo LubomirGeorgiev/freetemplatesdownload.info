@@ -1,0 +1,13 @@
+---
+template: none
+---
+
+<ul class="dropdown-menu">
+    {% comment %} <!-- COMMENT -->
+        For more info read:
+        https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/blog/EXPLANATION.txt
+    {% endcomment %}
+    {% for post in site.categories.template %}
+        <li class="{{ post.template-name-lowercase-no-spaces }}-link"><a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.navlinks-analytics-code }}">{{ post.template-name }}</a></li>
+    {% endfor %}
+</ul>
