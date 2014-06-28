@@ -34,6 +34,13 @@ _SITE_COMPILED/
 			|   index.html
 			|   sitemap.html
 			|
+			+---blog
+			|   \---wp-content
+			|       \---themes
+			|           \---freetemplatesdownload
+			|               \---includes
+			|                       nav-dropdown-links.html
+			|
 			+---bootstrap
 			|   +---css
 			|   |       bootstrap.min.css
@@ -74,6 +81,12 @@ _SITE_COMPILED/
 			|   |   \---css
 			|   |           style.css
 			|   |
+			|   +---inspirator
+			|   |   |   index.html
+			|   |   |
+			|   |   \---css
+			|   |           style.css
+			|   |
 			|   +---pager
 			|   |   |   index.html
 			|   |   |
@@ -105,13 +118,14 @@ _SITE_COMPILED/
 			|           style.css
 			|
 			\---template
-					businessbox.html
-					freshco.html
-					pager.html
-					purity.html
-					urbanprism.html
-					yourcoolportfolio.html
-					yourflatportfolio.html
+			        businessbox.html
+			        freshco.html
+			        inspirator.html
+			        pager.html
+			        purity.html
+			        urbanprism.html
+			        yourcoolportfolio.html
+			        yourflatportfolio.html
 `````
 ___
 For more information go to www.freetemplatesdownload.info
