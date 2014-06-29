@@ -37,7 +37,7 @@ permalink: /sitemap.html
 
               {% for post in site.categories.template %}
                   <a href="/livepreview/{{ post.template-name-lowercase-no-spaces }}/{{ site.sitemap-analytics-code }}" class="list-group-item">
-                    {{ post.template-name }} <small>/livepreview/{{ post.template-name-lowercase-no-spaces }}/</small>
+                    {{ post.template-name }}  /  LivePreview <small>/livepreview/{{ post.template-name-lowercase-no-spaces }}/</small>
                   </a>
               {% endfor %}
 
