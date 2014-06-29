@@ -9,4 +9,6 @@ permalink: /template/yourflatportfolio.html
 
 template-large-img: "http://freetemplatesdownload.info/images/promobillboards/yourflatportfolio.jpg"
 template-small-img: "http://freetemplatesdownload.info/images/homepage/NEWyourflatportfolio.jpg"
+
+show-on-homepage: "no"
 ---

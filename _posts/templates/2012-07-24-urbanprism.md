@@ -9,4 +9,6 @@ permalink: /template/urbanprism.html
 
 template-large-img: "http://freetemplatesdownload.info/images/promobillboards/urbanprism.jpg"
 template-small-img: "http://freetemplatesdownload.info/images/homepage/urbanprism.jpg"
+
+show-on-homepage: "no"
 ---

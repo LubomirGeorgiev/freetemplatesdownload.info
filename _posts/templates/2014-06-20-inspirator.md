@@ -9,4 +9,6 @@ permalink: /template/inspirator.html
 
 template-large-img: "http://freetemplatesdownload.info/images/promobillboards/inspirator.jpg"
 template-small-img: "http://freetemplatesdownload.info/images/homepage/inspirator.jpg"
+
+show-on-homepage: "yes"
 ---
