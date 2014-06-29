@@ -32,79 +32,27 @@ body-classes: "page homepage"
   </div><!-- //.welcome-hero -->
 </div>
 
-<div class="billboard-heros clearfix margintop">
+<div class="billboard-heros clearfix">
 
-<div class="container">
- <div class="col-lg-12">
-        <div class="row">
-          <div class="col-lg-5 col-md-5">
-            <a href="http://freetemplatesdownload.info/template/inspirator.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><img class="img-responsive" alt="Inspirator a free web template" src="http://freetemplatesdownload.info/images/homepage/inspirator.jpg"></a>
+{% for post in site.categories.template %}
+{% if post.show-on-homepage == "yes" %}
+<div class="container margintop">
+  <div class="row">
+          <div class="col-md-6">
+            <a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.homepage-analytics-code }}"><img class="img-responsive" alt="Inspirator a free web template" src="{{ post.template-small-img }}"></a>
           </div>
-          <div class="col-lg-7 col-md-7 text-center">
-              <a href="http://freetemplatesdownload.info/template/inspirator.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><h2 style="font-size: 60px;">INSPIRATOR</h2></a>
-              <ul class="list-unstyled">
-                  <li><span class="glyphicon glyphicon-ok"></span> Full Width</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> Multi page</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> 100% Retina enhanced</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> Multipurpose use</li>
-                  <li><span class="glyphicon glyphicon-ok"></span> Comes with 4 pages</li>
-              </ul>
+          <div class="col-md-6 text-center">
+              <a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.homepage-analytics-code }}"><h2>{{ post.template-name }}</h2></a>
+              <div class="btn-group btn-group-justified">
+            <a class="btn btn-default btn-lg" href="/template/{{ post.template-name-lowercase-no-spaces }}.html">View</a>
+            <a class="btn btn-default btn-lg" href="{{ site.url }}/download/{{ post.template-name-lowercase-no-spaces }}.zip">Download</a>
+              </div>
           </div>
-        </div>
-      </div>
+  </div>
 </div><!-- /.container -->
+{% endif %}
+{% endfor %}
 
-<div class="businessbox featured margintop">
-  <div class="container">
-  <div class="row">
-      <div class="col-lg-12">
-        <div class="row">
-          <div class="col-lg-5 col-md-5">
-            <a href="http://freetemplatesdownload.info/template/businessbox.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><img class="img-responsive" alt="BusinessBox is a free web template. - fully responsible, retina compatible, mobile friendly, multipurpose use, beautiful design" src="http://freetemplatesdownload.info/images/homepage/NEWbusinessbox.jpg"></a>
-          </div>
-          <div class="col-lg-7 col-md-7 text-center">
-              <a href="http://freetemplatesdownload.info/template/businessbox.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><h2>BusinessBox</h2>
-              <h3>A free multipurpose web template</h3></a>
-              <ul class="list-unstyled">
-                <li><span class="glyphicon glyphicon-ok"></span> Fully responsible</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Multi page</li>
-                <li><span class="glyphicon glyphicon-ok"></span> 100% Retina enhanced</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Mobile friendly</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Multipurpose use</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Beautiful design</li>
-              </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="pager-template featured margintop">
-  <div class="container">
-  <div class="row">
-      <div class="col-lg-12">
-        <div class="row">
-          <div class="col-lg-5 col-md-5">
-            <a href="http://freetemplatesdownload.info/template/pager.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><img class="img-responsive" alt="pager is a free web template. - Fresh looking, Fully responsible, Beautiful, Full Screen Slider, Multipurpose use, Mobile friendly, Beautiful design" src="http://freetemplatesdownload.info/images/homepage/pager.jpg"></a>
-          </div>
-          <div class="col-lg-7 col-md-7 text-center">
-              <a href="http://freetemplatesdownload.info/template/pager.html?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"><h2>Pager</h2>
-              <h3>A single page web template.</h3></a>
-              <ul class="list-unstyled">
-                <li><span class="glyphicon glyphicon-ok"></span> Fresh looking</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Fully responsible</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Beautiful Full Screen Slider</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Multipurpose use</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Mobile friendly</li>
-                <li><span class="glyphicon glyphicon-ok"></span> Uses {less} css</li>
-              </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 </div>
 
     <a class="alltemplates-home-button" href="/all-templates.html">Click here to see all available templates <span class="glyphicon glyphicon-chevron-right"></span></a>

@@ -9,4 +9,6 @@ permalink: /template/businessbox.html
 
 template-large-img: "http://freetemplatesdownload.info/images/promobillboards/businessbox.jpg"
 template-small-img: "http://freetemplatesdownload.info/images/homepage/NEWbusinessbox.jpg"
+
+show-on-homepage: "yes"
 ---

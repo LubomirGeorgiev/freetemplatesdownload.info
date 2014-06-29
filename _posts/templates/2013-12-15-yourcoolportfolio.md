@@ -9,4 +9,6 @@ permalink: /template/yourcoolportfolio.html
 
 template-large-img: "http://freetemplatesdownload.info/images/promobillboards/yourcoolportfolio.jpg"
 template-small-img: "http://freetemplatesdownload.info/images/homepage/NEWyourcoolportfolio.jpg"
+
+show-on-homepage: "no"
 ---
