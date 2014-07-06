@@ -16,9 +16,9 @@ permalink: /sitemap.html
           <div class="panel-heading">Main pages</div>
           <div class="panel-body">
               <div class="list-group">
-              <a href="/{{ site.sitemap-analytics-code }}" class="list-group-item">Home <small>www.freetemplatesdownload.info</small></a>
-              <a href="/all-templates.html{{ site.sitemap-analytics-code }}" class="list-group-item">All templates <small>/all-templates.html</small></a>
-              <a href="/sitemap.html{{ site.sitemap-analytics-code }}" class="list-group-item">Website sitemap <small>/sitemap.html</small></a>
+              <a href="{{ site.url }}/{{ site.sitemap-analytics-code }}" class="list-group-item">Home <small>www.freetemplatesdownload.info</small></a>
+              <a href="{{ site.url }}/all-templates.html{{ site.sitemap-analytics-code }}" class="list-group-item">All templates <small>/all-templates.html</small></a>
+              <a href="{{ site.url }}/sitemap.html{{ site.sitemap-analytics-code }}" class="list-group-item">Website sitemap <small>/sitemap.html</small></a>
               </div>
           </div>
           </div>
@@ -30,13 +30,13 @@ permalink: /sitemap.html
 
               {% comment %} <!-- COMMENT -->
               This is an example of what the following loop spits out:
-                <a href="/livepreview/pager/?utm_source=sitemap&utm_medium=referral&utm_campaign=sitemap" class="list-group-item">
+                <a href="{{ site.url }}/livepreview/pager/?utm_source=sitemap&utm_medium=referral&utm_campaign=sitemap" class="list-group-item">
                   Pager <small>/livepreview/pager/</small>
                 </a>
               {% endcomment %}
 
               {% for post in site.categories.template %}
-                  <a href="/livepreview/{{ post.template-name-lowercase-no-spaces }}/{{ site.sitemap-analytics-code }}" class="list-group-item">
+                  <a href="{{ site.url }}/livepreview/{{ post.template-name-lowercase-no-spaces }}/{{ site.sitemap-analytics-code }}" class="list-group-item">
                     {{ post.template-name }}  /  LivePreview <small>/livepreview/{{ post.template-name-lowercase-no-spaces }}/</small>
                   </a>
               {% endfor %}
@@ -53,13 +53,13 @@ permalink: /sitemap.html
 
           {% comment %} <!-- COMMENT -->
           This is an example of what the following loop spits out:
-          <a href="/template/pager.html?utm_source=sitemap&utm_medium=referral&utm_campaign=sitemap" class="list-group-item">
+          <a href="{{ site.url }}/template/pager.html?utm_source=sitemap&utm_medium=referral&utm_campaign=sitemap" class="list-group-item">
             Pager <small>/template/pager.html</small>
           </a>
           {% endcomment %}
 
           {% for post in site.categories.template %}
-              <a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.sitemap-analytics-code }}" class="list-group-item">
+              <a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.sitemap-analytics-code }}" class="list-group-item">
                 {{ post.template-name }} <small>/template/{{ post.template-name-lowercase-no-spaces }}.html</small>
               </a>
           {% endfor %}

@@ -39,12 +39,12 @@ body-classes: "page homepage"
     <div class="container margintop">
       <div class="row">
               <div class="col-md-6">
-                <a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.homepage-analytics-code }}"><img class="img-responsive" alt="{{ post.template-name }} - A Free Web Template" title="{{ post.template-name }} - A Free Web Template" src="{{ post.template-small-img }}"></a>
+                <a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.homepage-analytics-code }}"><img class="img-responsive" alt="{{ post.template-name }} - A Free Web Template" title="{{ post.template-name }} - A Free Web Template" src="{{ post.template-small-img }}"></a>
               </div>
               <div class="col-md-6 text-center">
-                  <a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.homepage-analytics-code }}"><h2>{{ post.template-name }}</h2></a>
+                  <a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.homepage-analytics-code }}"><h2>{{ post.template-name }}</h2></a>
                   <div class="btn-group btn-group-justified">
-                    <a class="btn btn-default btn-lg" href="/template/{{ post.template-name-lowercase-no-spaces }}.html">View</a>
+                    <a class="btn btn-default btn-lg" href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html">View</a>
                     <a class="btn btn-default btn-lg" href="{{ site.url }}/download/{{ post.template-name-lowercase-no-spaces }}.zip">Download</a>
                   </div>
               </div>
@@ -55,7 +55,7 @@ body-classes: "page homepage"
 
 </div>
 
-    <a class="alltemplates-home-button" href="/all-templates.html">Click here to see all available templates <span class="glyphicon glyphicon-chevron-right"></span></a>
+    <a class="alltemplates-home-button" href="{{ site.url }}/all-templates.html">Click here to see all available templates <span class="glyphicon glyphicon-chevron-right"></span></a>
 
 <div class="container blog-billboard">
     <div class="col-md-12">
