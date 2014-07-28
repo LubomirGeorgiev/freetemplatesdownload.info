@@ -12,7 +12,7 @@
         {% endcomment %}
 
         {% for post in site.categories.template %}
-            <li class="{{ post.template-name-lowercase-no-spaces }}-link"><a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.navlinks-analytics-code }}">{{ post.template-name }}</a></li>
+            <li class="{{ post.template-name-lowercase-no-spaces }}-link"><a href="/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.data.site.navlinks-analytics-code }}">{{ post.template-name }}</a></li>
         {% endfor %}
     </ul>
 </li>

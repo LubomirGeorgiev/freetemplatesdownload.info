@@ -1,10 +1,12 @@
 ## Site settings ##
 title: Your awesome title
-email: "lubomirgeorgievgeorgiev[at]gmail.com"
 author: "Lubomir Georgiev - Любомир Георгиев"
+email: "lubomirgeorgievgeorgiev[at]gmail.com"
+
 description: "Free HTML Web Templates. The place where you can download web templates just for free."
 baseurl: ""
 url: "http://freetemplatesdownload.info"
+
 encoding:         UTF-8
 
 destination:      ./_SITE_COMPILED
@@ -27,8 +29,3 @@ exclude:
   - "BACKUP"
   - "LICENSE"
   - "blog/EXPLANATION.txt"
-
-# Google Analytics Tracking Codes
-sitemap-analytics-code: "?utm_source=sitemap&utm_medium=referral&utm_campaign=sitemap"
-navlinks-analytics-code: "?utm_source=MainNav&utm_medium=referral&utm_campaign=MainNav+to+Template"
-homepage-analytics-code: "?utm_source=Homepage&utm_medium=referral&utm_campaign=Homepage+to+Template"

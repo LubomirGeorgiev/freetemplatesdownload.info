@@ -39,12 +39,12 @@ body-classes: "page homepage"
     <div class="container margintop">
       <div class="row">
               <div class="col-md-6">
-                <a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.homepage-analytics-code }}"><img class="img-responsive" alt="{{ post.template-name }} - A Free Web Template" title="{{ post.template-name }} - A Free Web Template" src="{{ post.template-small-img }}"></a>
+                <a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.data.site.homepage-analytics-code }}"><img class="img-responsive" alt="{{ post.template-name }} - A Free Web Template" title="{{ post.template-name }} - A Free Web Template" src="{{ post.template-small-img }}"></a>
               </div>
               <div class="col-md-6 text-center">
-                  <a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.homepage-analytics-code }}"><h2>{{ post.template-name }}</h2></a>
+                  <a href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.data.site.homepage-analytics-code }}"><h2>{{ post.template-name }}</h2></a>
                   <div class="btn-group btn-group-justified">
-                    <a class="btn btn-default btn-lg" href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html">View</a>
+                    <a class="btn btn-default btn-lg" href="{{ site.url }}/template/{{ post.template-name-lowercase-no-spaces }}.html{{ site.data.site.homepage-analytics-code }}">View</a>
                     <a class="btn btn-default btn-lg" href="{{ site.url }}/download/{{ post.template-name-lowercase-no-spaces }}.zip">Download</a>
                   </div>
               </div>
