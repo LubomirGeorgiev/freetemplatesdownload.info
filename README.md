@@ -21,7 +21,7 @@ ___
 ###CSS
 The main `global.css` is compiled using `Grunt.js`
 
-Assuming that you have installed `Node.js`, `npm` you should run `npm install -g grunt-cli` to install it globally then `$cd` to the project's directory and run `npm install` this will install all the necessary dependencies and now you are good to go.  :)
+Assuming that you have installed `Node.js` and `npm` you should run `npm install -g grunt-cli` to install it globally then `$cd` to the project's directory and run `npm install` this will install all the necessary dependencies and now you are good to go.  :)
 
 Further Instructions at: [Working with an existing Grunt project](http://gruntjs.com/getting-started#working-with-an-existing-grunt-project)
 ___
