@@ -14,6 +14,7 @@ destination:      ./_SITE_COMPILED
 
 ## Build settings ##
 markdown: kramdown
+highlighter: rouge ## To install "gem install rouge"
 permalink: /:categories/:title/
 
 # paginate: 7

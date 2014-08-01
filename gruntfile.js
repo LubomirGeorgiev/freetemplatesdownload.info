@@ -3,15 +3,29 @@ module.exports = function(grunt) {
 		pkg:grunt.file.readJSON('package.json'),
 
 		
-// LESS CSS 
+// LESS CSS
+// While working on it run "grunt less:dev" when you are ready to deploy please run "grunt less:prod"
 		less: {
-			compile: {
+			// ### Development (RUN --> "grunt less:dev") ###
+			dev: {
+				options: {
+					compress: false,
+					sourceMap: true,
+					sourceMapFilename: "css/global.map",
+					sourceMapURL: "global.map"
+				},
+				files: {
+					'css/global.css' : 'css/less/global.less'
+				},
+			},
+			// ### Production (RUN --> "grunt less:prod") ###
+			prod: {
 				options: {
 					compress: true
 				},
 				files: {
 					'css/global.css' : 'css/less/global.less'
-				}
+				},
 			}
 		},
 		
@@ -34,7 +48,7 @@ module.exports = function(grunt) {
 		watch: {
 		  cssmin: {
 		    files: ['css/**'],
-		    tasks: ['less']
+		    tasks: ['less:dev']
 		  }
 		}
 });

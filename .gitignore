@@ -6,6 +6,7 @@ freetemplatesdownload.sublime-project
 freetemplatesdownload.sublime-workspace
 _site
 _SITE_COMPILED
+*.map
 
 ###################
 # Compiled source #

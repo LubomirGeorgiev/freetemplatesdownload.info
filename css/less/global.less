@@ -8,10 +8,19 @@
 
  */
 
+	// ### Variables and Settings ###
     @import "includes/_variables.less";
 
+	// ### Global Styles ###
     @import "global/_main.less"; // CSS Core
 	@import "global/_typography.less"; // Typography - OpenSans 400, 600, 800
-    @import "global/_additional-pages.less"; // Styles for all additional pages
     @import "global/_footer.less"; // Global footer styles
     @import "global/_media-queries.less"; // Global Media queries
+
+    // ### Pages ###
+    @import "homepage/homepage.less";
+	@import "pages/sitemap.less";
+	@import "pages/all-templates.less";
+	@import "pages/template-review-single.less";
+	@import "pages/404.less";
+	@import "pages/403.less";
