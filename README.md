@@ -6,7 +6,7 @@ ___
 1. [**Jekyll**](www.jekyllrb.com)
     * [Rouge Highlighter](https://github.com/jneen/rouge) (to install `gem install rouge`)
 2. [Grunt.js](www.gruntjs.com) - (more info in [/gruntfile.js](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/gruntfile.js))
-3. [Node.js](www.nodejs.org) (Dependencies: `grunt-contrib-less`, `grunt-contrib-watch`, `grunt-prettify`)
+3. [Node.js](www.nodejs.org) (Dependencies: [`grunt-contrib-less`](https://github.com/gruntjs/grunt-contrib-less#getting-started), [`grunt-contrib-watch`](https://github.com/gruntjs/grunt-contrib-watch#getting-started), [`grunt-prettify`](https://github.com/jonschlinkert/grunt-prettify#grunt-prettify---))
 5. [Node Packaged Module](www.npmjs.org) npm (Dependencies at [/package.json](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/package.json))
 
 
