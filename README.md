@@ -36,7 +36,9 @@ In order to run it you will need `Jekyll`. If you want to play and experiment wi
 - [Jekyll - Installation](http://jekyllrb.com/docs/installation/)
 - [Jekyll - Basic Usage](http://jekyllrb.com/docs/usage/)
 - [Jekyll - Directory structure](http://jekyllrb.com/docs/structure/)
+
 ___
+##Last Thoughts
 
 :point_right: For more information go to www.freetemplatesdownload.info :point_left:
 
