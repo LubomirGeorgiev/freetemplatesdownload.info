@@ -1,0 +1,143 @@
+/*
+Template name: BusinessBox
+File: about.css
+*/
+.aboutheader {
+width: 100%;
+background:url("http://freetemplatesdownload.info/serviceimgs/thumbs/blurred-green.jpg") repeat scroll center center / cover  rgba(0, 0, 0, 0);
+overflow: hidden;
+white-space: nowrap;
+}
+
+.aboutheader > .text-center > h1 {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5),0 0 20px rgba(0,0,0,0.2);
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0 80px 0;
+}
+
+.aboutheader > .glyphicon {
+    position: relative;
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    top: 5px;
+}
+
+.aboutheader > .glyphicon.big {
+    margin-left: -5px;
+}
+
+.aboutheader > .glyphicon.small {
+    margin-left: -15px;
+}
+
+.aboutheader > .glyphicon.big {
+    font-size: 150px;
+}
+
+
+.text-wrap {
+    padding: 0 35px 0 35px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.text-wrap > p {
+    padding-left: 20px;
+    margin-bottom: 70px;
+}
+
+.text-wrap > h2 {
+font-weight: bold;
+}
+
+.team > h2 {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.thumbnail {
+margin-bottom: 30px !important;
+width: 100% !important;
+}
+
+a.thumbnail > img {
+height: 400px;
+width: 100%;
+display: block;
+}
+
+a.thumbnail:hover, a.thumbnail:focus {
+    border: 1px solid #fff !important;
+}
+
+/*
+Thumbnail Caption
+*/
+.mask {
+    position:relative;
+    border:5px solid #f6f6f6;
+    overflow:hidden;
+    float:left;
+}
+
+.imgcaption {  
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;  
+    color: #fff !important;  
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 5px 20px 10px 25px;
+    font-size:0.9em;
+    opacity: 0;
+    -webkit-transition: all 350ms ease-out;
+    -moz-transition: all 350ms ease-out;
+    -o-transition: all 350ms ease-out;
+    -ms-transition: all 350ms ease-out;
+    transition: all 350ms ease-out;
+}
+
+.imgcaption > p {
+    position: absolute;
+    bottom: 10px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.mask:hover .imgcaption {  
+    opacity: 1;  
+}
+/*
+Thumbnail Caption
+*/
+
+/* 4. Media Queries  and Responsiveness */
+
+@media (min-width: 1600px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 1200px) {
+
+}

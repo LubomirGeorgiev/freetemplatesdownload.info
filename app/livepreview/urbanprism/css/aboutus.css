@@ -1,0 +1,29 @@
+.ourteam .col-lg-3.person-info .box h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.ourteam .col-lg-3.person-info .box h3 small {
+  font-style: italic;
+}
+.ourteam .col-lg-3.person-info .box p {
+  margin-top: 40px;
+}
+.contactus .col-lg-5 .box .address ul.list-unstyled li {
+  font-size: 20px;
+  text-align: center;
+}
+.contactus .col-lg-5 .box .address ul.list-unstyled li h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.contactus .col-lg-5 .box .contactdetails {
+  margin-top: 70px;
+}
+.contactus .col-lg-5 .box .contactdetails ul.list-unstyled li {
+  font-size: 20px;
+  text-align: center;
+}
+.contactus .col-lg-5 .box .contactdetails ul.list-unstyled li h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
