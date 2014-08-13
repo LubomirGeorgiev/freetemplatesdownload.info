@@ -4,9 +4,7 @@
   "version": "0.0.0",
   "description": "Yeoman workflow for jekyllrb",
   "dependencies": {},
-  "scripts": {
-    "test": "grunt run-all --verbose"
-  },
+  "scripts": {},
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.6.4",
