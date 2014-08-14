@@ -8,4 +8,4 @@ before_install:
 
 before_script:
    - bower install
-   - grunt run-all --verbose
+   - grunt build --verbose
