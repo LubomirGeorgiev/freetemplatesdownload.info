@@ -1,4 +1,4 @@
-#[freetemplatesdownload.info](http://freetemplatesdownload.info/)
+#[freetemplatesdownload.info](http://freetemplatesdownload.info/) [![Build Status](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info.svg?branch=master)](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info)
 Free HTML Web Templates. The place where you can download web templates just for free.
 ___
 
