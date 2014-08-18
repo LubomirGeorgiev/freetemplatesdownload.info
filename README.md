@@ -12,16 +12,17 @@ ___
 3. [Node.js (npm)](www.nodejs.org)
     * ([Dependencies at package.json](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/package.json))
 4. [Bower](http://bower.io/)
-    * [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Official Website](http://getbootstrap.co))
+    * [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Documentation](http://getbootstrap.com))
     *  [Jquery](http://jquery.com/)
 
 ##Running, compiling and installing it
 
-1.  Install [Node.js](www.nodejs.org)
-2.  Install [Jekyll](http://jekyllrb.com/)
-2.  Install `grunt-cli` globally with `npm install -g grunt-cli`
-3.  `$cd` to the directory and run `npm install` to install the necessary `npm` dependencies
-4.  Then run `bower install` to install the front-end dependencies
+1.  [Download the repository](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip)
+2.  Install [Node.js](www.nodejs.org)
+3.  Install [Jekyll](http://jekyllrb.com/)
+4.  Install `grunt-cli` globally with `npm install -g grunt-cli`
+5.  `$cd` to the directory and run `npm install` to install the necessary `npm` dependencies
+6.  Then run `bower install` to install the front-end dependencies
 
 ___
 ##Grunt Workflow:

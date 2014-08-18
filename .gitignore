@@ -37,6 +37,7 @@ _bower_components
 .bower_components
 node_modules
 .tmp
+BACKUP
 dist
 app/assets/css/global.css
 *.map
