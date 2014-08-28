@@ -320,7 +320,7 @@ module.exports = function (grunt) {
       dist: [
         'less:compile',
         'copy:dist',
-		    'copy:bower_bootstrap_fonts',
+        'copy:bower_bootstrap_fonts',
         'copy:bootstrap_css'
       ]
     }
@@ -382,7 +382,7 @@ module.exports = function (grunt) {
   // #-#-# grunt check #-#-#
     grunt.registerTask('check', [
       'clean',
-      //'jekyll:check',
+      'less',
       'jshint:all',
       'csslint:check'
     ]);

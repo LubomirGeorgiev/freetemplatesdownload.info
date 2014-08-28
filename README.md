@@ -19,10 +19,15 @@ ___
 
 1.  [Download the repository](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip)
 2.  Install [Node.js](www.nodejs.org)
-3.  Install [Jekyll](http://jekyllrb.com/)
-4.  Install `grunt-cli` globally with `npm install -g grunt-cli`
-5.  `$cd` to the directory and run `npm install` to install the necessary `npm` dependencies
-6.  Then run `bower install` to install the front-end dependencies
+3.  Install [Ruby](https://www.ruby-lang.org/)
+4.  Run `gem install bundler`
+5.  `$cd` to the directory
+6.  Run `bundle install`
+7.  Install 'grunt-cli' globally with `npm install -g grunt-cli`
+8.  Install 'bower' globally with `npm install -g bower`
+8.  Run `npm install` to install the necessary "npm" dependencies
+10. Then run `bower install` to install the front-end dependencies
+11. You are ready to rock!!! :)
 
 ___
 ##Grunt Workflow:
@@ -45,8 +50,8 @@ Author: Lubomir Georgiev(Любомир Георгиев)
 
 Copyright :copyright: 2014 Lubomir Georgiev(Любомир Георгиев) lubomirgeorgievgeorgiev@gmail.com
 
-[![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/2/29/Icons-flag-bg.png)](http://en.wikipedia.org/wiki/Bulgaria)  Да живее майка България!!!  [![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/2/29/Icons-flag-bg.png)](http://en.wikipedia.org/wiki/Bulgaria)
+[![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/2/29/Icons-flag-bg.png)](http://en.wikipedia.org/wiki/Bulgaria)  **Да живее майка България!!!**  [![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/2/29/Icons-flag-bg.png)](http://en.wikipedia.org/wiki/Bulgaria)
 
-[![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Coat_of_arms_of_Bulgaria.svg/300px-Coat_of_arms_of_Bulgaria.svg.png)](http://en.wikipedia.org/wiki/Bulgaria)
+[![Lubomir Georgiev](http://freetemplatesdownload.info/images/signature.svg)](https://github.com/LubomirGeorgiev)
 
 **Build with all the :heart: in the world.**
