@@ -45,8 +45,8 @@ Author: Lubomir Georgiev(Любомир Георгиев)
 
 Copyright :copyright: 2014 Lubomir Georgiev(Любомир Георгиев) lubomirgeorgievgeorgiev@gmail.com
 
-![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/2/29/Icons-flag-bg.png)  Да живее майка България!!!  ![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/2/29/Icons-flag-bg.png)
+[![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/2/29/Icons-flag-bg.png)](http://en.wikipedia.org/wiki/Bulgaria)  Да живее майка България!!!  [![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/2/29/Icons-flag-bg.png)](http://en.wikipedia.org/wiki/Bulgaria)
 
-![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Coat_of_arms_of_Bulgaria.svg/300px-Coat_of_arms_of_Bulgaria.svg.png)
+[![Long live mother Bulgaria!!!](http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Coat_of_arms_of_Bulgaria.svg/300px-Coat_of_arms_of_Bulgaria.svg.png)](http://en.wikipedia.org/wiki/Bulgaria)
 
 **Build with all the :heart: in the world.**

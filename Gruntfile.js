@@ -30,19 +30,16 @@ module.exports = function (grunt) {
       },
       css: {
         files: [
-          '<%= yeoman.app %>/assets/**/*.{css,less,scss}'
+          '<%= yeoman.app %>/assets/**/*.{less,scss}'
         ],
-        tasks: ['less:compile']
+        tasks: ['less:compile', 'copy:stageCss']
       },
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-          '<%= yeoman.dist %>/**/*.html',
-          '<%= yeoman.dist %>/assets/css/**/*.css',
-          '{<%= yeoman.dist %>,<%= yeoman.app %>}/<%= js %>/**/*.js',
-          '<%= yeoman.app %>/assets/images/**/*.{gif,jpg,jpeg,png,svg,webp}'
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,less,scss}'
         ]
       }
     },
@@ -334,6 +331,8 @@ module.exports = function (grunt) {
 
   // #-#-# grunt serve #-#-#
     grunt.registerTask('serve', function (target) {
+
+      
       if (target === 'dist') {
         return grunt.task.run(['build', 'connect:dist:keepalive']);
       }
