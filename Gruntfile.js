@@ -187,7 +187,7 @@ module.exports = function (grunt) {
   less: {
     compile: {
       options: {
-        
+        compress: true
       },
       files: {
         '<%= yeoman.app %>/assets/css/global.css': '<%= yeoman.app %>/assets/css/less/global.less'
@@ -289,6 +289,27 @@ module.exports = function (grunt) {
       }
     },
 
+  stylestats: {
+    options: {
+      size: true,
+      gzippedSize: true,
+      simplicity : true,
+      rules : true,
+      selectors : true,
+      lowestCohesion : true,
+      lowestCohesionSelector : true,
+      totalUniqueFontSizes : true,
+      uniqueFontSize : true,
+      totalUniqueColors : true,
+      uniqueColor : true,
+      idSelectors : true,
+      universalSelectors : true,
+      importantKeywords : true,
+      mediaQueries : true,
+    },
+    src: ['<%= yeoman.app %>/assets/css/*.css']
+  },
+
     jshint: {
       options: {
         jshintrc: '.jshintrc',
@@ -384,7 +405,8 @@ module.exports = function (grunt) {
       'clean',
       'less',
       'jshint:all',
-      'csslint:check'
+      'csslint:check',
+      'stylestats'
     ]);
 
   // #-#-# grunt #-#-#
@@ -392,10 +414,5 @@ module.exports = function (grunt) {
       'check',
       'test',
       'build'
-    ]);
-
-    grunt.registerTask('run-all', [
-      'build',
-      'serve'
     ]);
 };

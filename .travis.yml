@@ -5,7 +5,7 @@ node_js:
 before_install:
    - gem install jekyll kramdown rouge
    - npm install -g grunt-cli bower
+   - bower install
 
 before_script:
-   - bower install
-   - grunt build
+   - grunt

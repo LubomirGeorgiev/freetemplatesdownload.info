@@ -6,14 +6,16 @@ Free HTML Web Templates. The place where you can download web templates just for
 ___
 
 ##Dependencies
-1. [**Jekyll**](www.jekyllrb.com)
-    * [Rouge Highlighter](https://github.com/jneen/rouge) (to install `gem install rouge`)
-2. [Grunt.js](www.gruntjs.com)
-3. [Node.js (npm)](www.nodejs.org)
-    * ([Dependencies at package.json](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/package.json))
+1. [Ruby](https://www.ruby-lang.org/en/installation/)
+    - [Bundler](http://bundler.io/)
+    - [Jekyll](http://www.jekyllrb.com)
+        - [Rouge Highlighter](https://github.com/jneen/rouge)
+2. [Node.js (npm)](http://www.nodejs.org)
+3. [Grunt.js](http://www.gruntjs.com)
+    - ([Dependencies at package.json](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/package.json))
 4. [Bower](http://bower.io/)
-    * [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Documentation](http://getbootstrap.com))
-    *  [Jquery](http://jquery.com/)
+    - [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Documentation](http://getbootstrap.com))
+    -  [Jquery](http://jquery.com/)
 
 ##Running, compiling and installing it
 

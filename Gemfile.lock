@@ -51,3 +51,5 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 1.4.0)
   kramdown
+  rouge
+  
