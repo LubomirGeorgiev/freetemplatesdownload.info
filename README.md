@@ -1,21 +1,10 @@
 #[freetemplatesdownload.info](http://freetemplatesdownload.info/) 
 
-[![Build Status](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info.svg?branch=master)](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info)   [![devDependency Status](https://david-dm.org/LubomirGeorgiev/freetemplatesdownload.info/dev-status.svg)](https://david-dm.org/LubomirGeorgiev/freetemplatesdownload.info#info=devDependencies)   [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Build Status](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info.svg?branch=master)](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info)   [![Dependency Status](https://david-dm.org/LubomirGeorgiev/freetemplatesdownload.info.svg)](https://david-dm.org/LubomirGeorgiev/freetemplatesdownload.info)   [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Free HTML Web Templates. The place where you can download web templates just for free.
-___
 
-##Dependencies
-1. [Ruby](https://www.ruby-lang.org/en/installation/)
-    - [Bundler](http://bundler.io/)
-    - [Jekyll](http://www.jekyllrb.com)
-        - [Rouge Highlighter](https://github.com/jneen/rouge)
-2. [Node.js (npm)](http://www.nodejs.org)
-3. [Grunt.js](http://www.gruntjs.com)
-    - ([Dependencies at package.json](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/package.json))
-4. [Bower](http://bower.io/)
-    - [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Documentation](http://getbootstrap.com))
-    -  [Jquery](http://jquery.com/)
+___
 
 ##Running, compiling and installing it
 
@@ -31,7 +20,20 @@ ___
 10. Then run `bower install` to install the front-end dependencies
 11. You are ready to rock!!! :)
 
+##Dependencies
+1. [Ruby](https://www.ruby-lang.org/en/installation/)
+    - [Bundler](http://bundler.io/)
+    - [Jekyll](http://www.jekyllrb.com)
+    - [Rouge Highlighter](https://github.com/jneen/rouge)
+2. [Node.js (npm)](http://www.nodejs.org)
+3. [Grunt.js](http://www.gruntjs.com)
+    - ([Dependencies at package.json](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/package.json))
+4. [Bower](http://bower.io/)
+    - [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Documentation](http://getbootstrap.com))
+    -  [Jquery](http://jquery.com/)
+
 ___
+
 ##Grunt Workflow:
 
 -   **`grunt serve`** - Compiles all files and opens the site in your default browser. A watch task watches for changes to files and recompiles if necessary, and injects the changes into the browser with LiveReload.
@@ -44,6 +46,7 @@ ___
 
 
 ___
+
 ##Last Thoughts
 
 :point_right: For more information go to www.freetemplatesdownload.info :point_left:
