@@ -9,15 +9,13 @@ ___
 ##Running, compiling and installing it
 
 1.  [Download the repository](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/archive/master.zip) OR `git clone https://github.com/LubomirGeorgiev/freetemplatesdownload.info`
-2.  Install [Node.js](www.nodejs.org)
-3.  Install [Ruby](https://www.ruby-lang.org/)
-4.  Run `gem install bundler`
-5.  `$cd` to the directory
-6.  Run `bundle install`
-7.  Install 'grunt-cli' and 'bower' globally with `npm install -g grunt-cli bower`
-8.  Run `npm install` to install the necessary "npm" dependencies
-9. Then run `bower install` to install the front-end dependencies
-10. You are ready to rock!!! :)
+2.  Install [Node.js](www.nodejs.org) and [Ruby](https://www.ruby-lang.org/)
+3.  Run `gem install bundler`
+4.  `$cd` to the directory and run `bundle install`
+5.  Install 'grunt-cli' and 'bower' globally with `npm install -g grunt-cli bower`
+6.  Run `npm install` to install the necessary "npm" dependencies
+7. Then run `bower install` to install the front-end dependencies
+8. You are ready to rock!!! :)
 
 ___
 
@@ -42,6 +40,7 @@ ___
 4. [Bower](http://bower.io/)
     - [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Documentation](http://getbootstrap.com))
     -  [Jquery](http://jquery.com/)
+
 ___
 
 ##Last Thoughts
