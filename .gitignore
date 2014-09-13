@@ -39,6 +39,6 @@ node_modules
 .tmp
 BACKUP
 dist
-app/assets/css/global.css
+app/assets/css/**/*.css
 *.map
 .jekyll

@@ -32,7 +32,7 @@ module.exports = function (grunt) {
         files: [
           '<%= yeoman.app %>/assets/**/*.{less,scss}'
         ],
-        tasks: ['less:compile', 'copy:stageCss']
+        tasks: ['less:compile']
       },
       livereload: {
         options: {
@@ -185,15 +185,27 @@ module.exports = function (grunt) {
     },
 
   less: {
+    // Non minified version which CSSLINT uses, because otherwise
+    // it's pretty hard finding errors in a minified stylesheet
     compile: {
+      options: {
+        compress: false
+      },
+      files: {
+        '<%= yeoman.app %>/assets/css/global.build.css': '<%= yeoman.app %>/assets/css/less/global.less'
+      }
+    },
+    // Minified version for STYLESTATS
+    minify: {
       options: {
         compress: true
       },
       files: {
-        '<%= yeoman.app %>/assets/css/global.css': '<%= yeoman.app %>/assets/css/less/global.less'
+        '<%= yeoman.app %>/assets/css/global.build.min.css': '<%= yeoman.app %>/assets/css/less/global.less'
       }
     }
   },
+
 
     imagemin: {
       dist: {
@@ -261,16 +273,6 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>'
         }]
       },
-      // Copy CSS into .tmp directory for Autoprefixer processing
-      stageCss: {
-        files: [{
-          expand: true,
-          dot: true,
-          cwd: '<%= yeoman.app %>/assets/css',
-          src: '**/*.css',
-          dest: '<%= yeoman.dist %>/assets/css/'
-        }]
-      }
     },
 
     filerev: {
@@ -307,7 +309,7 @@ module.exports = function (grunt) {
       importantKeywords : true,
       mediaQueries : true,
     },
-    src: ['<%= yeoman.app %>/assets/css/*.css']
+    src: ['<%= yeoman.app %>/assets/css/global.build.min.css']
   },
 
     jshint: {
@@ -328,7 +330,7 @@ module.exports = function (grunt) {
       },
       check: {
         src: [
-          '<%= yeoman.app %>/assets/css/**/*.css'
+          '<%= yeoman.app %>/assets/css/**/*.build.css'
         ]
       }
     },
@@ -336,7 +338,6 @@ module.exports = function (grunt) {
     concurrent: {
       server: [
         'less:compile',
-        'copy:stageCss',
       ],
       dist: [
         'less:compile',

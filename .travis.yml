@@ -1,11 +1,13 @@
 language: node_js
+git:
+  depth: 3
 node_js:
   - "0.10"
 
 before_install:
-   - gem install jekyll kramdown rouge
-   - npm install -g grunt-cli bower
-   - bower install
+  - gem install jekyll kramdown rouge
+  - npm install -g grunt-cli bower
+  - bower install
 
 before_script:
-   - grunt
+  - grunt
