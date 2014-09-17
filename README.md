@@ -15,7 +15,7 @@ ___
 5.  Install 'grunt-cli' and 'bower' globally with `npm install -g grunt-cli bower`
 6.  Run `npm install` to install the necessary "npm" dependencies
 7. Then run `bower install` to install the front-end dependencies
-8. You are ready to rock!!! :)
+8. **You are ready to rock!!!** :)
 
 ___
 
@@ -39,11 +39,11 @@ ___
     - [Jekyll](http://www.jekyllrb.com)
     - [Rouge Highlighter](https://github.com/jneen/rouge)
 2. [Node.js (npm)](http://www.nodejs.org)
-3. [Grunt.js](http://www.gruntjs.com)
+    - [Grunt.js](http://www.gruntjs.com)
+    - [Bower](http://bower.io/)
+        - [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Documentation](http://getbootstrap.com))
+        -  [Jquery](http://jquery.com/)
     - ([Dependencies at package.json](https://github.com/LubomirGeorgiev/freetemplatesdownload.info/blob/master/package.json))
-4. [Bower](http://bower.io/)
-    - [twbs/bootstrap](https://github.com/twbs/bootstrap) ([Documentation](http://getbootstrap.com))
-    -  [Jquery](http://jquery.com/)
 
 ___
 

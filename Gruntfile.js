@@ -43,6 +43,7 @@ module.exports = function (grunt) {
         ]
       }
     },
+
     connect: {
       options: {
         port: 9000,
@@ -78,6 +79,7 @@ module.exports = function (grunt) {
         }
       }
     },
+
     clean: {
       dist: {
         files: [{
@@ -93,6 +95,7 @@ module.exports = function (grunt) {
         }]
       },
     },
+
     autoprefixer: {
       options: {
         browsers: ['> 5%', 'last 5 versions', 'Firefox ESR', 'Opera 12.1']
@@ -114,6 +117,7 @@ module.exports = function (grunt) {
         }]
       }
     },
+
     jekyll: {
       options: {
         //bundleExec: true,
@@ -138,12 +142,14 @@ module.exports = function (grunt) {
         }
       }
     },
+
     useminPrepare: {
       options: {
         dest: '<%= yeoman.dist %>'
       },
       html: '<%= yeoman.dist %>/index.html'
     },
+
     usemin: {
       options: {
         assetsDirs: '<%= yeoman.dist %>',
@@ -151,6 +157,7 @@ module.exports = function (grunt) {
       html: ['<%= yeoman.dist %>/**/*.html'],
       css: ['<%= yeoman.dist %>/assets/css/**/*.css']
     },
+
     htmlmin: {
       dist: {
         options: {
@@ -171,6 +178,7 @@ module.exports = function (grunt) {
         }]
       }
     },
+
     // Usemin adds files to concat
     concat: {},
     // Usemin adds files to uglify
@@ -349,7 +357,7 @@ module.exports = function (grunt) {
 
   });
 
-// ################## Define Tasks #############################
+// ################################# Task Declarations #################################
 
   // #-#-# grunt serve #-#-#
     grunt.registerTask('serve', function (target) {
