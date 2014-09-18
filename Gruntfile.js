@@ -98,22 +98,18 @@ module.exports = function (grunt) {
 
     autoprefixer: {
       options: {
-        browsers: ['> 5%', 'last 5 versions', 'Firefox ESR', 'Opera 12.1']
+        browsers: ['last 10 versions', 'Firefox ESR', 'Opera 12.1']
       },
       dist: {
         files: [{
           expand: true,
-          cwd: '<%= yeoman.dist %>/assets/css',
-          src: '**/*.css',
-          dest: '<%= yeoman.dist %>/assets/css'
+          src: '<%= yeoman.dist %>/assets/css/**/*.css'
         }]
       },
       server: {
         files: [{
           expand: true,
-          cwd: '.tmp/assets/css',
-          src: '**/*.css',
-          dest: '.tmp/assets/css'
+          src: '<%= yeoman.app %>/assets/css/**/*.css',
         }]
       }
     },
@@ -391,8 +387,8 @@ module.exports = function (grunt) {
       'concurrent:dist',
       'useminPrepare',
       'concat',
-      'autoprefixer:dist',
       'cssmin',
+      'autoprefixer:dist',
       'uglify',
       'imagemin',
       'svgmin',
