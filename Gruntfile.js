@@ -11,7 +11,11 @@ module.exports = function (grunt) {
   // Show elapsed time after tasks run
   require('time-grunt')(grunt);
   // Load all Grunt tasks
-  require('load-grunt-tasks')(grunt);
+  require('jit-grunt')(grunt);
+
+  // grunt-usemin is a bit problematic so it should be loaded manually
+  grunt.loadNpmTasks('grunt-usemin');
+
 
   grunt.initConfig({
     // Configurable paths
@@ -106,12 +110,6 @@ module.exports = function (grunt) {
           src: '<%= yeoman.dist %>/assets/css/**/*.css'
         }]
       },
-      server: {
-        files: [{
-          expand: true,
-          src: '<%= yeoman.app %>/assets/css/**/*.css',
-        }]
-      }
     },
 
     jekyll: {
@@ -367,7 +365,6 @@ module.exports = function (grunt) {
         'clean',
         'jekyll:server',
         'concurrent:server',
-        'autoprefixer:server',
         'connect:livereload',
         'watch'
       ]);

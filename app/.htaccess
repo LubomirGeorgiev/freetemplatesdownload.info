@@ -60,7 +60,7 @@ rewriterule ^bootstrap/fonts/glyphicons-halflings-regular.svg(.*)$ http://freete
     #The following lines are to avoid bugs with some browsers
     BrowserMatch ^Mozilla/4 gzip-only-text/html
     BrowserMatch ^Mozilla/4\.0[678] no-gzip
-    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html 
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 </IfModule>
 
 <IfModule mod_headers.c>
