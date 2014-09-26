@@ -34,16 +34,16 @@ module.exports = function (grunt) {
       },
       css: {
         files: [
-          '<%= yeoman.app %>/assets/**/*.{less,scss}'
+          '<%= yeoman.app %>/assets/css/**/*.scss'
         ],
-        tasks: ['less:compile']
+        tasks: ['sass:compile']
       },
       livereload: {
         options: {
           livereload: '<%= connect.options.livereload %>'
         },
         files: [
-          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,less,scss}'
+          '<%= yeoman.app %>/**/*.{html,yml,md,mkd,markdown,scss}'
         ]
       }
     },
@@ -186,24 +186,26 @@ module.exports = function (grunt) {
       }
     },
 
-  less: {
+  sass: {
     // Non minified version which CSSLINT uses, because otherwise
     // it's pretty hard finding errors in a minified stylesheet
     compile: {
       options: {
-        compress: false
+        style: 'expanded',
+        sourcemap: 'auto'
       },
       files: {
-        '<%= yeoman.app %>/assets/css/global.build.css': '<%= yeoman.app %>/assets/css/less/global.less'
+        '<%= yeoman.app %>/assets/css/global.build.css': '<%= yeoman.app %>/assets/css/sass/global.scss'
       }
     },
     // Minified version for STYLESTATS
     minify: {
       options: {
-        compress: true
+        style: 'compressed',
+        sourcemap: 'none'
       },
       files: {
-        '<%= yeoman.app %>/assets/css/global.build.min.css': '<%= yeoman.app %>/assets/css/less/global.less'
+        '<%= yeoman.app %>/assets/css/global.build.min.css': '<%= yeoman.app %>/assets/css/sass/global.scss'
       }
     }
   },
@@ -339,10 +341,10 @@ module.exports = function (grunt) {
 
     concurrent: {
       server: [
-        'less:compile',
+        'sass:compile',
       ],
       dist: [
-        'less:compile',
+        'sass:compile',
         'copy:dist',
         'copy:bower_bootstrap_fonts',
         'copy:bootstrap_css'
@@ -405,7 +407,7 @@ module.exports = function (grunt) {
   // #-#-# grunt check #-#-#
     grunt.registerTask('check', [
       'clean',
-      'less',
+      'sass',
       'jshint:all',
       'csslint:check',
       'stylestats'

@@ -1,8 +1,8 @@
 body.homepage {
-  @import "homepage/_welcoming-message.less";
-  @import "homepage/_billboard-heros.less";
-  @import "homepage/_blog-billboard.less";
-  @import "homepage/_other.less";
+  @import "_welcoming-message.scss";
+  @import "_billboard-heros.scss";
+  @import "_blog-billboard.scss";
+  @import "_other.scss";
 }
 
 /*
