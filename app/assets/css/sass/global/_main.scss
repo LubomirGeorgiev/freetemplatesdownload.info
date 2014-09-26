@@ -1,6 +1,6 @@
 body {
   font-family: Calibri, Arial, sans-serif !important;
-  background:  @background;
+  background:  $background;
   color: #000;
   font-size: 18px !important;
 }
@@ -10,7 +10,7 @@ body {
 
 
 /* The border/outline of the transparent buttons */
-  @btn-transparent-border-thickness: 3px;
+  $btn-transparent-border-thickness: 3px;
 
 a.btn.transparent {
   background: transparent !important;
@@ -32,27 +32,27 @@ a.btn.no-border-radius {
 
 //btn-default
 a.btn.btn-default.transparent {
-  border: @btn-transparent-border-thickness solid #fff;
+  border: $btn-transparent-border-thickness solid #fff;
 }
 //btn-primary
 a.btn.btn-primary.transparent {
-  border: @btn-transparent-border-thickness solid #318ee0;
+  border: $btn-transparent-border-thickness solid #318ee0;
 }
 //btn-success
 a.btn.btn-success.transparent {
-  border: @btn-transparent-border-thickness solid #00c400;
+  border: $btn-transparent-border-thickness solid #00c400;
 }
 //btn-info
 a.btn.btn-info.transparent {
-  border: @btn-transparent-border-thickness solid #45c3e9;
+  border: $btn-transparent-border-thickness solid #45c3e9;
 }
 //btn-warning
 a.btn.btn-warning.transparent {
-  border: @btn-transparent-border-thickness solid #ffa82b;
+  border: $btn-transparent-border-thickness solid #ffa82b;
 }
 //btn-danger
 a.btn.btn-danger.transparent {
-  border: @btn-transparent-border-thickness solid #f52620;
+  border: $btn-transparent-border-thickness solid #f52620;
 }
 
 /** White Fonts if needed **/
@@ -127,16 +127,16 @@ margin: 0;
 }
 
 //********** PANELS **********
-@border-radius: 10px;
+$border-radius: 10px;
 .special.panel {
 box-shadow: 0 0 3px rgba(0, 0, 0, 0.05) !important;
-border-radius: @border-radius !important;
+border-radius: $border-radius !important;
 margin-bottom: 30px !important;
 
   .panel-heading {
     font-weight: bold;
-    border-top-left-radius: @border-radius;
-    border-top-right-radius: @border-radius;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
   }
 
   .panel-body {
@@ -162,8 +162,8 @@ margin-bottom: 30px !important;
         }
         &:last-child {
         border-bottom: 0 !important;
-        border-bottom-left-radius: @border-radius !important;
-        border-bottom-right-radius: @border-radius !important;
+        border-bottom-left-radius: $border-radius !important;
+        border-bottom-right-radius: $border-radius !important;
         }
       }
     }

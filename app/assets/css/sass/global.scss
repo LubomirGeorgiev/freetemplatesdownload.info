@@ -1,0 +1,26 @@
+/*!
+
+  * freetemplatesdownload.info (http://freetemplatesdownload.info/)
+  * Copyright 2014 Lubomir Georgiev email: lubomirgeorgievgeorgiev@gmail.com
+  * GitHub Repository: https://github.com/LubomirGeorgiev/freetemplatesdownload.info
+  * Build with all the love in the world!
+  * Licensed under - Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/)
+
+ */
+
+  // ### Variables and Settings ###
+    @import "includes/_variables.scss";
+
+  // ### Global Styles ###
+    @import "global/_main.scss"; // CSS Core
+    @import "global/_typography.scss"; // Typography - OpenSans 400, 600, 800
+    @import "global/_footer.scss"; // Global footer styles
+    @import "global/_media-queries.scss"; // Global Media queries
+
+    // ### Pages ###
+    @import "homepage/homepage.scss";
+    @import "pages/sitemap.scss";
+    @import "pages/all-templates.scss";
+    @import "pages/template-review-single.scss";
+    @import "pages/404.scss";
+    @import "pages/403.scss";
