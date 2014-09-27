@@ -341,7 +341,6 @@ module.exports = function (grunt) {
 
     concurrent: {
       dist: [
-        'sass:compile',
         'copy:dist',
         'copy:bower_bootstrap_fonts',
         'copy:bootstrap_css'
@@ -363,7 +362,7 @@ module.exports = function (grunt) {
       grunt.task.run([
         'clean',
         'jekyll:server',
-        'concurrent:server',
+        'sass:compile',
         'connect:livereload',
         'watch'
       ]);
@@ -384,6 +383,7 @@ module.exports = function (grunt) {
       'stylestats',
 
       'jekyll:dist', // Jekyll cleans files from the target directory, so must run first
+      'concurrent:dist',
       'useminPrepare',
       'concat',
       'cssmin',
