@@ -340,9 +340,6 @@ module.exports = function (grunt) {
     },
 
     concurrent: {
-      server: [
-        'sass:compile',
-      ],
       dist: [
         'sass:compile',
         'copy:dist',
@@ -381,9 +378,12 @@ module.exports = function (grunt) {
   // #-#-# grunt build #-#-#
     grunt.registerTask('build', [
       'clean',
-      // Jekyll cleans files from the target directory, so must run first
-      'jekyll:dist',
-      'concurrent:dist',
+      'sass',
+      'jshint:all',
+      'csslint:check',
+      'stylestats',
+
+      'jekyll:dist', // Jekyll cleans files from the target directory, so must run first
       'useminPrepare',
       'concat',
       'cssmin',
@@ -415,7 +415,6 @@ module.exports = function (grunt) {
 
   // #-#-# grunt #-#-#
     grunt.registerTask('default', [
-      'check',
       'test',
       'build'
     ]);
