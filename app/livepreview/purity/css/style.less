@@ -1,0 +1,206 @@
+// STUFF ----------------------
+@border: 1px solid rgba(0, 0, 0, 0.2);
+@lightblue: #428BCA;
+@content-left-right-padding: 70px;
+
+// Neutralize/clear paddings
+// This mixin clears the padding
+// of the .content
+.PaddingNeutralizer() {
+	margin-left: -@content-left-right-padding;
+	margin-right: -@content-left-right-padding;
+}
+// STUFF ----------------------
+
+body {
+	font-family: Calibri, Arial, sans-serif;
+	background: url(http://freetemplatesdownload.info/images/texture.jpg);
+}
+
+h1,h2,h3,h4,h5 {
+	text-transform: uppercase;
+}
+
+.leftnav {
+padding-right: 0;
+
+	ul.list-unstyled {
+	background: rgba(255, 255, 255, 0.65);
+	box-shadow: inset -2px 1px 3px rgba(0,0,0,.12);
+	border-left: @border;
+	border-bottom: @border;
+	border-top: @border;
+
+		li.category {
+			text-align: center;
+			box-shadow: 0;
+			padding: 15px 0;
+			box-shadow: inset 0 0 30px rgba(0,0,0,.15);
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			cursor: default;
+		}
+
+		li.active {
+				a {
+				position:relative;
+				background: url(http://freetemplatesdownload.info/serviceimgs/active-triangle.png) no-repeat right center;
+				z-index: 999;
+				left: 1px;
+			}
+		}
+
+		li {
+			display: block;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+			box-shadow: 0 0 9px -4px rgba(0, 0, 0, 0.2);
+			font-size: 15px;
+
+			a {
+				display: block;
+				padding: 10px 25px;
+				font-weight: bold;
+				color: darken(@lightblue, 15%);
+
+				&:hover, &:focus {
+					text-decoration: none;
+					color: @lightblue;
+				}
+			}
+		}
+	}
+}
+
+.rightcontent {
+border: @border;
+padding-left: 0 !important;
+padding-right: 0 !important;
+
+
+	.content {
+		background: #fff;
+		padding: 10px @content-left-right-padding 40px @content-left-right-padding;
+
+		.hero-billboard {
+			.PaddingNeutralizer(); //line #7
+			margin-top: 70px;
+		}
+
+		.heading {
+		font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+
+		h1 {
+			font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+			font-size: 60px;
+			text-align: center;
+			margin-bottom: 0;
+			}
+
+		small {
+			display: block;
+			font-size: 25px;
+			vertical-align: 11px;
+			text-align: center;
+			margin-bottom: 80px;
+			color: #b2b2b2;
+		}
+		}
+
+	.row.section {
+		margin-top: 70px;
+		.col-lg-3 {
+			span {
+				font-size: 150px;
+				color: saturate(@lightblue, 0%);
+				text-shadow: 3px -1px 5px rgba(0, 0, 0, 0.2);
+			}
+		}
+	}
+
+	.testimonials {
+		.PaddingNeutralizer();
+
+		h3 {
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 20px;
+			margin-top: 25px;
+		}
+
+		.col-lg-4 {
+			padding-left: 0;
+			padding-right: 0;
+
+		.face {
+		position: relative;
+
+			.caption {
+			background-color: #000000;
+			bottom: 0;
+			color: #ababab;
+			font-family: 'tahoma';
+			font-size: 20px;
+			left: 0;
+			opacity: 0.65;
+			position: absolute;
+			width: 100%;
+			padding: 15px;
+			box-shadow: 8px 0 15px rgba(255, 255, 255, 0.6);
+
+			span {
+				font-family: Georgia, serif;
+				font-weight: bold;
+				text-shadow: 1px 1px 2px #000000;
+				display: block;
+
+				small {
+					float: right;
+					color: #fff;
+				}
+			}
+			}
+		}
+		}
+	}
+	}
+
+	.section.contacts {
+
+		.col-lg-6 {
+			.address {
+				margin-left: 40px;
+			}
+		}
+	}
+}
+
+
+@media(max-width:767px){
+	.rightcontent .content .testimonials .col-lg-4 .face .caption  {
+	width: 45%;
+	}
+
+	.leftnav {
+		padding-left: 60px;
+		padding-right: 60px;
+
+		ul.list-unstyled {
+			border: @border;
+			margin-bottom: 40px;
+			margin-top: 40px;
+		}
+	}
+}
+@media(min-width:768px) and (max-width: 989px){
+	.rightcontent .content .testimonials .col-lg-4 .face .caption  {
+		width: 60%;
+	}
+}
+
+@media(min-width:992px){
+	.rightcontent .content .row.section .col-lg-3 span {
+		font-size: 120px;
+		margin-top: 40px;
+	}
+}
+@media(min-width:1200px){}

@@ -32,20 +32,6 @@ ExpiresByType application/x-javascript "access plus 1 week"
 
 
 
-#############################
-## Redirect the icon fonts ##
-#############################
-
-rewriterule ^bootstrap/fonts/glyphicons-halflings-regular.woff(.*)$ http://freetemplatesdownload.info/assets/fonts/glyphicons-halflings-regular.woff$1 [r=301,nc]
-
-rewriterule ^bootstrap/fonts/glyphicons-halflings-regular.eot(.*)$ http://freetemplatesdownload.info/assets/fonts/glyphicons-halflings-regular.eot$1 [r=301,nc]
-
-rewriterule ^bootstrap/fonts/glyphicons-halflings-regular.svg(.*)$ http://freetemplatesdownload.info/assets/fonts/glyphicons-halflings-regular.svg$1 [r=301,nc]
-
-
-
-
-
 #####################################
 ## Enable gzip Server Compression  ##
 #####################################

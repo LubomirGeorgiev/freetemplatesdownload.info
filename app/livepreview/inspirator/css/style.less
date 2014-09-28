@@ -1,0 +1,214 @@
+@nav-border: 1px solid rgba(95,95,95,.7);
+@content-padding: 30px;
+@content-border-radius: 50px;
+@border-radius-smallviewport: 15px;
+
+body {
+	line-height: 1.7 !important;
+	font-size: 17px;
+	letter-spacing: .3px;
+	word-spacing: .5px;
+	background: url(http://freetemplatesdownload.info/serviceimgs/dark-texture.jpg);
+}
+
+.img-responsive {
+width: 100%;
+}
+
+.cursive {
+	font-family: cursive;
+}
+
+.monospace {
+	font-family: monospace;
+}
+
+.row {
+
+	.col-md-2 {
+		padding: 0 10%;
+
+		ul.navigation {
+			color: #fff;
+			margin-top: 120px;
+			border-right: @nav-border;
+			border-left: @nav-border;
+			
+			li {
+				border-bottom: @nav-border;
+				background: rgba(65,65,65,.6);
+				box-shadow: 0 0 10px rgba(0,0,0,.7);
+
+					a {
+						color: #fff;
+						font-size: 20px;
+						display: block;
+						padding: 15px 25px;
+						text-align: center;
+						transition: all 0.5s ease;
+
+							&:hover {
+								background: rgba(20,20,20,.5);
+								text-decoration: none;
+							}
+				}
+
+				&:first-of-type {
+					border-top: @nav-border;
+				}
+			}
+
+			.current {
+				background: rgba(40,40,40,.5);
+				box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+			}
+		}
+	}
+
+	.col-md-10 {
+
+		.content {
+			margin-top: 50px;
+			margin-left: 1px;
+			padding: @content-padding;
+			background: #fff;
+			border-top-left-radius: @content-border-radius;
+			min-height: 100vh;
+			box-shadow: 0 0 20px rgba(0,0,0,.5), 0 0 10px #000,0 0 5px #000;
+			border-radius: @border-radius-smallviewport @border-radius-smallviewport 0 0;
+
+				.full {
+					margin-left: -@content-padding;
+					margin-right: -@content-padding;
+				}
+
+				p {
+					margin-bottom: 25px;
+				}
+
+				.head-image {
+					height: 450px;
+					margin-bottom: 30px;
+					margin-top: -@content-padding;
+					background: url(http://freetemplatesdownload.info/serviceimgs/beach.jpg) center 100%;
+					background-size: cover;
+					border-radius: @border-radius-smallviewport @border-radius-smallviewport 0 0;
+					text-align: center;
+
+						h1 {
+							position: relative;
+							margin: auto;
+							padding: 5px 20px;
+							top: 40%;
+							display: inline-block;
+							color: #fff;
+							font-weight: bold;
+							font-size: 100px;
+							text-transform: uppercase;
+							text-shadow: 0 0 3px rgba(0,0,0,.3), 0 0 10px rgba(0,0,0,.35);
+							text-align: center;
+							border: 10px solid #fff;
+							box-shadow: 0 0 10px rgba(0,0,0,.3), 0 0 3px rgba(0,0,0,.3),inset 0 0 10px rgba(0,0,0,.3);
+						}
+				}
+
+				h1.fancy-title,h2.fancy-title,h3.fancy-title,h4.fancy-title,h5.fancy-title {
+					margin-top: 40px !important;
+					margin-bottom: 15px !important;
+					box-shadow: 0 -10px 15px -10px rgba(0,0,0,0.2);
+					padding: 15px 10px;
+					text-align: center;
+				}
+				
+				.panel-group {
+
+					.panel-title > a {
+						display: block;
+						padding: 15px 20px;
+
+						&:hover {
+							text-decoration: none;
+						}
+					}
+
+					.panel-heading {
+						padding: 0 !important;
+						border-radius: 0 !important;
+					}
+
+					.panel + .panel {
+						margin-top: 15px !important;
+					}
+
+					.panel-img {
+						margin: -15px -15px 20px -15px;
+					}
+				}
+
+				.col-md-5, .col-md-7 {
+					margin-top: 30px;
+				}
+		} // .content
+	}
+}
+
+.get-in-touch {
+	background: #000;
+	padding: 50px;
+	background: linear-gradient(135deg, rgba(249,168,54,1) 0%,rgba(220,139,24,1) 100%);
+	margin-top: 50px;
+	text-align: center;	
+}
+
+@media(min-width: 992px) {
+
+ .container {
+ 	width: 100% !important;
+ }
+
+ .row .col-md-2 {
+	padding: 0 !important;
+}
+
+.row .col-md-10 {
+	padding: 0 !important;
+}
+
+ .row .col-md-2 ul.navigation {
+ 	border-left: 0;
+ }
+
+ .row .col-md-2 ul.navigation li a {
+	text-align: left;
+	padding: 10px 25px;
+ }
+
+ .row .col-md-10 .content .head-image {
+	border-radius: @content-border-radius 0 0 0;
+ }
+
+ .row .col-md-10 .content {
+	border-radius: @content-border-radius 0 0 0;
+ }
+}
+
+@media(max-width: 1100px) {
+	.row .col-md-10 .content .head-image h1 {
+		font-size: 80px;
+	}
+}
+
+@media(max-width: 800px) {
+	.row .col-md-10 .content .head-image h1 {
+		font-size: 60px;
+		border: 7px solid #fff;
+	}
+}
+
+@media(max-width: 600px) {
+	.row .col-md-10 .content .head-image h1 {
+		font-size: 37px;
+		padding: 5px 10px;
+		border: 5px solid #fff;
+	}
+}

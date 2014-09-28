@@ -176,7 +176,17 @@ module.exports = function (grunt) {
     // Usemin adds files to concat
     concat: {},
     // Usemin adds files to uglify
-    uglify: {},
+
+    uglify: {
+      bootstrap_and_jquery: {
+        options: {
+          preserveComments: 'some'
+        },
+        files: {
+          '<%= yeoman.dist %>/bootstrap/js/bootstrap.min.js': ['<%= yeoman.app %>/.bower_components/jquery/dist/jquery.min.js', '<%= yeoman.app %>/.bower_components/bootstrap/dist/js/bootstrap.min.js']
+        },
+      },
+    },
     // Usemin adds files to cssmin
     cssmin: {
       dist: {
@@ -237,13 +247,22 @@ module.exports = function (grunt) {
     },
 
     copy: {
-      bower_bootstrap_fonts: {
+      bootstrap_fonts_to_assets: {
         files: [{
           expand: true,
           dot: true,
           flatten: true,
           src: '<%= yeoman.app %>/.bower_components/bootstrap/dist/fonts/**/*',
           dest: '<%= yeoman.dist %>/assets/fonts/'
+        }]
+      },
+      fonts_to_bootstrap: {
+        files: [{
+          expand: true,
+          dot: true,
+          flatten: true,
+          src: '<%= yeoman.app %>/.bower_components/bootstrap/dist/fonts/**/*',
+          dest: '<%= yeoman.dist %>/bootstrap/fonts/'
         }]
       },
       bootstrap_css: {
@@ -340,9 +359,10 @@ module.exports = function (grunt) {
     },
 
     concurrent: {
-      dist: [
+      copy_dist: [
         'copy:dist',
-        'copy:bower_bootstrap_fonts',
+        'copy:bootstrap_fonts_to_assets',
+        'copy:fonts_to_bootstrap',
         'copy:bootstrap_css'
       ]
     }
@@ -383,7 +403,7 @@ module.exports = function (grunt) {
       'stylestats',
 
       'jekyll:dist', // Jekyll cleans files from the target directory, so must run first
-      'concurrent:dist',
+      'concurrent:copy_dist',
       'useminPrepare',
       'concat',
       'cssmin',
