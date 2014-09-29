@@ -14,7 +14,8 @@ github-repository: "https://github.com/LubomirGeorgiev/freetemplatesdownload.inf
 permalink: /:categories/:title/
 
 # Grunt handles images and assets.
-exclude: ['images', 'assets/css/**.css', 'assets/css/**.js', 'assets/css/**.less', 'assets/css/**.scss', 'blog/**.txt', 'fonts', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', '**.map']
+exclude: ['images', 'assets/css/**.css', 'assets/css/**.js', 'assets/css/**.less', 'assets/css/**.scss', 'blog/**.md', 'fonts', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', '**.map']
+gems: [rouge]
 
 # _config.build.yml sets future and show_drafts to false on `grunt build`
 future: true
