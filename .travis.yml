@@ -9,8 +9,5 @@ notifications:
 
 before_install:
   - gem install jekyll rouge --no-document --no-ri --no-rdoc
-  - curl -O http://freetemplatesdownload.info/download/DependencyCaching/node_modules.zip
-  - unzip -qq node_modules.zip
-  - rm node_modules.zip
   - npm install -g grunt-cli bower
   - bower install

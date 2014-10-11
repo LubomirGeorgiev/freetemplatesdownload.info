@@ -188,13 +188,7 @@ module.exports = function (grunt) {
       },
     },
     // Usemin adds files to cssmin
-    cssmin: {
-      dist: {
-        options: {
-          check: 'gzip'
-        }
-      }
-    },
+    cssmin: {},
 
   sass: {
     // Non minified version which CSSLINT uses, because otherwise
@@ -358,6 +352,21 @@ module.exports = function (grunt) {
       }
     },
 
+    uncss: {
+      dist: {
+        options: {
+          csspath: '../app',
+          ignore: [
+              // needed for Bootstrap
+              '.open>.dropdown-menu',
+          ]
+        },
+        files: {
+          '.tmp/concat/assets/css/global.css': ['<%= yeoman.dist %>/*.html']
+        }
+      }
+    },
+
     concurrent: {
       copy_dist: [
         'copy:dist',
@@ -406,6 +415,7 @@ module.exports = function (grunt) {
       'concurrent:copy_dist',
       'useminPrepare',
       'concat',
+      'uncss',
       'cssmin',
       'autoprefixer:dist',
       'uglify',
