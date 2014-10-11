@@ -9,23 +9,23 @@
 
   p {
     margin: 0;
-    font-size: 21px;
+    font-size: round($quote-font-size);
     text-align: center;
     font-family:georgia, serif;
 
     &:before {
-    color: #ccc;
+    color: $quote-sign-color;
     content: open-quote;
-    font-size: 5em;
+    font-size: round($quote-sign-font-size);
     line-height: 0.1em;
     margin-right: 5px;
     vertical-align: -0.38em;
     }
 
     &:after {
-    color: #ccc;
+    color: $quote-sign-color;
     content: close-quote;
-    font-size: 5em;
+    font-size: round($quote-sign-font-size);
     line-height: 0.1em;
     margin-left: 5px;
     vertical-align: -0.70em;
@@ -39,11 +39,24 @@
       font-style:italic;
     }
   } // blockquote
+
+  .last-updated {
+    text-align: right;
+    padding: 0 10px;
+    font-size: round($body-font-size*0.78);
+    color: darken($light-gray, 32%);
+    cursor:help;
+
+      time {
+        border-bottom: 1px dotted darken($light-gray, 20%);
+      }
+  }
+
 }// footer
 
 .glyphicon-heart {
   color: #ed0808;
-  font-size: 30px;
+  font-size: round($body-font-size*2);
   vertical-align: -11px;
   margin: 0 4px;
 }

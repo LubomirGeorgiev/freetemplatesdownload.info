@@ -16,7 +16,7 @@ a {
 .col-md-6.text-center {
 //RIGHT - description
   h2 {
-      font-size: 80px;
+      font-size: round($body-font-size*4.45);
       font-weight: bold;
       margin-top: 0;
       color: #000;

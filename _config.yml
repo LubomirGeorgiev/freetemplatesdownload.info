@@ -12,6 +12,7 @@ url: "http://freetemplatesdownload.info"
 github-repository: "https://github.com/LubomirGeorgiev/freetemplatesdownload.info"
 
 permalink: /:categories/:title/
+timezone: GMT0
 
 # Grunt handles images and assets.
 exclude: ['images', 'assets/css/**.css', 'assets/css/**.js', 'assets/css/**.less', 'assets/css/**.scss', 'blog/**.md', 'fonts', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico', '**.map']

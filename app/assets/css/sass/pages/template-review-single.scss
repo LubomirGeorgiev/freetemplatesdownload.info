@@ -7,7 +7,7 @@ body.template-review-single {
 
   .template-details > a > h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: round($body-font-size*3.9);
     font-weight: bold;
     color: #000;
   }
@@ -26,7 +26,7 @@ body.template-review-single {
     float: left;
     text-align: center;
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 40px;
+    font-size: round($body-font-size*2.2);
     font-weight: bold !important;
     padding-top: 30px !important;
     padding-bottom: 30px !important;

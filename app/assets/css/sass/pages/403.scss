@@ -9,7 +9,7 @@ body.forbidden403 {
   }
 
   h1 {
-    font-size: 300%;
+    font-size: round($body-font-size*5);
     margin-top: 0;
   }
 
@@ -18,12 +18,12 @@ body.forbidden403 {
     margin-bottom: 20px;
 
       span {
-        font-size: 14px;
+        font-size: round($body-font-size*0.8);
       }
   }
 
   .lock {
-    font-size: 110px;
+    font-size: round($body-font-size*6.1);
 
       span {
         color: rgba(235,235,235,1);

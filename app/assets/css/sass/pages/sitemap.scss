@@ -4,7 +4,7 @@ body.sitemap {
   //=========================
       .col-lg-12 {
         h1 {
-            font-size: 85px;
+            font-size: round($body-font-size*4.7);
             margin-bottom: 80px;
             text-shadow: 3px 3px 0 #38334c;
             font-weight: bold;

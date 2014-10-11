@@ -2,7 +2,7 @@ body {
   font-family: Calibri, Arial, sans-serif !important;
   background:  $background;
   color: #000;
-  font-size: 18px !important;
+  font-size: round($body-font-size) !important;
 }
 
 /******************** TRANSPARENT BUTTONS ********************/

@@ -15,7 +15,7 @@ body.notfound404 {
 
 .glyphicon-home {
   margin-right: 10px;
-  font-size: 14px;
+  font-size: round($body-font-size*0.9);
 }
 
 a.btn {
@@ -27,13 +27,13 @@ a.btn {
   font-weight: 100;
 
   > span {
-    font-size: 60px;
+    font-size: round($body-font-size*3.6);
   }
   p {
-  font-size: 26px;
+  font-size: round($body-font-size*1.45);
 
     span {
-      font-size: 12px;
+      font-size: round($body-font-size*0.8);
       vertical-align: 10px;
     }
   }
