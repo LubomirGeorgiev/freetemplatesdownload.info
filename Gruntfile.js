@@ -351,14 +351,27 @@ module.exports = function (grunt) {
         ]
       }
     },
-/* -----------> Re-enable uncss when the maintainers of the project fix it <--------
+
     uncss: {
       dist: {
         options: {
           csspath: '../app',
           ignore: [
               // needed for Bootstrap
-              '.open>.dropdown-menu',
+              /template-review-single*/,
+
+              // Bootstrap classes
+              /open*/,
+              /dropdown*/,
+              /fade*/,
+              /fade.in*/,
+              /collapse*/,
+              /collapse.in*/,
+              /navbar-*/,
+              /togle*/,
+              /navbar-collapse.in*/,
+              /collapsing*/,
+              /btn-danger*/
           ]
         },
         files: {
@@ -366,7 +379,7 @@ module.exports = function (grunt) {
         }
       }
     },
-*/
+
     concurrent: {
       copy_dist: [
         'copy:dist',
@@ -415,7 +428,7 @@ module.exports = function (grunt) {
       'concurrent:copy_dist',
       'useminPrepare',
       'concat',
-      //'uncss',
+      'uncss',
       'cssmin',
       'autoprefixer:dist',
       'uglify',
