@@ -1,6 +1,6 @@
 #[freetemplatesdownload.info](http://freetemplatesdownload.info/) 
 
-[![Build Status](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info.svg?branch=master)](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info)   [![Dependency Status](https://david-dm.org/LubomirGeorgiev/freetemplatesdownload.info.svg)](https://david-dm.org/LubomirGeorgiev/freetemplatesdownload.info)   [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Build Status](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info.svg?branch=master)](https://travis-ci.org/LubomirGeorgiev/freetemplatesdownload.info)   [![devDependency Status](https://david-dm.org/LubomirGeorgiev/freetemplatesdownload.info/dev-status.svg)](https://david-dm.org/LubomirGeorgiev/freetemplatesdownload.info#info=devDependencies)   [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Free HTML Web Templates. The place where you can download web templates just for free.
 
