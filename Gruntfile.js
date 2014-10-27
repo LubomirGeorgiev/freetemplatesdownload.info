@@ -355,11 +355,8 @@ module.exports = function (grunt) {
     uncss: {
       dist: {
         options: {
-          csspath: '../app',
+          csspath: '../<%= yeoman.app %>',
           ignore: [
-              // needed for Bootstrap
-              /template-review-single*/,
-
               // Bootstrap classes
               /open*/,
               /dropdown*/,
@@ -368,10 +365,13 @@ module.exports = function (grunt) {
               /collapse*/,
               /collapse.in*/,
               /navbar-*/,
-              /togle*/,
+              /toggle*/,
               /navbar-collapse.in*/,
               /collapsing*/,
-              /btn-danger*/
+
+              // Problematic classes
+              /template-review-single*/,
+              /btn-danger*/,
           ]
         },
         files: {
