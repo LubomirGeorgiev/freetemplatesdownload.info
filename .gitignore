@@ -42,3 +42,4 @@ dist
 app/assets/css/**/*.css
 *.map
 .jekyll
+Gemfile.lock
