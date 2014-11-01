@@ -46,6 +46,7 @@
     font-size: round($body-font-size*0.78);
     color: darken($light-gray, 32%);
     cursor:help;
+    display: none;
 
       time {
         border-bottom: 1px dotted darken($light-gray, 20%);

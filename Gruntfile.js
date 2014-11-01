@@ -372,6 +372,7 @@ module.exports = function (grunt) {
               // Problematic classes
               /template-review-single*/,
               /btn-danger*/,
+              /404*/
           ]
         },
         files: {
