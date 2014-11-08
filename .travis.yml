@@ -8,6 +8,6 @@ notifications:
   email: false
 
 before_install:
-  - gem install jekyll rouge --no-document --no-ri --no-rdoc
+  - gem install jekyll rouge
   - npm install -g grunt-cli bower
   - bower install
