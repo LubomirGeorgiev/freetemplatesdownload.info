@@ -8,6 +8,6 @@ notifications:
   email: false
 
 before_install:
-  - gem install jekyll:2.4.0 rouge --no-document --no-ri --no-rdoc
+  - bundler install
   - npm install -g grunt-cli bower
   - bower install
