@@ -3,9 +3,10 @@
 # 2. config.build.yml
 # 3. config.yml
 
-name: jekyllrb
+name: freetemplatesdownload.info
 description: Free HTML Web Templates. The place where you can download web templates just for free.
 author: Lubomir Georgiev
+author_name_in_bulgarian_cyrillic: Любомир Георгиев
 email: lubomirgeorgievgeorgiev@gmail.com
 
 url: "http://freetemplatesdownload.info"

@@ -18,8 +18,8 @@
     </div>
     <div class="row footer-info">
         <div class="copyright">
-          <div><p>© 2014 Lubomir Georgiev (Любомир Георгиев), © 2014 freetemplatesdownload.info, All rights reserved.</p>
-          <p class="text-center">If you have any questions, please do not hesitate to contact me: <b>lubomirgeorgievgeorgiev [at] gmail.com</b></p>
+          <div><p>© {{ site.time | date: '%Y' }} {{ site.author }} ({{ site.author_name_in_bulgarian_cyrillic }}), © {{ site.time | date: '%Y' }} {{ site.name }}, All rights reserved.</p>
+          <p class="text-center">If you have any questions, please do not hesitate to contact me: <b>{{ site.email | replace:'@',' (at) '  }}</b></p>
           </div>
         </div>
 
